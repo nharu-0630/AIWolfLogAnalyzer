@@ -134,7 +134,8 @@ def print_result(inifile:configparser.ConfigParser, agentGameResult:dict, appear
             # Total game_total_times    win ose
             print(f"{'Total':<{word_width}}\t{agentGameResult[agent].game_num:<{ratio_digit//2}}\t{total_win_num:.{ratio_digit}f}\t{total_lose_num:.{ratio_digit}f}\n", file=f)
     
-    f.close()
+    if inifile.getboolean("log","save_to_file"):
+        f.close()
 
 if __name__ == "__main__":
     configPath = "./res/config.ini"

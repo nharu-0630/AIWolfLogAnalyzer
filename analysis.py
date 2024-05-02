@@ -22,7 +22,7 @@ def initialize_agent(agentGameResult:dict, agentName:str, agentRole:str, day:int
 
     if day == 0:
         agentGameResult[agentName].game_num_increment()
-        agentGameResult[agentName].role_result[agentRole].allocated_num_increment()
+        agentGameResult[agentName].role_result(agentRole).allocated_num_increment()
 
 def analyze_log(inifile:configparser.ConfigParser, agentGameResult:dict, analyzeLogPath:str) -> None:
     currentGameRole = dict()    # key: agent name value: role
@@ -63,8 +63,7 @@ if __name__ == "__main__":
     inifile.read(configPath,"UTF-8")
 
     agentGameResult = dict()    # key: agent name   value: GameResult
-    roleSet = set()             # keep role
 
     for log in os.listdir(inifile.get("log","path")):
         currentLog = inifile.get("log","path") + log
-        analyze_log(inifile=inifile, agentGameResult=agentGameResult, roleSet=roleSet, analyzeLogPath=currentLog)
+        analyze_log(inifile=inifile, agentGameResult=agentGameResult, analyzeLogPath=currentLog)

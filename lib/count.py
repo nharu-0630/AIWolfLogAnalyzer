@@ -1,6 +1,6 @@
 from functools import singledispatch
 from typing import Callable
-from role import Role
+from .role import Role
 
 class RoleResult():
 
@@ -85,7 +85,7 @@ class GameResult():
     def set_role_result(self) -> None:
 
         for role in Role.get_role_list():
-            self.role_result[role] = RoleResult()
+            self.__role_result[role] = RoleResult()
     
     def check_set_integer(func:Callable):
 
@@ -123,8 +123,8 @@ class GameResult():
     def lose_num(self) -> int:
         return self.__lose_num
     
-    @property
     @singledispatch
+    @property
     def role_result(self) -> dict:
         return self.__role_result
     
@@ -135,7 +135,7 @@ class GameResult():
             print(key + " is not exist role")
             return
         
-        return self.role_result[key]
+        return self.__role_result[key]
 
     @game_num.setter
     @check_set_integer

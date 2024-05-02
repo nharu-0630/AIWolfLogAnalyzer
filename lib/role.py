@@ -14,9 +14,9 @@ class Role():
 	possessed_ja = "狂人"
 
 	# team
-	villager_team = "Villager Team"
+	villager_team = "VILLAGER"
 	villager_team_ja = "村人陣営"
-	werewolf_team = "Werewolf Team"
+	werewolf_team = "WEREWOLF"
 	werewolf_team_ja = "人狼陣営"
 
 	# role team
@@ -44,6 +44,14 @@ class Role():
 				all_role_order.remove(role)
 
 		return all_role_order
+	
+	def get_max_role_name_length() -> int:
+		length = 0
+
+		for role in Role.get_role_list():
+			length = max(length,len(role))
+		
+		return length
 
 	def is_villager_team(role:str) -> bool:
 		return role in Role._villager_team

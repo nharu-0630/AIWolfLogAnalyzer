@@ -1,7 +1,7 @@
 import os
 import configparser
 from lib import util
-from lib.count import CountTarget
+from lib.count import CountRoleResult
 from lib.action import LogAction
 from lib.column import (
     CommonColumn,
@@ -24,7 +24,7 @@ def initialize_role(agentRoleRate:dict, roleSet:set, agentName:str, agentRole:st
     for agentName in agentRoleRate:
         for role in roleSet:
             if role not in agentRoleRate[agentName]:
-                agentRoleRate[agentName][role] = 0
+                agentRoleRate[agentName][role] = CountRoleResult()
 
 def initialize_agent(agentRoleRate:dict, roleSet:set, agentName:str, agentRole:str, day:int) -> None:
 

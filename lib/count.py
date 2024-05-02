@@ -1,6 +1,6 @@
 from typing import Callable
 
-class CountTarget():
+class CountRoleResult():
 
     def __init__(self) -> None:
         self.__allocated_num = 0

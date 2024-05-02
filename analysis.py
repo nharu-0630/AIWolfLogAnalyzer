@@ -1,4 +1,5 @@
 import os
+import math
 import configparser
 from lib import util
 from lib.role import Role
@@ -77,26 +78,62 @@ def analyze_log(inifile:configparser.ConfigParser, agentGameResult:dict, appearR
                 winner = Result.get_winner(splitted_line=splitted_line)
                 check_win_or_lose(agentGameResult=agentGameResult, currentGameRole=currentGameRole, winnerTeam=winner)
 
-def print_result(agentGameResult:dict, appearRoleSet:set) -> None:
-    print("Result".ljust(Role.get_max_role_name_length()) + "\t" + "Times", end="\t")
-    print("Win", end="\t")
-    print("Lose",end="\n\n")
+def print_result(inifile:configparser.ConfigParser, agentGameResult:dict, appearRoleSet:set) -> None:
+    f = None
+    denominator = 1
+    word_width = 20
+    ratio_digit = 10
+
+    if inifile.getboolean("log","save_to_file"):
+        f = open(inifile.get("log","output_file_name"),"w")
+    
+    #   Result  Times   Win Lose
+    if not inifile.getboolean("log","ratio_flag"):
+        print(f"{'Result':<{word_width}}\t{'Times':<{ratio_digit//2}}\t{'Win'}\t{'Lose'}", file=f)
+    else:
+        print(f"{'Result':<{word_width}}\t{'Times':<{ratio_digit//2}}\t{'Win':<{ratio_digit}}\t\t{'Lose'}", file=f)
 
     for agent in agentGameResult:
-        print("Agent: " + agent)
+        print("Agent: " + agent, file=f)
         total_win = 0
         total_lose = 0
 
-        for role in Role.get_appear_print_role_order(appear_role_set=appearRoleSet):
-            print(role.ljust(Role.get_max_role_name_length()) + "\t" + str(agentGameResult[agent].role_result(role).allocated_num),end="\t")
-            print(str(agentGameResult[agent].role_result(role).win_num),end="\t")
-            print(str(agentGameResult[agent].role_result(role).lose_num))
+        for role in Role.get_appear_print_role_order(appear_role_set=appearRoleSet): 
+
+            if inifile.getboolean("log","ratio_flag"):
+                ratio_digit = inifile.getint("log","ratio_digit")
+                denominator = agentGameResult[agent].role_result(role).allocated_num
+            
+            allocated_num = agentGameResult[agent].role_result(role).allocated_num
+            win_num = round(agentGameResult[agent].role_result(role).win_num/denominator,ratio_digit)
+            lose_num = round(agentGameResult[agent].role_result(role).lose_num/denominator,ratio_digit)
+
+            if not inifile.getboolean("log","ratio_flag"):
+                win_num = int(win_num)
+                lose_num = int(lose_num)
+                print(f"{role:<{word_width}}\t{allocated_num:<{ratio_digit//2}}\t{win_num}\t{lose_num}", file=f) 
+            else:
+                # role total_times, win_num, lose_num
+                print(f"{role:<{word_width}}\t{allocated_num:<{ratio_digit//2}}\t{win_num:.{ratio_digit}f}\t{lose_num:.{ratio_digit}}", file=f)
+
             total_win += agentGameResult[agent].role_result(role).win_num
-            total_lose = agentGameResult[agent].role_result(role).lose_num
-        
-        print("Total".ljust(Role.get_max_role_name_length()) + "\t" + str(agentGameResult[agent].game_num), end="\t")
-        print(total_win,end="\t")
-        print(total_lose,end="\n\n")
+            total_lose += agentGameResult[agent].role_result(role).lose_num
+
+        if inifile.getboolean("log","ratio_flag"):
+            denominator = agentGameResult[agent].game_num
+
+        total_win_num = round(total_win/denominator,ratio_digit)
+        total_lose_num = round(total_lose/denominator,ratio_digit)
+
+        if not inifile.getboolean("log","ratio_flag"):
+            total_win_num = int(total_win_num)
+            total_lose_num = int(total_lose_num)
+            print(f"{'Total':<{word_width}}\t{agentGameResult[agent].game_num:<{ratio_digit//2}}\t{total_win_num}\t{total_lose_num}\n", file=f)
+        else:
+            # Total game_total_times    win ose
+            print(f"{'Total':<{word_width}}\t{agentGameResult[agent].game_num:<{ratio_digit//2}}\t{total_win_num:.{ratio_digit}f}\t{total_lose_num:.{ratio_digit}f}\n", file=f)
+    
+    f.close()
 
 if __name__ == "__main__":
     configPath = "./res/config.ini"
@@ -110,4 +147,4 @@ if __name__ == "__main__":
         currentLog = inifile.get("log","path") + log
         analyze_log(inifile=inifile, agentGameResult=agentGameResult, appearRoleSet=appearRoleSet, analyzeLogPath=currentLog)
     
-    print_result(agentGameResult=agentGameResult, appearRoleSet=appearRoleSet)
+    print_result(inifile=inifile, agentGameResult=agentGameResult, appearRoleSet=appearRoleSet)

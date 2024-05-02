@@ -36,7 +36,7 @@ def initialize_agent(agentRoleRate:dict, roleSet:set, agentName:str, agentRole:s
 
     if day == 0:
         agentRoleRate[agentName]["gameNum"] += 1
-        agentRoleRate[agentName][agentRole] += 1
+        agentRoleRate[agentName][agentRole].allocated_num_increment()
 
 def analyze_log(inifile:configparser.ConfigParser, agentRoleRate:dict, roleSet:set, analyzeLogPath:str) -> None:
     currentGameRole = dict()    # key: agent name value: role
@@ -76,6 +76,7 @@ if __name__ == "__main__":
     inifile = util.check_config(config_path=configPath)
     inifile.read(configPath,"UTF-8")
 
+    agentGameResult = dict()    # key: agent name   value:
     agentRoleRate = dict()      # key: agent name value: (key: role value: win num)
     roleSet = set()             # keep role
 

@@ -27,6 +27,9 @@ class Role():
 	_role_table = {villager:villager_ja,seer:seer_ja,medium:medium_ja,
 				possessed:possessed_ja, werewolf:werewolf_ja}
 	
+	def get_role_list() -> list:
+		return Role._role_table.keys()
+
 	def is_villager_team(role:str) -> bool:
 		return role in Role._villager_team
 	

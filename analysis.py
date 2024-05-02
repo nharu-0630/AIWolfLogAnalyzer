@@ -30,13 +30,6 @@ if __name__ == "__main__":
     agentRoleRate = dict()      # key: agent name value: (key: role value: win num)
     roleSet = set()             # keep role
 
-    
-    print(Status.column)
-    print("----------")
-    print(Divine.column)
-    print("----------")
-    print(Execute.column)
-
-    # for log in os.listdir(logPath):
-    #     currentLog = logPath + log
-    #     analyze_log(agentRoleRate=agentRoleRate, roleSet=roleSet, analyzeLogPath=currentLog)
+    for log in os.listdir(logPath):
+        currentLog = logPath + log
+        analyze_log(agentRoleRate=agentRoleRate, roleSet=roleSet, analyzeLogPath=currentLog)

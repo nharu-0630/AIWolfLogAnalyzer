@@ -3,6 +3,7 @@ import configparser
 from lib import util
 from lib.action import LogAction
 from lib.column import (
+    CommonColumn,
     Status,
     Talk,
     Vote,
@@ -41,8 +42,8 @@ def analyze_log(inifile:configparser.ConfigParser, agentRoleRate:dict, roleSet:s
         for line in f:
             line = line.rstrip("\n")
             splitted_line = line.split(",")
-            day = int(splitted_line[0])
-            action = splitted_line[1]
+            day = CommonColumn.get_day(splitted_line=splitted_line)
+            action = CommonColumn.get_action(splitted_line=splitted_line)
 
             if LogAction.is_status(action=action):
                 agentRole = Status.get_role(splitted_line=splitted_line)

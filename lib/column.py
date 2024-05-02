@@ -14,6 +14,18 @@ class CommonColumn():
             cls.column = dict(**cls.column,**getattr(cls,"originalColumn"))
         else:
             print(cls.__name__ + " has no \"originalColumn\"")
+    
+    @classmethod
+    def get_day(cls, splitted_line:list) -> int:
+        return int(splitted_line[cls.column[cls.day]])
+    
+    @classmethod
+    def get_action(cls, splitted_line:list) -> str:
+        return splitted_line[cls.column[cls.action]]
+
+    @classmethod
+    def get_index(cls, splitted_line:list) -> int:
+        return int(splitted_line[cls.column[cls.index]])
 
 class Status(CommonColumn):
     # day, action, index, role, alive or dead, agent name

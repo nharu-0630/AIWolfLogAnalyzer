@@ -6,7 +6,10 @@ from lib.column import (
     Talk,
     Vote,
     Divine,
-    Execute
+    Execute,
+    AttackVote,
+    Attack,
+    Result
 )
 
 
@@ -26,12 +29,24 @@ def analyze_log(agentRoleRate:dict, roleSet:set, analyzeLogPath:str) -> None:
                 print(agentName + ":" + agentRole)
             elif(LogAction.is_talk(action=action)):
                 pass
+            elif(LogAction.is_vote(action=action)):
+                pass
+            elif(LogAction.is_divine(action=action)):
+                pass
+            elif(LogAction.is_execute(action=action)):
+                pass
+            elif(LogAction.is_attack_vote(action=action)):
+                pass
+            elif(LogAction.is_attack(action=action)):
+                pass
+            elif(LogAction.is_result(action=action)):
+                pass
 
 if __name__ == "__main__":
     configPath = "./res/config.ini"
     inifile = util.check_config(config_path=configPath)
     inifile.read(configPath,"UTF-8")
-    
+
     agentRoleRate = dict()      # key: agent name value: (key: role value: win num)
     roleSet = set()             # keep role
 

@@ -23,5 +23,11 @@ class LogAction():
     def is_execute(action:str) -> bool:
         return LogAction.execute == action
     
+    def is_attack_vote(action:str) -> bool:
+        return LogAction.is_attack_vote == action
+    
     def is_attack(action:str) -> bool:
         return LogAction.attack == action
+    
+    def is_result(action:str) -> bool:
+        return LogAction.result == action

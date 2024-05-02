@@ -1,7 +1,7 @@
 import os
 import configparser
 from lib import util
-from lib.count import CountRoleResult
+from lib.count import GameResult
 from lib.action import LogAction
 from lib.column import (
     CommonColumn,
@@ -15,30 +15,16 @@ from lib.column import (
     Result
 )
 
-def initialize_role(agentRoleRate:dict, roleSet:set, agentName:str, agentRole:str) -> None:
-    
-    if agentRole not in roleSet:
-        roleSet.add(agentRole)
+def initialize_agent(agentGameResult:dict, agentName:str, agentRole:str, day:int) -> None:
 
-    # for all agent
-    for agentName in agentRoleRate:
-        for role in roleSet:
-            if role not in agentRoleRate[agentName]:
-                agentRoleRate[agentName][role] = CountRoleResult()
-
-def initialize_agent(agentRoleRate:dict, roleSet:set, agentName:str, agentRole:str, day:int) -> None:
-
-    if agentName not in agentRoleRate:
-        agentRoleRate[agentName] = dict()
-        agentRoleRate[agentName]["gameNum"] = 0
-    
-    initialize_role(agentRoleRate=agentRoleRate, roleSet=roleSet, agentName=agentName, agentRole=agentRole)
+    if agentName not in agentGameResult:
+        agentGameResult[agentName] = GameResult()
 
     if day == 0:
-        agentRoleRate[agentName]["gameNum"] += 1
-        agentRoleRate[agentName][agentRole].allocated_num_increment()
+        agentGameResult[agentName].game_num_increment()
+        agentGameResult[agentName].role_result[agentRole].allocated_num_increment()
 
-def analyze_log(inifile:configparser.ConfigParser, agentRoleRate:dict, roleSet:set, analyzeLogPath:str) -> None:
+def analyze_log(inifile:configparser.ConfigParser, agentGameResult:dict, analyzeLogPath:str) -> None:
     currentGameRole = dict()    # key: agent name value: role
 
     with open(analyzeLogPath, "r", encoding="utf-8") as f:
@@ -54,7 +40,7 @@ def analyze_log(inifile:configparser.ConfigParser, agentRoleRate:dict, roleSet:s
 
                 # set
                 currentGameRole[agentName] = agentRole
-                initialize_agent(agentRoleRate=agentRoleRate, roleSet=roleSet, agentName=agentName, agentRole=agentRole, day=day)
+                initialize_agent(agentGameResult=agentGameResult, agentName=agentName, agentRole=agentRole, day=day)
 
             elif LogAction.is_talk(action=action):
                 pass
@@ -76,12 +62,9 @@ if __name__ == "__main__":
     inifile = util.check_config(config_path=configPath)
     inifile.read(configPath,"UTF-8")
 
-    agentGameResult = dict()    # key: agent name   value:
-    agentRoleRate = dict()      # key: agent name value: (key: role value: win num)
+    agentGameResult = dict()    # key: agent name   value: GameResult
     roleSet = set()             # keep role
 
     for log in os.listdir(inifile.get("log","path")):
         currentLog = inifile.get("log","path") + log
-        analyze_log(inifile=inifile, agentRoleRate=agentRoleRate, roleSet=roleSet, analyzeLogPath=currentLog)
-    
-    print(agentRoleRate)
+        analyze_log(inifile=inifile, agentGameResult=agentGameResult, roleSet=roleSet, analyzeLogPath=currentLog)

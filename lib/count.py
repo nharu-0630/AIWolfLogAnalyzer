@@ -1,3 +1,4 @@
+from functools import singledispatch
 from typing import Callable
 from role import Role
 
@@ -77,7 +78,7 @@ class GameResult():
         self.__game_num = 0
         self.__win_num = 0
         self.__lose_num = 0
-        self.role_result = dict()
+        self.__role_result = dict()
 
         self.set_role_result()
     
@@ -122,6 +123,20 @@ class GameResult():
     def lose_num(self) -> int:
         return self.__lose_num
     
+    @property
+    @singledispatch
+    def role_result(self) -> dict:
+        return self.__role_result
+    
+    @role_result.register
+    def role_result(self, key:str) -> RoleResult:
+
+        if key not in self.__role_result:
+            print(key + " is not exist role")
+            return
+        
+        return self.role_result[key]
+
     @game_num.setter
     @check_set_integer
     @check_set_zero
@@ -139,3 +154,6 @@ class GameResult():
     @check_set_zero
     def lose_num(self, value:int) -> None:
         self.__lose_num = value
+
+    def game_num_increment(self) -> None:
+        self.__game_num += 1

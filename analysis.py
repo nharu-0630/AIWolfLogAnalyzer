@@ -13,6 +13,8 @@ from lib.column import (
     Result
 )
 
+def check_role(agentRoleRate:dict, roleSet:set, agentRole:str) -> None:
+    pass
 
 def analyze_log(inifile:configparser.ConfigParser, agentRoleRate:dict, roleSet:set, analyzeLogPath:str) -> None:
     currentGameRole = dict()    # key: agent name value: role
@@ -24,24 +26,29 @@ def analyze_log(inifile:configparser.ConfigParser, agentRoleRate:dict, roleSet:s
             day = splitted_line[0]
             action = splitted_line[1]
 
-            if(LogAction.is_status(action=action)):
+            if LogAction.is_status(action=action):
                 agentRole = Status.get_role(splitted_line=splitted_line)
                 agentName = Status.get_aget_name(splitted_line=splitted_line, include_number=inifile.getboolean("agent","classify_by_number"))
-                print(agentName + ":" + agentRole)
-            elif(LogAction.is_talk(action=action)):
+
+                # set
+                currentGameRole[agentName] = agentRole
+
+
+            elif LogAction.is_talk(action=action):
                 pass
-            elif(LogAction.is_vote(action=action)):
+            elif LogAction.is_vote(action=action):
                 pass
-            elif(LogAction.is_divine(action=action)):
+            elif LogAction.is_divine(action=action):
                 pass
-            elif(LogAction.is_execute(action=action)):
+            elif LogAction.is_execute(action=action):
                 pass
-            elif(LogAction.is_attack_vote(action=action)):
+            elif LogAction.is_attack_vote(action=action):
                 pass
-            elif(LogAction.is_attack(action=action)):
+            elif LogAction.is_attack(action=action):
                 pass
-            elif(LogAction.is_result(action=action)):
-                pass
+            elif LogAction.is_result(action=action):
+                winner = Result.get_winner(splitted_line=splitted_line)
+                print(winner)
 
 if __name__ == "__main__":
     configPath = "./res/config.ini"

@@ -84,3 +84,7 @@ class Result(CommonColumn):
     winner = "winner"
 
     originalColumn = {villager_num:2, werewolf_num:3, winner:4}
+
+    @classmethod
+    def get_winner(cls, splitted_line:list) -> str:
+        return splitted_line[cls.column[cls.winner]]

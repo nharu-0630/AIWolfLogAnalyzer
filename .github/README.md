@@ -1,7 +1,7 @@
 # AIWolfLogAnalyzer
 
 ## 概要
-[RandomTalkAgent](https://github.com/aiwolfdial/RandomTalkAgent)や[AIWolfNLGameServer](https://github.com/aiwolfdial/AIWolfNLGameServer)で対戦した際に生成されるログファイルを解析することを助けるプログラムです。デフォルトのまま`analyze.py`を実行すると`./log/`以下のログファイルを読み込み、各エージェントの勝率を算出します。
+[RandomTalkAgent](https://github.com/aiwolfdial/RandomTalkAgent)や[AIWolfNLGameServer](https://github.com/aiwolfdial/AIWolfNLGameServer)で対戦した際に生成されるログファイルを解析することを助けるプログラムです。`lib/column.py`や`analyze.py`を変更してご自身の目的に合ったプログラムに変更してご使用ください。デフォルトのまま`analyze.py`を実行すると`./log/`以下のログファイルを読み込み、各エージェントの勝率を算出します。
 
 ## ディレクトリ構成
 ```

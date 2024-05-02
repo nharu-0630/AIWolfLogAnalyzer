@@ -1,4 +1,5 @@
 import os
+from lib import util
 from lib.action import LogAction
 from lib.column import (
     Status,
@@ -27,9 +28,13 @@ def analyze_log(agentRoleRate:dict, roleSet:set, analyzeLogPath:str) -> None:
                 pass
 
 if __name__ == "__main__":
+    configPath = "./res/config.ini"
+    inifile = util.check_config(config_path=configPath)
+    inifile.read(configPath,"UTF-8")
+    
     agentRoleRate = dict()      # key: agent name value: (key: role value: win num)
     roleSet = set()             # keep role
 
-    for log in os.listdir(logPath):
-        currentLog = logPath + log
+    for log in os.listdir(inifile.get("log","path")):
+        currentLog = inifile.get("log","path") + log
         analyze_log(agentRoleRate=agentRoleRate, roleSet=roleSet, analyzeLogPath=currentLog)

@@ -1,3 +1,5 @@
+from . import util
+
 class CommonColumn():
     # day, action, index
     day = "day"
@@ -26,8 +28,12 @@ class Status(CommonColumn):
         return splitted_line[cls.column[cls.role]]
     
     @classmethod
-    def get_aget_name(cls, splitted_line:list) -> str:
-        return splitted_line[cls.column[cls.agent_name]]
+    def get_aget_name(cls, splitted_line:list, include_number:bool=False) -> str:
+
+        if include_number:
+            return splitted_line[cls.column[cls.agent_name]]
+
+        return util.remove_number(text=splitted_line[cls.column[cls.agent_name]])
     
 class Talk(CommonColumn):
     # day, action, index, agent_comment_index, agent_index, comment

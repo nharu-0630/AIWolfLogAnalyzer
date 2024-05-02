@@ -1,4 +1,5 @@
 import os
+import configparser
 from lib import util
 from lib.action import LogAction
 from lib.column import (
@@ -13,7 +14,7 @@ from lib.column import (
 )
 
 
-def analyze_log(agentRoleRate:dict, roleSet:set, analyzeLogPath:str) -> None:
+def analyze_log(inifile:configparser.ConfigParser, agentRoleRate:dict, roleSet:set, analyzeLogPath:str) -> None:
     currentGameRole = dict()    # key: agent name value: role
 
     with open(analyzeLogPath, "r", encoding="utf-8") as f:
@@ -25,7 +26,7 @@ def analyze_log(agentRoleRate:dict, roleSet:set, analyzeLogPath:str) -> None:
 
             if(LogAction.is_status(action=action)):
                 agentRole = Status.get_role(splitted_line=splitted_line)
-                agentName = Status.get_aget_name(splitted_line=splitted_line)
+                agentName = Status.get_aget_name(splitted_line=splitted_line, include_number=inifile.getboolean("agent","classify_by_number"))
                 print(agentName + ":" + agentRole)
             elif(LogAction.is_talk(action=action)):
                 pass
@@ -52,4 +53,4 @@ if __name__ == "__main__":
 
     for log in os.listdir(inifile.get("log","path")):
         currentLog = inifile.get("log","path") + log
-        analyze_log(agentRoleRate=agentRoleRate, roleSet=roleSet, analyzeLogPath=currentLog)
+        analyze_log(inifile=inifile, agentRoleRate=agentRoleRate, roleSet=roleSet, analyzeLogPath=currentLog)

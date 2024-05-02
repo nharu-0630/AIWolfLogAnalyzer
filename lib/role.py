@@ -27,8 +27,23 @@ class Role():
 	_role_table = {villager:villager_ja,seer:seer_ja,medium:medium_ja,
 				possessed:possessed_ja, werewolf:werewolf_ja}
 	
+	# print role order
+	print_role_order = {1:villager, 2:seer, 3:medium, 4:werewolf, 5:possessed}
+	
 	def get_role_list() -> list:
 		return Role._role_table.keys()
+	
+	def get_print_role_order() -> list:
+		return list(Role.print_role_order.values())
+	
+	def get_appear_print_role_order(appear_role_set:set) -> list:
+		all_role_order = Role.get_print_role_order()
+
+		for role in all_role_order:
+			if role not in appear_role_set:
+				all_role_order.remove(role)
+
+		return all_role_order
 
 	def is_villager_team(role:str) -> bool:
 		return role in Role._villager_team

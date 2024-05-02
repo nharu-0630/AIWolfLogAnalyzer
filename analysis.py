@@ -1,6 +1,7 @@
 import os
 import configparser
 from lib import util
+from lib.role import Role
 from lib.count import GameResult
 from lib.action import LogAction
 from lib.column import (
@@ -15,7 +16,9 @@ from lib.column import (
     Result
 )
 
-def initialize_agent(agentGameResult:dict, agentName:str, agentRole:str, day:int) -> None:
+def initialize_agent(agentGameResult:dict, appearRoleSet:set, agentName:str, agentRole:str, day:int) -> None:
+
+    appearRoleSet.add(agentRole)
 
     if agentName not in agentGameResult:
         agentGameResult[agentName] = GameResult()
@@ -24,7 +27,7 @@ def initialize_agent(agentGameResult:dict, agentName:str, agentRole:str, day:int
         agentGameResult[agentName].game_num_increment()
         agentGameResult[agentName].role_result(agentRole).allocated_num_increment()
 
-def analyze_log(inifile:configparser.ConfigParser, agentGameResult:dict, analyzeLogPath:str) -> None:
+def analyze_log(inifile:configparser.ConfigParser, agentGameResult:dict, appearRoleSet:set, analyzeLogPath:str) -> None:
     currentGameRole = dict()    # key: agent name value: role
 
     with open(analyzeLogPath, "r", encoding="utf-8") as f:
@@ -40,7 +43,7 @@ def analyze_log(inifile:configparser.ConfigParser, agentGameResult:dict, analyze
 
                 # set
                 currentGameRole[agentName] = agentRole
-                initialize_agent(agentGameResult=agentGameResult, agentName=agentName, agentRole=agentRole, day=day)
+                initialize_agent(agentGameResult=agentGameResult, appearRoleSet=appearRoleSet, agentName=agentName, agentRole=agentRole, day=day)
 
             elif LogAction.is_talk(action=action):
                 pass
@@ -63,7 +66,14 @@ if __name__ == "__main__":
     inifile.read(configPath,"UTF-8")
 
     agentGameResult = dict()    # key: agent name   value: GameResult
+    appearRoleSet = set()       # role set
 
     for log in os.listdir(inifile.get("log","path")):
         currentLog = inifile.get("log","path") + log
-        analyze_log(inifile=inifile, agentGameResult=agentGameResult, analyzeLogPath=currentLog)
+        analyze_log(inifile=inifile, agentGameResult=agentGameResult, appearRoleSet=appearRoleSet, analyzeLogPath=currentLog)
+    
+    for agent in agentGameResult:
+        print(agentGameResult[agent].game_num)
+
+        for role in Role.get_appear_print_role_order(appear_role_set=appearRoleSet):
+            print(role + ":" + str(agentGameResult[agent].role_result(role).allocated_num))

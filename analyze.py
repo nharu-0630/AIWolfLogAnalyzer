@@ -35,13 +35,17 @@ def check_win_or_lose(agentGameResult:dict, currentGameRole:dict, winnerTeam:str
 
         if Role.is_villager_team(role=agentRole):
             if winnerTeam == Role.villager_team:
+                agentGameResult[agent].win_num_increment()
                 agentGameResult[agent].role_result(agentRole).win_num_increment()
             else:
+                agentGameResult[agent].lose_num_increment()
                 agentGameResult[agent].role_result(agentRole).lose_num_increment()
         else:
             if winnerTeam == Role.werewolf_team:
+                agentGameResult[agent].win_num_increment()
                 agentGameResult[agent].role_result(agentRole).win_num_increment()
             else:
+                agentGameResult[agent].lose_num_increment()
                 agentGameResult[agent].role_result(agentRole).lose_num_increment()
 
 def analyze_log(inifile:configparser.ConfigParser, agentGameResult:dict, appearRoleSet:set, analyzeLogPath:str) -> None:
@@ -95,8 +99,6 @@ def print_result(inifile:configparser.ConfigParser, agentGameResult:dict, appear
 
     for agent in agentGameResult:
         print("Agent: " + agent, file=f)
-        total_win = 0
-        total_lose = 0
 
         for role in Role.get_appear_print_role_order(appear_role_set=appearRoleSet): 
 
@@ -116,12 +118,11 @@ def print_result(inifile:configparser.ConfigParser, agentGameResult:dict, appear
                 # role total_times, win_num, lose_num
                 print(f"{role:<{word_width}}\t{allocated_num:<{ratio_digit//2}}\t{win_num:.{ratio_digit}f}\t{lose_num:.{ratio_digit}}", file=f)
 
-            total_win += agentGameResult[agent].role_result(role).win_num
-            total_lose += agentGameResult[agent].role_result(role).lose_num
-
         if inifile.getboolean("log","ratio_flag"):
             denominator = agentGameResult[agent].game_num
-
+        
+        total_win = agentGameResult[agent].win_num
+        total_lose = agentGameResult[agent].lose_num
         total_win_num = round(total_win/denominator,ratio_digit)
         total_lose_num = round(total_lose/denominator,ratio_digit)
 

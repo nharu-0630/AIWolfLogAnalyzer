@@ -157,3 +157,9 @@ class GameResult():
 
     def game_num_increment(self) -> None:
         self.__game_num += 1
+    
+    def win_num_increment(self) -> None:
+        self.__win_num += 1
+    
+    def lose_num_increment(self) -> None:
+        self.__lose_num += 1

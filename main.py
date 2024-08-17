@@ -3,12 +3,15 @@ import os
 
 team_role_win = dict()
 team_role_nums = dict()
-
 file_paths = []
-for root, dirs, files in os.walk("./JP/"):
-    for file in files:
+for root, dirs, files in os.walk("./JP2/"):
+    for file in sorted(files):
+        if "dummy" in file:
+            print(f"Skipping {file} due to dummy player")
+            continue
         if file.endswith(".log"):
             file_paths.append(os.path.join(root, file))
+            print(f"Added {file} to list")
 
 for file_path in file_paths:
     team_role = dict()

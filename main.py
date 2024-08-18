@@ -4,16 +4,20 @@ import os
 team_role_win = dict()
 team_role_nums = dict()
 file_paths = []
-for root, dirs, files in os.walk("./JP2/"):
+for root, dirs, files in os.walk("./main_eval/"):
     for file in sorted(files):
         if "dummy" in file:
             print(f"Skipping {file} due to dummy player")
+            continue
+        if "_ERROR" in file:
+            print(f"Skipping {file} due to error")
             continue
         if file.endswith(".log"):
             file_paths.append(os.path.join(root, file))
             print(f"Added {file} to list")
 
 for file_path in file_paths:
+    print(f"Processing {file_path}")
     team_role = dict()
     win_side = None
     with open(file_path, "r", encoding="utf-8") as f:

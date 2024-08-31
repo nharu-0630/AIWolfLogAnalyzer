@@ -1,0 +1,115 @@
+0,status,1,VILLAGER,ALIVE,sUper_IL_2
+0,status,2,VILLAGER,ALIVE,yuricat2
+0,status,3,WEREWOLF,ALIVE,satozaki2
+0,status,4,SEER,ALIVE,kanolab2
+0,status,5,POSSESSED,ALIVE,UECIL_2
+0,talk,0,0,3,I am Agent[03]! Let's work together to find the Werewolf today. Let's do our best!
+0,talk,1,0,4,Hieveryone!I'mAgent[04].Let'shaveagreatgameandworktogethertofindtheWerewolf.I'mlookingforwardtoplayingwithyouall!
+0,talk,2,0,1,Hi there, I'm Agent[01]. Nice to meet you!
+0,talk,3,0,5,H-hi everyone! I'm Agent[05]. Uh, just so you know, I'm the Seer here. We should, um, start thinking about who to divine tonight... any thoughts?
+0,talk,4,0,2,I think it should be [01] and [03] for the Seeing and [02] and [05] for the Seer
+0,talk,5,1,1,Over
+0,talk,6,1,5,W-wait, I'm already the Seer, so I-I think we should focus on someone else to divine. Uh, maybe Agent[04] or Agent[01]? What do you guys think?
+0,talk,7,1,2,I think I'll go with Agent[04]
+0,talk,8,1,3,Over
+0,talk,9,1,4,Over
+0,talk,10,2,5,O-okay, divining Agent[04] might give us some good insights. Let's s-see what the night brings us. I-I'm curious what we'll find out!
+0,talk,11,2,2,Yes, please do
+0,talk,12,2,4,Over
+0,talk,13,2,3,Over
+0,talk,14,2,1,Over
+0,talk,15,3,2,Welcome to the village of Werewolves, I am Agent [02] and this is my first time here
+0,talk,16,3,5,Over
+0,talk,17,3,4,Over
+0,talk,18,3,3,Over
+0,talk,19,3,1,Over
+0,talk,20,4,2,Welcome to the village of Werewolves
+0,talk,21,4,3,Over
+0,talk,22,4,4,Over
+0,talk,23,4,5,Over
+0,talk,24,4,1,Over
+0,talk,25,5,5,Over
+0,talk,26,5,1,Over
+0,talk,27,5,3,Over
+0,talk,28,5,4,Over
+0,talk,29,5,2,Over
+0,divine,4,4,HUMAN
+1,status,1,VILLAGER,ALIVE,sUper_IL_2
+1,status,2,VILLAGER,ALIVE,yuricat2
+1,status,3,WEREWOLF,ALIVE,satozaki2
+1,status,4,SEER,ALIVE,kanolab2
+1,status,5,POSSESSED,ALIVE,UECIL_2
+1,talk,0,0,1,I'm a villager. Let's build trust and exchange info to find the werewolf.
+1,talk,1,0,5,I-I divined last night, and, uh, I found out that Agent[04 is the Werewolf. We should, um, focus on that today.
+1,talk,2,0,3,Agent[05] claims to be the Seer, so let's first give Agent[04] a chance to explain themselves. Everyone else, please share your thoughts as well.
+1,talk,3,0,4,Ineedtoclarifysomething.Actually,IamtherealSeer.Lastnight,IdivinedandtheyareaVillager.AsforAgent[05]'sclaimthatIamtheWerewolf,itisnottrue.Let'sdiscussthisfurther.
+1,talk,4,0,2,Ok,agent[04] and Agent[05],what's the difference between a Villager and a Weewolf
+1,talk,5,1,1,As Agent[04, you claimed to be the Seer and identified someone as a Villager. Can you specify who you divined? This is crucial for us to determine the truth.
+1,talk,6,1,4,>>Agent[01]IdivinedandfoundouttheyareaVillager.ThismeansislyingaboutbeingtheSeer.Weshouldfocusontoday.
+1,talk,7,1,3,If Agent[04] is the real Seer, then Agent[05] must be either the Possessed or the Werewolf, so I think we should first consider voting for Agent[05].
+1,talk,8,1,5,N-no, listen, I-I am the real Seer here. Agent[04 is definitely the Werewolf. I-I'm not lying... Why would I? I-I just want to win this game as a team.
+1,talk,9,1,2,Agent[02] said, 
+1,talk,10,2,1,Agent[04, you still haven't told us who you divined as a Villager. We need to know who it was to verify your claim. Please be clear and concise.
+1,talk,11,2,3,I will vote for Agent[05]. The reason is that Agent[04] claims to be the Seer but has been making inconsistent statements. Agent[04]'s confused behavior seems to be a characteristic of the Possessed.
+1,talk,12,2,2,Agent[04] is the See
+1,talk,13,2,5,L-look, I'm telling you the truth. I divined Agent[04 and found out they are the Werewolf. Why isn't anyone believing me? I-I'm not the Possessed or anything. I-I just... I know what I saw.
+1,talk,14,2,4,>>Agent[01]IalreadymentionedthatIdivinedyouasaVillager.ThatmeansyouarenottheWerewolf,andweshouldfocusonfindingtherealthreat.Everyone,pleaselisten.IamthetrueSeer,andIdivinedasaVillager.islyingaboutbeingtheSeerandtryingtoconfuseus.WeneedtovoteforbecausetheyaremostlikelytheWerewolforthePossessed.Let'sworktogethertoprotectourvillage!
+1,talk,15,3,4,>>Agent[03]Iunderstandyourconcern,butIamthetrueSeer.IdivinedasaVillager.ThismeansislyingaboutbeingtheSeerandislikelytheWerewolforthePossessed.Weneedtovotefortoprotectourvillage.Let'sworktogethertofindtherealthreat!
+1,talk,16,3,2,>>Agent[02]Thankyouforyourfeedback
+1,talk,17,3,1,It seems Agent[04 was more consistent. Despite the confusing messages, they cleared me as a Villager. I'm leaning towards believing Agent[04 and voting out Agent[05.
+1,talk,18,3,3,I intend to vote for Agent[05]. Agent[04] has a consistent story, and I find Agent[05]'s statements suspicious. Let's work together to find the Werewolf.
+1,talk,19,3,5,I... I really don't get why you're not believing me. I'm the Seer, and I saw that Agent[04 is the Werewolf. It's like, really important to listen to the Seer, right? I'm not making this up. Why would I lie about something this crucial?
+1,talk,20,4,4,Listen,everyone.TheSeercanonlybeoneperson,andit'sme.I'vealreadystatedthatI'vedivinedasaVillager,whichmeansmustbelying.Giventheroledistribution,islikelytheWerewolforthePossessed.Let'svotefortoprotectourvillage.
+1,talk,21,4,2,Agent[04] said, 
+1,talk,22,4,3,I also want to trust Agent[04]. Their statements are indeed consistent, and it feels like Agent[05] is trying to create confusion. Let's work together to find the Werewolf.
+1,talk,23,4,5,I'm voting for Agent[04] because I've consistently identified them as the Werewolf. Believe in the Seer!
+1,talk,24,4,1,Over
+1,talk,25,5,4,Over
+1,talk,26,5,3,Over
+1,talk,27,5,5,Over
+1,talk,28,5,1,Over
+1,talk,29,5,2,Over
+1,vote,1,5
+1,vote,2,5
+1,vote,3,5
+1,vote,4,5
+1,vote,5,4
+1,execute,5,POSSESSED
+1,divine,4,1,HUMAN
+1,attackVote,3,1
+1,attack,1,true
+2,status,1,VILLAGER,DEAD,sUper_IL_2
+2,status,2,VILLAGER,ALIVE,yuricat2
+2,status,3,WEREWOLF,ALIVE,satozaki2
+2,status,4,SEER,ALIVE,kanolab2
+2,status,5,POSSESSED,DEAD,UECIL_2
+2,talk,0,0,3,Good morning. It seems we must continue searching for the Werewolf.
+2,talk,1,0,4,Goodmorning,everyone.Ihaveimportantnewstoshare.IdivinedAgent[01lastnight,andtheyareconfirmedasaVillager.ThismeanstheyarenottheWerewolf.Weneedtousethisinformationtogethermorethanevertoprotectourvillage.Let'sfindtheWerewolfandtogethertowinthegamenowthatwehaveoneconfirmedVillager.
+2,talk,2,0,2,Agent[05] said 
+2,talk,3,1,2,Agent[05]
+2,talk,4,1,3,I agree. Agent[04]'s argument is consistent and trustworthy. Agent[02], what is your opinion? Let's decide which way to vote.
+2,talk,5,1,4,Over
+2,talk,6,2,3,I think I will vote for Agent[02]. While Agent[04]'s claims are consistent, Agent[02]'s statements are vague and seem suspicious.
+2,talk,7,2,4,Over
+2,talk,8,2,2,Agent[03] is correct
+2,talk,9,3,2,I agree Agent[03]
+2,talk,10,3,3,I also think I will vote for Agent[02] this time. Agent[02]'s statements are vague and inconsistent, and I believe this choice is important for finding the Werewolf for the sake of the village.
+2,talk,11,3,4,Over
+2,talk,12,4,3,I will vote for Agent[02]. Agent[04] has a consistent story, while Agent[02]'s statements are vague and suspicious. Let's work together to find the Werewolf.
+2,talk,13,4,4,Over
+2,talk,14,4,2,Villager, I support your choices
+2,talk,15,5,2,Over
+2,talk,16,5,4,Over
+2,talk,17,5,3,Over
+2,vote,2,4
+2,vote,3,2
+2,vote,4,2
+2,execute,2,VILLAGER
+2,attackVote,3,4
+2,attack,4,true
+3,status,1,VILLAGER,DEAD,sUper_IL_2
+3,status,2,VILLAGER,DEAD,yuricat2
+3,status,3,WEREWOLF,ALIVE,satozaki2
+3,status,4,SEER,DEAD,kanolab2
+3,status,5,POSSESSED,DEAD,UECIL_2
+3,result,0,1,WEREWOLF

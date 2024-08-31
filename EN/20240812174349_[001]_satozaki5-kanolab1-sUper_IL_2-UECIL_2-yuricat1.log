@@ -1,0 +1,84 @@
+0,status,1,SEER,ALIVE,yuricat1
+0,status,2,VILLAGER,ALIVE,UECIL_2
+0,status,3,POSSESSED,ALIVE,satozaki5
+0,status,4,VILLAGER,ALIVE,kanolab1
+0,status,5,WEREWOLF,ALIVE,sUper_IL_2
+0,talk,0,0,5,Hello, I'm Agent[05]. It's great to meet you!
+0,talk,1,0,3,I am Agent[03]. Let's have a fun game together, everyone! Thank you!
+0,talk,2,0,2,Greetings to you both. As we prepare for the night, it is crucial that we strategize wisely. Agent[01], have you considered who might benefit most from your divine insight tonight?
+0,talk,3,0,4,Hello, everyone! I'm Agent[04]. I'm looking forward to a thrilling game with all of you. Let's work together and uncover the truth!
+0,talk,4,0,1,My role is seer
+0,talk,5,1,1,I am Agent[01]
+0,talk,6,1,3,Over
+0,talk,7,1,5,Over
+0,talk,8,1,2,Seers, reveal yourselves at once. State whom you will divine tonight.
+0,talk,9,1,4,Over
+0,talk,10,2,3,Over
+0,talk,11,2,2,If you are hesitant about whom to divine, as I am a Villager, I decree you should divine someone other than myself. What say you, Agent[01]?
+0,talk,12,2,4,Over
+0,talk,13,2,1,I believe I should divine myself, for I am the one who has always been closest to the people of the village, and I have a keen insight into the issues that concern them
+0,talk,14,2,5,Over
+0,talk,15,3,5,Over
+0,talk,16,3,1,I believe I should divine myself, for I am the one who has always been closest to the people of the village, and I have a keen insight into the issues that concern them
+0,talk,17,3,4,Over
+0,talk,18,3,3,Over
+0,talk,19,3,2,Over
+0,talk,20,4,1,I will do my best to help the people of the village
+0,talk,21,4,5,Over
+0,talk,22,4,2,Over
+0,talk,23,4,3,Over
+0,talk,24,4,4,Over
+0,talk,25,5,1,Over
+0,talk,26,5,4,Over
+0,talk,27,5,5,Over
+0,talk,28,5,3,Over
+0,talk,29,5,2,Over
+0,divine,1,5,WEREWOLF
+1,status,1,SEER,ALIVE,yuricat1
+1,status,2,VILLAGER,ALIVE,UECIL_2
+1,status,3,POSSESSED,ALIVE,satozaki5
+1,status,4,VILLAGER,ALIVE,kanolab1
+1,status,5,WEREWOLF,ALIVE,sUper_IL_2
+1,talk,0,0,2,Subjects of Delcadar, lend me your ears! Let us deliberate wisely on this matter. What say you, Agents[01], [03], [04], and [05], about the current predicament we find ourselves in? Your insights are crucial for the safety of our realm.
+1,talk,1,0,4,Well,claims to be the seer, but we should be cautious. There could be a false claim from a wolf or a madman. Let's hear from the others. What do you think,and Agent[05]?
+1,talk,2,0,5,Hey everyone, I'm a villager. Let's share important info and figure out who the werewolf is.
+1,talk,3,0,1,As the result of the fortune telling, Agent[05] is werewolf
+1,talk,4,0,3,The results of the seer have come in. Since Agent[05] is suspected to be a werewolf, I plan to vote for Agent[05]. Everyone else, please share your thoughts!
+1,talk,5,1,3,I am the Seer. After tonight's reading, it has been revealed that Agent[05] is a Werewolf. Everyone, please vote for Agent[05].
+1,talk,6,1,4,Interesting turn of events! We now have two claims for the seer:and Agent[03]. Both claim thatis a werewolf. Let's hear more thoughts and see if we can piece together the puzzle here.
+1,talk,7,1,2,Noble assembly, heed my counsel! With both Agent[01] and Agent[03 confirming Agent[05] as a Werewolf through their divinations, the evidence is compelling. I urge us all to act on these revelations and vote to exile Agent[05 for the security of our kingdom.
+1,talk,8,1,1,We agree
+1,talk,9,1,5,Hey guys, you gotta see there's something fishy with Agent[03] being too pushy about the seer claim. There's only one true Seer; we need to figure out who's bluffing here. Really think it over, don't rush to judgment!
+1,talk,10,2,3,I will vote for Agent[05] tonight. My results as the Seer have revealed that Agent[05] is a Werewolf. I ask for everyone's cooperation.
+1,talk,11,2,5,Look, if you analyze what's been going on, Agent[03] has been way too aggressive in their claims against me. It’s kinda odd, don’t you think? I reckon we should vote out Agent[03, seeming a bit too eager, which could be a sneaky wolf move to throw us off. Let's put Agent[03] on the spot this time around.
+1,talk,12,2,2,It seems we need to hear everyone's opinions.
+1,talk,13,2,4,Alright, let's break this down a bit. We have two people claiming to be the Seer,and Agent[03]. Since there can only be one real Seer, one of them must be lying. Based on the information given:1. Ifis the real Seer, thenis the Werewolf.2. Ifis the real Seer, thenis the Werewolf.This points strongly towardsbeing the Werewolf, given that both supposed Seers have identified them as such.>>Agent[02] I think we should be cautious, but it seems logical to vote fortoday. Both claims against them are consistent. What do you think?
+1,talk,14,2,1,Vote for the Werewolf
+1,talk,15,3,1,I don't have the vote
+1,talk,16,3,3,>>Agent[02] Are you thinking about who to vote for tonight, Agent[02]? I would like to hear your opinion.
+1,talk,17,3,4,>>Agent[02] Let's consider this logically. Given that bothandclaim to be the Seer and both have called outas the Werewolf, it's highly probable thatis indeed the Werewolf. Based on the roles distribution, one of these Seers is lying. Ifis the true Seer,could be the Crazy Person, and ifis the true Seer,could be the Crazy Person. However, in both scenarios,is pinpointed as the Werewolf. So, I suggest focusing our vote ontonight. Your thoughts?
+1,talk,18,3,2,I shall organize the situation as well. Each of you should think carefully.
+1,talk,19,3,5,Alright, folks, let's talk real quick about targeting Agent[03] today. Seriously, think about this: Agent[03's] too aggressive claims? That kind of intensity? It's a common trick I've seen playing these games, where wolves play hard to get the heat off themselves. Trust me on this, if we take out Agent[03], we're definitely making a big play for the safety of all of us. Let's vote out Agent[03].
+1,talk,20,4,1,Okay, folks, I'm going to make my move
+1,talk,21,4,3,I will vote for Agent[05]. According to the Seer's results, it has been revealed that Agent[05] is a Werewolf. Everyone, please cooperate. Now, let's proceed to the voting.
+1,talk,22,4,5,Yo team, I really gotta stress on this – Agent[03] has been pushing too hard with that Seer story, don't you think? Their overly aggressive vibe is making me super uneasy. I reckon we’re looking at a classic case where they're trying to stir up fear to save their own skin. Let’s not let that slide, let’s vote out Agent[03], and keep our little village safe and sound. Come on, let’s do this for the peace of the place we call home!
+1,talk,23,4,4,Alright everyone, let's think this through. Ifis the true Seer, thenmust be the Werewolf. Ifis the true Seer, thenis also the Werewolf according to both claims. This means we have a common target identified by both supposed Seers – Agent[05]. So, for tonight, I strongly suggest we vote for Agent[05]. It's the most logical move and aligns with the information we have. What do you all think?
+1,talk,24,4,2,I, the king of Delcadar, declare my vote to exile Agent[05]. Both Agent[01] and Agent[03 have divined them as a Werewolf. For the safety of the realm, we must act on this information and eliminate the threat.
+1,talk,25,5,1,Over
+1,talk,26,5,5,Over
+1,talk,27,5,2,Over
+1,talk,28,5,3,Over
+1,talk,29,5,4,Over
+1,vote,1,5
+1,vote,2,5
+1,vote,3,5
+1,vote,4,5
+1,vote,5,3
+1,execute,5,WEREWOLF
+1,divine,1,4,HUMAN
+2,status,1,SEER,ALIVE,yuricat1
+2,status,2,VILLAGER,ALIVE,UECIL_2
+2,status,3,POSSESSED,ALIVE,satozaki5
+2,status,4,VILLAGER,ALIVE,kanolab1
+2,status,5,WEREWOLF,DEAD,sUper_IL_2
+2,result,4,0,VILLAGER

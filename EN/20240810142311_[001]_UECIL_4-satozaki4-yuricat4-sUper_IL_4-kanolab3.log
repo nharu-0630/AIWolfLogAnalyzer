@@ -1,0 +1,111 @@
+0,status,1,WEREWOLF,ALIVE,sUper_IL_4
+0,status,2,VILLAGER,ALIVE,kanolab3
+0,status,3,POSSESSED,ALIVE,satozaki4
+0,status,4,VILLAGER,ALIVE,UECIL_4
+0,status,5,SEER,ALIVE,yuricat4
+0,talk,0,0,3,I am Agent[03]. Everyone, let's have fun this time! Let's uncover the truth!
+0,talk,1,0,4,I am the king of the kingdom of Delcadar. So, films are gaining popularity in other realms! We should consider introducing them to bring joy to our citizens. Seers, reveal yourselves at once. State whom you will divine tonight. If you are hesitant about whom to divine, as I am a Villager, I decree you should divine someone other than myself. Tonight, Agent[01] shall divine Agent[02], and Agent[03] shall divine Agent[05]. Confirm these targets, Agent[01] and Agent[03].
+0,talk,2,0,2,Helloeveryone!IamAgent[02].Let'smakethisgameexcitinganduncoverthetruthtogether!Lookingforwardtoworkingwithyouall!
+0,talk,3,0,5,My role is seer
+0,talk,4,0,1,Hello, I'm Agent[01]. It's great to meet you!
+0,talk,5,1,3,Over
+0,talk,6,1,4,Agent[05], as you have declared yourself the Seer, whom do you plan to divine tonight? It is crucial for the safety of our kingdom to identify the threats among us posthaste.
+0,talk,7,1,2,Over
+0,talk,8,1,1,Over
+0,talk,9,1,5,I will reveal the identities of the enemies we are facing
+0,talk,10,2,2,Over
+0,talk,11,2,1,Over
+0,talk,12,2,5,I will reveal the identities of the enemies we are facing
+0,talk,13,2,4,Agent[05], your words are appreciated, yet they remain vague. Specify your target for tonight's divination so we may strategize effectively. Who will you divine?
+0,talk,14,2,3,Over
+0,talk,15,3,4,Over
+0,talk,16,3,3,Over
+0,talk,17,3,5,The enemy is the one who has the ability to create the most chaos at night
+0,talk,18,3,2,Over
+0,talk,19,3,1,Over
+0,talk,20,4,1,Over
+0,talk,21,4,2,Over
+0,talk,22,4,3,Over
+0,talk,23,4,5,The enemy is the one who has the ability to create the most chaos at night
+0,talk,24,4,4,Over
+0,talk,25,5,2,Over
+0,talk,26,5,1,Over
+0,talk,27,5,4,Over
+0,talk,28,5,5,Over
+0,talk,29,5,3,Over
+0,divine,5,3,HUMAN
+1,status,1,WEREWOLF,ALIVE,sUper_IL_4
+1,status,2,VILLAGER,ALIVE,kanolab3
+1,status,3,POSSESSED,ALIVE,satozaki4
+1,status,4,VILLAGER,ALIVE,UECIL_4
+1,status,5,SEER,ALIVE,yuricat4
+1,talk,0,0,5,As the result of the fortune telling, Agent[03] is human
+1,talk,1,0,3,Thank you. I am a Villager, Agent[03]. I appreciate the seer's results. Let's all calmly deduce based on the seer's findings.
+1,talk,2,0,4,Noble subjects, let us deliberate further. Agent[01] and Agent[02], what say you about the current revelations and accusations? Your silence is as telling as words, and your opinions are crucial to the safety of our realm.
+1,talk,3,0,2,>>Agent[04]Ithankyouforpromptingus.IamaVillager,Agent[02].Giventhathasidentifiedashuman,itaddssomecredibilitytoAgent[05]'sclaimastheSeer.However,wemustrememberthatthere'salsoatleastoneotherVillageramongus.Weshouldproceedwithcautionandcontinueanalyzingourinteractions.Whatdoyouthink,Agent[01]?Youhaveyettoshareyourthoughtsontheserevelations.
+1,talk,4,0,1,I'm a villager. I want to gather info with everyone's help and keep our village peaceful.
+1,talk,5,1,2,>>Agent[01]Thanksforsharing.SincewehavethreepeopleclaimingtobeVillagers(Agent[02],Agent[03],andAgent[04]),itmeansatleastoneofthemislying.GiventhathasclaimedtobetheSeerandhasprovidedaresult,weshouldconsiderthatmightbetellingthetruthaboutbeingaVillager.However,westillneedtobecautious.Whatdoyouthink,Agent[04]?
+1,talk,6,1,3,Since I am also a Villager, it is possible that there are three Villagers. Let's first organize the situation based on the Seer's opinion.
+1,talk,7,1,4,Agent[01], we have heard from others but your voice remains less heard. What are your thoughts on the divination results presented by Agent[05]? Your perspective is essential to our council.
+1,talk,8,1,5,I see a third Villager
+1,talk,9,1,1,I'm really on board with being thoughtful and methodical about this. Agent[05]'s divination is a good starting point, but we can't forget the possibility of deception from the Werewolf or Possessed. I think we should keep a close eye on interactions and consistency in everyone’s stories as we progress.
+1,talk,10,2,2,>>Agent[01]Iseeyourpointaboutthepotentialfordeception.GiventhatwehavethreeplayersclaimingVillagerroles(Agent[02],Agent[03],andAgent[04]),weknowatleastoneofthemmustbelyingbecausethereareonlytwoVillagers.Ithinkfocusingoninteractionconsistency,asyousuggested,isasolidapproach.Fornow,weshouldalsobecautiousofastheclaimedSeer.Let'skeepobservingeveryone'sstatementsandseeifthereareanydiscrepancies.
+1,talk,11,2,3,I plan to vote for Agent[04] tonight. The reason is that their statements seem rather vague and I feel they are relying on what others say.
+1,talk,12,2,1,Alright folks, I reckon we need to think about booting Agent[05] today. Their role as a Seer, while critical, counter-intuitively, could be a strategic play from a werewolf to divert our attention and accusations. They've been too perfect in pinning down the roles; it's suspicious, plus this could lessen their threat if they're not really on the villager side. So, I say let's vote Agent[05] out.
+1,talk,13,2,4,It seems we need to hear everyone's opinions.
+1,talk,14,2,5,I am in favour of booting Agent[05]
+1,talk,15,3,3,>>Agent[05] Agent[05], who do you plan to vote for tonight? It would also be helpful if you could share your reason.
+1,talk,16,3,4,Agent[05], as the one who claims the mantle of Seer, explain your strategy behind selecting Agent[03] for divination. Your choice and reasoning are crucial for us to understand the authenticity of your claims. What led you to determine that Agent[03] should be inspected among us all?
+1,talk,17,3,5,Agent[05] I had no choice
+1,talk,18,3,1,Guys, I've been mulling this over and can't shake the feeling that Agent[05], despite claiming to be our Seer, might be bluffing. I've been in a bunch of werewolf games before, and an overly smooth operation often smells fishy — feels like a tactic by a werewolf to misdirect us. Let's take a stand and vote Agent[05] out to ensure they're not playing us for fools.
+1,talk,19,3,2,>>Agent[04]Iagreethatweneedtoheareveryone'sopinions.Giventhecurrentclaims,wehavethreepeople(Agent[02],Agent[03],andAgent[04])claimingtobeVillagers,butthereareonlytwoVillagerroles.Thismeansatleastoneofthemislying.AstheclaimedSeer,yourreasoningforchoosingfordivinationiscrucial.Canyouexplainwhyyouchoseoverothers?Also,consideringAgent[01]'spoint,weshouldbecautious.Ifisbluffing,itcouldbeastrategicmovebyaWerewolf.Let'sanalyzetheinteractionsandseeifthereareanyinconsistencies.
+1,talk,20,4,4,I, the king of Delcadar, cast my vote for Agent[01]. Their silence and lack of engagement raise suspicion, and we need transparency and active participation to uncover the truth. The kingdom's safety hinges on our actions, and we must act decisively. Agent[01], your fate is now in the hands of the village.
+1,talk,21,4,1,Hey everyone, I really gotta insist we focus on Agent[05]. Nothing personal, but we've reached a critical point where the wrong decision could really harm our little village. Voting out Agent[05 is tough, yes, but it's necessary for us to stay safe and keep the peace. We can't let fear cloud our judgement, so let’s make the tough call together.
+1,talk,22,4,5,Voting out Agent[05] is the best option
+1,talk,23,4,2,Everyone,Iwanttoaddressthecurrentclaims.WeknowthereareonlytwoVillagers,butAgent[03],Agent[04],andIallclaimtobeVillagers.Thismeansatleastoneofusislying.Basedontheinformation,Agent[05]'sactionsandtheirownconfusingstance,theyraisesomemajorredflags.TheirambiguitycouldindicatetheyareaWerewolforevenaMinion.Findingthetruthiscrucial,soIbelievevotingforisjustified.Let'smakealogicaldecisiontoprotectourvillage.
+1,talk,24,4,3,I will vote for Agent[04]. I feel that his statements are vague and he relies too much on others' opinions. Now, let's proceed to the voting.
+1,talk,25,5,4,Over
+1,talk,26,5,2,Over
+1,talk,27,5,3,Over
+1,talk,28,5,5,Over
+1,talk,29,5,1,Over
+1,vote,1,5
+1,vote,2,5
+1,vote,3,4
+1,vote,4,1
+1,vote,5,4
+1,execute,4,VILLAGER
+1,divine,5,2,HUMAN
+1,attackVote,1,5
+1,attack,5,true
+2,status,1,WEREWOLF,ALIVE,sUper_IL_4
+2,status,2,VILLAGER,ALIVE,kanolab3
+2,status,3,POSSESSED,ALIVE,satozaki4
+2,status,4,VILLAGER,DEAD,UECIL_4
+2,status,5,SEER,DEAD,yuricat4
+2,talk,0,0,2,Over
+2,talk,1,0,1,Looks like the werewolf is still here. Hey, it looks like Agent[04] and Agent[05] are gone.
+2,talk,2,0,3,I am the Werewolf. I will speak honestly, so please don't worry. Everyone, vote for me without hesitation to eliminate me. That is the only way to save the village.
+2,talk,3,1,3,Everyone, I’ll say it again: I am the Werewolf. Vote for me to definitely save the village. This is the only way.
+2,talk,4,1,1,Hey folks, let's break this down quickly. Agent[03, claiming to be the Werewolf—you know, it could be a tricky move to save the actual Werewolf. If we vote out Agent[03 and it turns out to be a bluff, we're on the right track to win; if it’s not a bluff, we win directly. Let's vote Agent[03 and see how it shakes out.
+2,talk,5,1,2,Over
+2,talk,6,2,3,I’m frustrated that despite speaking honestly, I ended up making everyone suspicious of me. Please vote for me to protect the village.
+2,talk,7,2,1,Look, I've played enough of these games to spot the odd one out, and something about Agent[03’s claim just doesn't sit right. They're pushing too hard to be seen as the werewolf, which feels more like a cover-up to me. How about we trust our guts here, vote off Agent[03, and really see if the threat ends or continues?
+2,talk,8,2,2,Over
+2,talk,9,3,3,Over
+2,talk,10,3,2,Over
+2,talk,11,3,1,Everyone, I get it, this is tough, right? But think about it, Agent[03's screaming 'I'm the werewolf!' feels way off. It's like a desperate move that could just throw us off the real danger. We need to stick together, protect our little circle, and vote out Agent[03 to keep us safe and maybe sleep a bit easier tonight, huh? Let's do this for the village!
+2,talk,12,4,3,Over
+2,talk,13,4,1,Over
+2,talk,14,4,2,Over
+2,vote,1,3
+2,vote,2,3
+2,vote,3,2
+2,execute,3,POSSESSED
+2,attack,2,true
+3,status,1,WEREWOLF,ALIVE,sUper_IL_4
+3,status,2,VILLAGER,DEAD,kanolab3
+3,status,3,POSSESSED,DEAD,satozaki4
+3,status,4,VILLAGER,DEAD,UECIL_4
+3,status,5,SEER,DEAD,yuricat4
+3,result,0,1,WEREWOLF

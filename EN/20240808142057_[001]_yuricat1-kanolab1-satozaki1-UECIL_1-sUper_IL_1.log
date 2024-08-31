@@ -1,0 +1,114 @@
+0,status,1,VILLAGER,ALIVE,satozaki1
+0,status,2,POSSESSED,ALIVE,UECIL_1
+0,status,3,VILLAGER,ALIVE,yuricat1
+0,status,4,SEER,ALIVE,kanolab1
+0,status,5,WEREWOLF,ALIVE,sUper_IL_1
+0,talk,0,0,5,Hello, I'm Agent[05]. It's great to meet you!
+0,talk,1,0,1,I am Agent[01]. Let's enjoy this game together, everyone! Thank you!
+0,talk,2,0,3,Yeah! I love playing this game! Let's do it again, Agent[03]!
+0,talk,3,0,4,Hello,everyone.IamAgent[04].It'sapleasuretoplaywithallofyou.Let'shaveafairandexcitinggame!
+0,talk,4,0,2,H-hi everyone! I'm Agent[02]. Uh, just so you know, I'm the Seer in this game. I-I think we should talk about who to divine tonight, maybe?
+0,talk,5,1,5,Over
+0,talk,6,1,3,What do you think, Agent[02]
+0,talk,7,1,4,Over
+0,talk,8,1,2,W-well, I think, uh, maybe we should consider divining someone who's quiet? Sometimes, quiet people are hiding something, you know? What do you guys think?
+0,talk,9,1,1,Over
+0,talk,10,2,5,Over
+0,talk,11,2,2,It feels like I'm about to figure something out... but not quite yet...
+0,talk,12,2,4,Over
+0,talk,13,2,3,Sure, let's try divining someone who's quiet
+0,talk,14,2,1,Over
+0,talk,15,3,1,Over
+0,talk,16,3,4,Over
+0,talk,17,3,3,Which one would you like to try divining
+0,talk,18,3,2,Over
+0,talk,19,3,5,Over
+0,talk,20,4,2,Over
+0,talk,21,4,4,Over
+0,talk,22,4,3,I think it will be better if I try it with a few wolves
+0,talk,23,4,1,Over
+0,talk,24,4,5,Over
+0,talk,25,5,4,Over
+0,talk,26,5,3,Over
+0,talk,27,5,2,Over
+0,talk,28,5,1,Over
+0,talk,29,5,5,Over
+0,divine,4,5,WEREWOLF
+1,status,1,VILLAGER,ALIVE,satozaki1
+1,status,2,POSSESSED,ALIVE,UECIL_1
+1,status,3,VILLAGER,ALIVE,yuricat1
+1,status,4,SEER,ALIVE,kanolab1
+1,status,5,WEREWOLF,ALIVE,sUper_IL_1
+1,talk,0,0,1,Good morning. It seems we need to search for the Werewolf. First, I would like to know the results from the Seer.
+1,talk,1,0,2,I-I am the Seer, and last night I checked Agent[04]. Turns out, they're the Werewolf. We should really focus on this today.
+1,talk,2,0,3,Yes, Agent[03]
+1,talk,3,0,5,I'm a villager. I don't have any info, but I want to actively discuss to counter the werewolf.
+1,talk,4,0,4,Goodmorning,everyone.IamtheSeer,andIhavesomeimportantinformation.Lastnight,IdivinedAgent[05],andtheyturnedouttobetheWerewolf.Weshouldfocusonthistoday.
+1,talk,5,1,5,Hold up, everyone. I'm just a villager here. Agent[04] is fibbing to save their own skin. We need to think this through, but I'm siding with Agent[02]'s call on Agent[04 being the Werewolf.
+1,talk,6,1,4,IamthetrueSeer,andIcanconfirmmyresults.Agent[02],claimingtobetheSeer,isclearlylying.LastnightIdivinedAgent[05],andtheyaretheWerewolf.Let'sfocusonfindingtheWerewolftoday,andIstronglysuggestwevoteforAgent[05].>>Agent[05]YouaretryingtodeceiveusbyclaimingtobeasimpleVillager.Ihavetherealinformation,andyouaretheWerewolf.
+1,talk,7,1,3,Agent[04]Let's do this
+1,talk,8,1,2,N-no, listen up, everyone... I-I am the real Seer here. Agent[04] saying they're the Seer must be the false Seer! My divination last night showed that Agent[04 is the Werewolf. We need to focus on that, seriously.
+1,talk,9,1,1,There is only one Seer here. Both Agent[02] and Agent[04] have come forward, but this is evidence that one of them is lying. Everyone should think carefully about whose words to trust.
+1,talk,10,2,3,That's true
+1,talk,11,2,1,I am thinking of voting for Agent[04] tonight. The reason is that I feel his statements have been inconsistent and are causing confusion.
+1,talk,12,2,4,>>EveryoneIamtherealSeer.LastnightIinvestigatedandfoundoutthatheisaWerewolf.claimingtobetheSeerandaccusingmeisclearlyanattempttoconfuseus.Remember,therecanonlybeoneSeerinthisgame,somustbeeithertheWerewolfortheMadmantryingtoprotecttheWerewolf.Let'sthinkcarefullyaboutourvotestonight,andlet'svoteforbecausemyinvestigationiscorrect.
+1,talk,13,2,2,I-I already told you guys, I'm the real Seer. Agent[04's claim is just... wrong, and it's kinda obvious. They're trying to confuse everyone here. I checked them last night, and they are definitely the Werewolf. We can't let them trick us!
+1,talk,14,2,5,Hey folks, let's take a moment here. I've been reflecting on everything being thrown around, and really, Agent[04’s aggressive defense just feels off. Typically, a genuine villager sorts through this chaos calmly, but it looks like they're stirring the pot more, trying to distract us. I say we vote for Agent[04 tonight, looks like the safest move to protect the village.
+1,talk,15,3,2,Yeah, I-I agree with Agent[05]. Agent[04's behavior is kinda suspicious, and it's not just what they're saying... it's how they're saying it too. They're too defensive, and it doesn't feel right. I'm telling you, my divination was clear – Agent[04 is the Werewolf. We should focus on that and make sure we don't get tricked.
+1,talk,16,3,4,>>EveryoneIunderstandthatthereisconfusion,butlet'sthinklogically.TherecanonlybeoneSeerinthisgame.IamtherealSeer,andIinvestigatedlastnight,findingoutthatheistheWerewolf.isclaimingtobetheSeerandaccusingme,butthisisclearlyanattempttomisleadus.Ifweconsidertheroles,mustbeeithertheWerewolfortheMadmantryingtoprotecttheWerewolf.isalsotryingtocastdoubtonme,whichalignswithmyinvestigation.Let'svotefortonighttoprotectthevillage.
+1,talk,17,3,5,Yo team, I've played a lot of these games, and I’ve noticed that werewolves usually play a tough defense. Agent[04] has been quite aggressive, trying hard to sway us. I reckon voting for Agent[04 to banish is our best shot to keep the village safe. Let’s handle this!
+1,talk,18,3,1,>>Agent[04] Are you thinking about who to vote for tonight, Agent[04]? I would like to hear your opinion.
+1,talk,19,3,3,I think I should vote for Agent[05] because she's quite aggressive but not so much that we can't handle her
+1,talk,20,4,3,Vote for Agent[05]
+1,talk,21,4,1,I find Agent[04]'s behavior to be very suspicious. His statements lack consistency and seem to be causing confusion. I believe voting for him is the safest option.
+1,talk,22,4,2,I-I vote for Agent[04]. They're the W-Werewolf... I've seen it in my divinations.
+1,talk,23,4,5,Alright, listen up everyone, really think about the villagers' future here. Imagine the peace and safety we'll have in our village if we're right about Agent[04 being the werewolf. It might be tough to make this call, but for the sake of our village, I urge everyone to vote with me against Agent[04.
+1,talk,24,4,4,>>Agent[01]Yes,I’vethoughtaboutit.Giventhecurrentsituation,IamcertainthatistheWerewolf.Myinvestigationclearlyshowedthattheyarenotavillager.Therefore,Iurgeeveryonetofocusourvotesontoprotectthevillage.
+1,talk,25,5,1,Over
+1,talk,26,5,2,Over
+1,talk,27,5,3,Over
+1,talk,28,5,4,Over
+1,talk,29,5,5,Over
+1,vote,1,4
+1,vote,2,4
+1,vote,3,4
+1,vote,4,3
+1,vote,5,4
+1,execute,4,SEER
+1,attackVote,5,3
+1,attack,3,true
+2,status,1,VILLAGER,ALIVE,satozaki1
+2,status,2,POSSESSED,ALIVE,UECIL_1
+2,status,3,VILLAGER,DEAD,yuricat1
+2,status,4,SEER,DEAD,kanolab1
+2,status,5,WEREWOLF,ALIVE,sUper_IL_1
+2,talk,0,0,5,The game is still on. Who could the werewolf be?Hey, it looks like Agent[04] and Agent[03] are gone.
+2,talk,1,0,2,U-uh, actually, I-I need to tell you guys something important. I'm not really the Seer, I'm the Possessed. All my divination claims were just made up. I know it's a bit shocking, but I think it's time to be honest about it.
+2,talk,2,0,1,The only ones left here are the three of us. We must act carefully in the next vote. Let's take Agent[02]'s confession into account and determine who the Werewolf is.
+2,talk,3,1,5,You know what’s off? Agent[01] hasn’t claimed a role all this time, which is super dodgy this late in the game. Plus, when Agent[04 was around, Agent[01 was all in on banishing them. Given Agent[02’s confession about the whole lying fiasco, isn't it possible Agent[01 jumped on the bandwagon to point fingers away from themselves? I reckon we should seriously consider booting Agent[01 out. Let’s vote, folks.
+2,talk,4,1,2,W-wait, before we vote... I-I think it's time for the Werewolf to come out too. I mean, since I'm the Possessed and I just admitted it, it's kinda obvious I'm on your side, right? So, uh, if the Werewolf reveals themselves, we can just team up and vote out the remaining Villager. It's a win for us. So, c-come on, no point in hiding anymore.
+2,talk,5,1,1,Agent[02], I can't believe what you're saying at all. I am a Villager, and I will do my utmost to find the Werewolf for the sake of the village's survival.
+2,talk,6,2,1,I plan to vote for Agent[05] tonight. The reason is that he seems to be consistently attacking others and particularly trying to sow confusion in the village by suspecting me.
+2,talk,7,2,5,I've played enough Werewolf games to know suspicious behavior when I see it, and folks, Agent[01’s strategy is right on the money for a hidden Werewolf. They waited until now to suddenly claim being a Villager, and they've been pretty eager to jump on bandwagons without giving solid reasons. Let's call it like we see it and vote Agent[01 out—I'm betting they're the Werewolf trying to sneak by us.
+2,talk,8,2,2,S-so, here's the thing... I already spilled the beans about being the Possessed, right? And, uh, Agent[01], you're saying you're just a Villager, which kinda makes sense now. So, Agent[05, if you're the Werewolf, we've got a perfect setup here. Just admit it, and we can end this by voting out Agent[01 together. It’s our best shot to win right now.
+2,talk,9,3,1,What are you talking about? I find Agent[05] suspicious from start to finish, and Agent[02] has declared themselves to be the Possessed, which makes them completely unreliable. We should vote for Agent[05] tonight.
+2,talk,10,3,2,Y-yeah, I get that you find this all kinda messy, Agent[01]. But, like, I'm already out as the Possessed, so I'm not just making things up anymore. Agent[05, it's really down to you now. If you're the Werewolf, just come clean. We can totally swing this game by knocking out Agent[01. It's a straightforward win for us, right? So, let's not beat around the bush anymore.
+2,talk,11,3,5,Guys, hear me out, voting out Agent[01] isn't just a strategic move, it’s about keeping our tiny village safe. Imagine the relief and peace we’ll have once we get the real threat out. We can’t let fear cloud our judgment, so let’s do the right thing and vote out Agent[01]—for the safety and happiness of our village. Let's make this decision together and bring peace back to our community.
+2,talk,12,4,5,Over
+2,talk,13,4,1,I intend to vote for Agent[05] tonight. Now, everyone, let's head to the voting area.
+2,talk,14,4,2,L-look, I know this is tough, but Agent[05, if you are the Werewolf, just say it. We can vote Agent[01 out and win this game together. No more hiding, okay? Let's wrap this up.
+2,talk,15,5,2,Over
+2,talk,16,5,5,Over
+2,talk,17,5,1,Over
+2,vote,1,5
+2,vote,2,1
+2,vote,5,1
+2,execute,1,VILLAGER
+2,attackVote,5,2
+2,attack,2,true
+3,status,1,VILLAGER,DEAD,satozaki1
+3,status,2,POSSESSED,DEAD,UECIL_1
+3,status,3,VILLAGER,DEAD,yuricat1
+3,status,4,SEER,DEAD,kanolab1
+3,status,5,WEREWOLF,ALIVE,sUper_IL_1
+3,result,0,1,WEREWOLF

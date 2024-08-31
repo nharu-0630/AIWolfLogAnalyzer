@@ -1,0 +1,113 @@
+0,status,1,VILLAGER,ALIVE,yuricat1
+0,status,2,POSSESSED,ALIVE,satozaki3
+0,status,3,WEREWOLF,ALIVE,kanolab3
+0,status,4,SEER,ALIVE,sUper_IL_1
+0,status,5,VILLAGER,ALIVE,UECIL_1
+0,talk,0,0,4,Hi, I'm Agent[04]!
+0,talk,1,0,1,Who are you
+0,talk,2,0,3,Hello,everyone!I'mAgent[03].Let'shaveagreatgame!
+0,talk,3,0,5,I am the king of the kingdom of Delcadar. Let us proceed with strategy and wisdom in our game. Who among you will step forward as the Seer and declare your intentions?
+0,talk,4,0,2,I am Agent[02]. Let's enjoy a fun game together, everyone! Thank you!
+0,talk,5,1,1,My name is Agent[01], and I will be the king of Delcadar
+0,talk,6,1,2,Over
+0,talk,7,1,5,Agent[01], you seem to be mistaken. I am the established king of Delcadar. Let us focus on the matter at hand. Who among you is the Seer and what are your plans for tonight's divination?
+0,talk,8,1,3,Over
+0,talk,9,1,4,Over
+0,talk,10,2,2,Over
+0,talk,11,2,4,Over
+0,talk,12,2,1,I am the Seer
+0,talk,13,2,3,Over
+0,talk,14,2,5,Very well, Agent[01], as you claim the role of Seer, whom do you intend to divine tonight? Your choice is crucial for the safety and future of our gathering.
+0,talk,15,3,5,Over
+0,talk,16,3,2,Over
+0,talk,17,3,3,Over
+0,talk,18,3,4,Over
+0,talk,19,3,1,I will divine tonight based on what I know about the forest and the beast that dwells there
+0,talk,20,4,1,I will do my best to ensure that the villagers are not harmed and that the beast does not get away
+0,talk,21,4,5,Over
+0,talk,22,4,4,Over
+0,talk,23,4,2,Over
+0,talk,24,4,3,Over
+0,talk,25,5,2,Over
+0,talk,26,5,5,Over
+0,talk,27,5,4,Over
+0,talk,28,5,3,Over
+0,talk,29,5,1,Over
+0,divine,4,3,WEREWOLF
+1,status,1,VILLAGER,ALIVE,yuricat1
+1,status,2,POSSESSED,ALIVE,satozaki3
+1,status,3,WEREWOLF,ALIVE,kanolab3
+1,status,4,SEER,ALIVE,sUper_IL_1
+1,status,5,VILLAGER,ALIVE,UECIL_1
+1,talk,0,0,2,I am the Seer, and I confirmed that Agent[01] is a Werewolf during last night's reading. We should vote for Agent[01] right now.
+1,talk,1,0,4,Good morning, everyone. To get straight to the point, I am the seer. Last night, I divined Agent[03]. The result was werewolf.
+1,talk,2,0,1,Agent[03] is a Werewolf
+1,talk,3,0,5,Subjects of Delcadar, hear me! We face conflicting claims from those who proclaim themselves Seers. I urge each one of you, Agents[01], [02], [03], and [04], to provide your reasoning and evidence. Speak now so we may uncover the deceit among us and protect our realm.
+1,talk,4,0,3,Wehaveaproblemhere,asmultipleplayersareclaimingtobetheSeer.Basedontherolesdistribution,weknowonlyoneSeerexists.Agent[01],Agent[02],andcannotallbeSeers.Oneormoreofthemmustbelying.SinceIamaVillager,Icanconfirmthatatleastoneofthemisnotbeingtruthful.Let'scarefullyconsidertheirclaimsandlogic.
+1,talk,5,1,2,It is clear that everyone else is lying. Since Agent[01] was identified as a Werewolf by the Seer, it would be wise to vote for him.
+1,talk,6,1,3,It'sclearthatwehavemultipleclaimstotheSeerrole.Accordingtotherolesdistribution,thereisonlyonetrueSeer.SinceI'maVillager,IknowoneoftheSeerclaimsmustbefalse.Basedontheinformationwehave:-IfisthetrueSeer,thenistheWerewolf.-IfisthetrueSeer,thenandarenotSeers.SincebothandclaimtobeSeers,weknowoneofthemislying.GiventhatjustclaimedistheWerewolf,weneedtocarefullyconsidertheseclaimsandevidence.
+1,talk,7,1,4,Thank you for your inputs, everyone. As I maintain, I am the true Seer, and my divine power revealed that Agent[03] is indeed a Werewolf. Given the conflicting claims and my reliable divination, I sincerely urge us to consider voting against Agent[03] to safeguard our village.
+1,talk,8,1,1,I'm glad to hear that
+1,talk,9,1,5,Agent[02], you claim to have divined Agent[01] as a Werewolf. Can you provide more details or reasoning behind your divination? It is crucial for us to understand your decision-making process to determine the truth amidst these conflicting claims.
+1,talk,10,2,4,I appreciate your diligence, Agent[05. It's essential to analyze the coherence and evidence behind each claim. I fully support transparency and encourage Agent[02 to further explain the basis of their divination, as we need to ensure robust reasoning guides our decisions.
+1,talk,11,2,2,I will vote for Agent[01]. The seer results confirmed that Agent[01] is a werewolf. Other claims are false and should be eliminated for the safety of the village.
+1,talk,12,2,1,I'm glad to have your support
+1,talk,13,2,5,Agent[04], you claim to have divined Agent[03] as a Werewolf. Please provide further evidence or reasoning behind your divination. It is critical for us to assess the veracity of your claim amidst these conflicting reports.
+1,talk,14,2,3,>>Agent[05]WearefacingacriticaldilemmawiththreeplayersclaimingtobetheSeer,whichcontradictstheknownroledistribution.Itisevidentthatatleasttwoofthem—Agent[01],Agent[02],orAgent[04]—arelying.SinceIamaVillager,Isupporttheideaofthoroughlyevaluatingtheirclaims.YourassertivestanceonbeingaWerewolfisnoted.However,weneedconcretereasoningbeyondsimplystatingyourSeerresults.Canyouelaborateonwhatledyoutothisconclusion?YouhavedeclaredasaWerewolf,whichraisesaredflagformeconsideringIknowmyselftobeaVillager.Couldyouprovidemoredetailsortherationalebehindyourdivination?Giventheconflictingclaims,it'svitalthatwescrutinizethestatementsandmotivescarefullybeforeproceedingwithanydecisions.
+1,talk,15,3,2,I am convinced from last night's reading that Agent[01] is a Werewolf. We should not trust any other claims. For the safety of the village, let's vote for Agent[01].
+1,talk,16,3,5,Agent[02] and Agent[04], your claims are gravely important, and thus must be scrutinized with utmost diligence. Agent[02], explain the process and specific reasons that led you to conclude that Agent[01] is a Werewolf. Agent[04], likewise, elucidate on your divination that marked Agent[03 as such. We seek clarity to guide our just decisions in these troubled times.
+1,talk,17,3,4,Thank you, Agent[05, for fostering a thorough examination of the claims. Regarding my divination, I received a clear vision when targeting Agent[03], distinctly identifying them as a werewolf. This result led me to advocate for their voting, as it directly impacts our village's safety.
+1,talk,18,3,1,Very well, Agent[04], you have convinced me
+1,talk,19,3,3,>>EveryoneWehavethreeplayersclaimingtobetheSeer,whichisimpossiblegiventheknownroledistribution.Thismeansatleasttwoofthem—Agent[01],Agent[02],orAgent[04]—arelying.SinceIamaVillager,Isupporttheideaofthoroughlyevaluatingtheirclaims.claimsthatisaWerewolf,whileclaimsthatIamaWerewolf.GiventhatIknowmyselftobeaVillager,IfindAgent[04]'sclaimsuspicious.Weneedtoscrutinizethestatementsandmotivescarefullybeforeproceedingwithanydecisions.Agent[05],yourdiligenceinseekingclarityiscrucial.Let'scontinuetoquestiontheSeerclaimsandtheirreasoningtoguideourjustdecisions.
+1,talk,20,4,5,I, the king of Delcadar, have carefully considered the claims made by the Seers in our midst. Based on the lack of substantial evidence provided by either Agent[02] or Agent[04], I find Agent[02] to be less credible in their accusations. Therefore, I am voting to exile Agent[02] from our kingdom. The fate of the kingdom rests on this decision.
+1,talk,21,4,3,>>EveryoneGiventheknownroledistribution,itisimpossibleforAgent[01],Agent[02],andalltobeSeers.Atleasttwoofthemarelying.SinceIknowmyselftobeaVillager,IfindAgent[04]'sclaimespeciallysuspicious.Thedetailedscrutinyoftheirstatementsandmotivesiscrucial.Lookingattheroles,ifwehypotheticallyassumetobethetrueSeer,thenwouldmostlikelybetheMadman,astheyarealsoclaimingSeer.ItseemsconsistentwiththeknownroledistributionthatcouldindeedbetheWerewolfasclaimedbyAgent[02].Therefore,thesafestcourseofactionmaybetovoteforAgent[01].Whatdoeseveryonethinkofthisanalysis?Also,onalighternote,ImustsaythatIbakedsomefreshbreadtoday.Anyoneinterested?
+1,talk,22,4,2,I have decided to vote for Agent[01]. Let's do our best with our votes to protect the peace of the village. Now, let's move on to the voting.
+1,talk,23,4,1,I think it's a fair analysis
+1,talk,24,4,4,Over
+1,talk,25,5,1,Over
+1,talk,26,5,2,Over
+1,talk,27,5,4,Over
+1,talk,28,5,5,Over
+1,talk,29,5,3,Over
+1,vote,1,5
+1,vote,2,1
+1,vote,3,2
+1,vote,4,2
+1,vote,5,2
+1,execute,2,POSSESSED
+1,divine,4,1,HUMAN
+1,attack,1,true
+2,status,1,VILLAGER,DEAD,yuricat1
+2,status,2,POSSESSED,DEAD,satozaki3
+2,status,3,WEREWOLF,ALIVE,kanolab3
+2,status,4,SEER,ALIVE,sUper_IL_1
+2,status,5,VILLAGER,ALIVE,UECIL_1
+2,talk,0,0,4,Good morning, everyone.
+2,talk,1,0,3,Over
+2,talk,2,0,5,Good morning, Agent[04 and Agent[03. We find ourselves in dire times with two of our comrades fallen. What are your thoughts on the current situation and the accusations made yesterday? We must unite and make wise decisions today.
+2,talk,3,1,4,Good morning, everyone. Last night, as the seer, I divined Agent[01]. The result was human.
+2,talk,4,1,3,Over
+2,talk,5,1,5,Agent[04, your statement about divining Agent[01] as human is perplexing since Agent[01 was executed yesterday and could not have been divined last night. Can you clarify this contradiction? This is crucial for us to understand your true role and ensure the safety of our village.
+2,talk,6,2,5,I would like to hear Agent[04]'s opinion.
+2,talk,7,2,4,Good morning, Agent[05. I appreciate your diligence in seeking clarity. I apologize for the confusion; it seems there was a misunderstanding in my explanation. I meant to report that I divined Agent[01] on the night of Day 1, not last night, and the result indicated that they were human. Thank you for pointing out the need for precision in our discussion.
+2,talk,8,2,3,Over
+2,talk,9,3,5,Agent[04, I acknowledge your clarification, but we must remain vigilant. If you are indeed the Seer, who did you divine last night, and what was the result? It is essential for us to know this to determine our next course of action.
+2,talk,10,3,3,Over
+2,talk,11,3,4,Over
+2,talk,12,4,4,Over
+2,talk,13,4,3,Over
+2,talk,14,4,5,Agent[04, as the person who claims to be our Seer, it is imperative that you clarify whom you divined last night and share the results with us. We need accurate and truthful information to protect our village and make informed decisions. Your response is crucial for our survival.
+2,talk,15,5,4,Over
+2,talk,16,5,5,Over
+2,talk,17,5,3,Over
+2,vote,3,5
+2,vote,4,3
+2,vote,5,4
+2,execute,5,VILLAGER
+2,attack,4,true
+3,status,1,VILLAGER,DEAD,yuricat1
+3,status,2,POSSESSED,DEAD,satozaki3
+3,status,3,WEREWOLF,ALIVE,kanolab3
+3,status,4,SEER,DEAD,sUper_IL_1
+3,status,5,VILLAGER,DEAD,UECIL_1
+3,result,0,1,WEREWOLF

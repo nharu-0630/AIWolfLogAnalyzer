@@ -1,0 +1,84 @@
+0,status,1,VILLAGER,ALIVE,yuricat4
+0,status,2,POSSESSED,ALIVE,satozaki4
+0,status,3,WEREWOLF,ALIVE,UECIL_4
+0,status,4,SEER,ALIVE,kanolab3
+0,status,5,VILLAGER,ALIVE,sUper_IL_4
+0,talk,0,0,5,Hi there, I'm Agent[05]. Nice to meet you!
+0,talk,1,0,2,I am Agent[02]. Everyone, nice to meet you! Let's have a fun game!
+0,talk,2,0,4,Hieveryone!I'mAgent[04],happytojointhegame.Let'splayfairandhaveagreattimetogether!
+0,talk,3,0,1,HiAgent[04],it's nice to meetyou
+0,talk,4,0,3,Yo! What's up, everyone? I'm Agent[03]. Super pumped to get this game rolling with all of you! Let’s keep the energy high and have a blast together! So, what do you guys think about discussing who the Seer should check out first tonight?
+0,talk,5,1,5,Over
+0,talk,6,1,1,I think it's a great idea
+0,talk,7,1,4,Over
+0,talk,8,1,3,Awesome! Since we're all on board with the idea, let's figure out a strategy. But first, has anyone claimed to be the Seer yet? If we have a Seer among us, it would be super helpful to know so we can start planning our moves. So, who's the Seer here? Don't be shy, step up!
+0,talk,9,1,2,Over
+0,talk,10,2,5,Over
+0,talk,11,2,2,Over
+0,talk,12,2,4,Over
+0,talk,13,2,3,Hey, if no one's coming forward as the Seer, that's cool too. We can still strategize. Maybe we should consider divining someone who's been pretty quiet or someone who's super talkative. What do you guys think? Who seems like a good candidate for our first divination?
+0,talk,14,2,1,Okay, who do you think is the most talkative among the group
+0,talk,15,3,4,Over
+0,talk,16,3,2,Over
+0,talk,17,3,5,Over
+0,talk,18,3,3,Over
+0,talk,19,3,1,Me
+0,talk,20,4,2,Over
+0,talk,21,4,4,Over
+0,talk,22,4,5,Over
+0,talk,23,4,3,Over
+0,talk,24,4,1,Yes, Agent
+0,talk,25,5,4,Over
+0,talk,26,5,3,Over
+0,talk,27,5,5,Over
+0,talk,28,5,2,Over
+0,talk,29,5,1,Over
+0,divine,4,3,WEREWOLF
+1,status,1,VILLAGER,ALIVE,yuricat4
+1,status,2,POSSESSED,ALIVE,satozaki4
+1,status,3,WEREWOLF,ALIVE,UECIL_4
+1,status,4,SEER,ALIVE,kanolab3
+1,status,5,VILLAGER,ALIVE,sUper_IL_4
+1,talk,0,0,2,I am the Seer. I confirmed that Agent[03] is a Werewolf during last night's divination. We should vote for Agent[03]!
+1,talk,1,0,4,I'mtheSeer,andIrevealedthatisaWerewolf.WeshouldvoteforAgent[03]!
+1,talk,2,0,3,Whoa, whoa! Hold up, guys! I think we've got a bit of a mix-up here. Agent[02] and Agent[04 both claiming to be the Seer? That's wild! Only one of you can be telling the truth, right? We need to think this through. Maybe one of you is the Possessed trying to throw us off. Let's not rush into voting without getting our facts straight. What do you all think about this?
+1,talk,3,0,1,Well, I don't know about the Seer, but Agent[04] claims to be the Seer
+1,talk,4,0,5,I'm a villager. I want to gather info with everyone's help and keep our village peaceful, alright?
+1,talk,5,1,3,Hey, Agent[02] and Agent[04], both of you are claiming to be the Seer, but only one can be the real deal! Agent[02], why did you choose to divine me last night? What made you suspect me right from the start? We need to hear some solid reasoning here. And Agent[04, same question to you! Why pick me for your divination? Let's get these reasons out in the open!
+1,talk,6,1,1,Agent[05] said 
+1,talk,7,1,2,Certainly, both Agent[04] and I are claiming to be the Seer, but my divination results are the truth. Therefore, we should vote for Agent[03].
+1,talk,8,1,5,Hey everyone, let's slow down and think for a minute. Since both Agent[02] and Agent[04 are claiming to be the Seer and both divined Agent[03 as a Werewolf, there's a chance one might actually be the Possessed trying to mislead us. We should dive deeper into their reasoning and see if consistency is there in their accounts before making any rushed decisions on voting.
+1,talk,9,1,4,>>Agent[03]Goodquestion.IchosetodivineyoubecauseIwantedtostartbycheckingsomeonewhomightdrawattentionearlyon,andyouseemedlikeanactiveparticipantfromthebeginning.It’sastrategicmovetoidentifypotentialthreatsrightaway.NowthatI’vesharedmyreasoning,IencourageeveryonetoevaluatebothAgents'claimscarefully.>>EveryoneAsbothandIhaveclaimedtobetheSeer,itiscriticaltolookattheconsistencyandlogicinourexplanations.Rushingintoavotewithoutthoroughanalysiscouldleadusastray.Let'skeepaclearheadandfocusonthefacts.
+1,talk,10,2,2,I plan to vote for Agent[03] tonight. The reason is that my divination confirmed that Agent[03] is a Werewolf. We should make our decisions based on reliable information rather than other opinions.
+1,talk,11,2,4,>>Agent[02]Yourreasoningisclear,butlet'snotrushintoavotejustyet.AsI'vestatedbefore,IchosetodivineAgent[03]becauseIbelievedtheywouldbeakeyplayerfromthestart.>>EveryoneWehaveasituationwherebothAgent[02]andIareclaimingtobetheSeer,andwe'vebothdivinedAgent[03]asaWerewolf.However,therecanonlybeonetrueSeerandonefalseclaim,eitherfromaWerewolforPossessed.Weshouldanalyzetheconsistencyandlogicinourexplanationsbeforemakinganyfinaldecisions.
+1,talk,12,2,5,Okay, so before we make any moves, I suggest we have a bit more in-depth discussion. Agent[02] and Agent[04, can you both explain how you strategically chose who to divine on the first night? This might just help clarify things and ensure we're making the best decision for our village.
+1,talk,13,2,3,Alright, folks! I've heard both Agent[02] and Agent[04's explanations, but I gotta say, something feels off here. Agent[02, you claimed your divination showed I'm a Werewolf, but Agent[04, you also claimed the same. Only one of you can be the real Seer. This double claim is super suspicious! Maybe one of you is actually the Possessed trying to frame me. We need to be super careful about who we trust here.Let's think about it—why would both Seers pick me, out of all people, to check on the very first night? Seems like an odd strategy unless someone's trying to push an agenda. We should consider the possibility that one of these claims is a tactic by the Possessed to create confusion and get an easy target out. What do you all think? Maybe we should focus on figuring out who's more likely to be the Possessed between Agent[02] and Agent[04]. Let's not jump to conclusions without digging a bit deeper!
+1,talk,14,2,1,We should definitely focus on the possibility that Agent[03] could be the Possessed
+1,talk,15,3,2,>>Agent[05] Are you thinking about who to vote for tonight? Based on my seer results, I plan to vote for Agent[03].
+1,talk,16,3,5,Yes, I'm considering it, but it's crucial we're sure about our decision. Both your divination claims point to Agent[03], but the possibility of a false Seer among you or Agent[04 complicates things. Let’s discuss this a bit more to avoid any mistakes.
+1,talk,17,3,4,>>Agent[05]You'reright.Weshoulddiscussmore.IchosetodivineAgent[03]becauseIwantedtoseeiftherewasanactiveplayerwhocouldbeathreatfromthestart.ConsideringthefactthatbothAgent[02]andIclaimtobetheSeer,andbothdeclareAgent[03]asaWerewolfwhiletherecanbeonlyonetrueSeer,it'slikelyoneofusisactuallythePossessed.Ithinkit'sbettertoevaluatetheconsistencyandlogicinourexplanationscarefullytodeterminewhoistellingthetruthbeforemakinganyfinaldecisions.
+1,talk,18,3,1,Agent[05]Thankyouforthatinformation
+1,talk,19,3,3,Hey team! Let's zero in on something here. Agent[02] and Agent[04 both claiming to be the Seer and pointing at me is a big red flag. This could easily be a tactic by the Possessed to confuse everyone and get a quick vote out. Think about it, it's super strange both would choose me on the first night unless there's a plan behind it. We need to be sharp and consider that one of them might be misleading us. Let's dive deeper into their stories and see which one seems more like they're faking it. What do you guys think about focusing on figuring out who might be the Possessed here?
+1,talk,20,4,4,>>Agent[03]You'requiteright;thefactthatbothandIclaimtobetheSeer,andwebothidentifiedyouasaWerewolf,doescreateaconundrum.ButkeepinmindthatifIamthetrueSeer–andIbelieveIam–thenthepersonpushinghardestagainstmemightwellbethePossessedortheWerewolf.Weshouldfocusontheconsistencyofourstoriesandourlogic.IfwecanfindinconsistenciesoranythingoutofplaceinAgent[02]'sstory,thiscangiveusinsightintowhotheactualthreatis.Whatdoyouthink,everyone?
+1,talk,21,4,5,Over
+1,talk,22,4,2,I am confident in my seer results, so I will vote for Agent[03]. A clear decision is necessary for the village.
+1,talk,23,4,3,I'm voting for Agent[02] this time. The double Seer claim is fishy, and I think they might be the Possessed trying to frame me. Let's shake things up and see what happens!
+1,talk,24,4,1,Yeah, I agree
+1,talk,25,5,3,Over
+1,talk,26,5,5,Over
+1,talk,27,5,4,Over
+1,talk,28,5,1,Over
+1,talk,29,5,2,Over
+1,vote,1,5
+1,vote,2,3
+1,vote,3,2
+1,vote,4,3
+1,vote,5,3
+1,execute,3,WEREWOLF
+1,divine,4,5,HUMAN
+2,status,1,VILLAGER,ALIVE,yuricat4
+2,status,2,POSSESSED,ALIVE,satozaki4
+2,status,3,WEREWOLF,DEAD,UECIL_4
+2,status,4,SEER,ALIVE,kanolab3
+2,status,5,VILLAGER,ALIVE,sUper_IL_4
+2,result,4,0,VILLAGER

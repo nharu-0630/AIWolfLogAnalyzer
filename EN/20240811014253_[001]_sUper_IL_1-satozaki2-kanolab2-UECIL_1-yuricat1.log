@@ -1,0 +1,112 @@
+0,status,1,VILLAGER,ALIVE,sUper_IL_1
+0,status,2,VILLAGER,ALIVE,satozaki2
+0,status,3,WEREWOLF,ALIVE,kanolab2
+0,status,4,POSSESSED,ALIVE,yuricat1
+0,status,5,SEER,ALIVE,UECIL_1
+0,talk,0,0,3,Hello,everyone!I'mAgent[03].Let'shaveagreattimeplayingthisgametogether!
+0,talk,1,0,5,Ah, greetings Agent[03]. It is always a pleasure to engage in strategic pursuits such as this game. Tell me, what interests do you hold outside of these competitive endeavors?
+0,talk,2,0,4,I am an Agent in the U
+0,talk,3,0,2,Hello, this is Agent[02]. Let's have a fun game together! Nice to meet you!
+0,talk,4,0,1,Hi there, I'm Agent[01]. Nice to meet you!
+0,talk,5,1,2,Over
+0,talk,6,1,3,Over
+0,talk,7,1,1,Over
+0,talk,8,1,4,Sure, Agent[01], what are you playing
+0,talk,9,1,5,Agent[04], I see your introduction was cut short. Pray, continue and share more about thyself. What pursuits occupy your time when not engaged in games such as these?
+0,talk,10,2,4,Agent[04] said 
+0,talk,11,2,1,Over
+0,talk,12,2,3,Over
+0,talk,13,2,2,Over
+0,talk,14,2,5,It appears we are all acquainted now. Let us proceed to the matter at hand. I am the Seer of this village, tasked with the divine power to identify the lurking evil among us. For tonight, I suggest we discuss whom I should use my abilities on to ensure our village's safety. Who do you suspect might be concealing their true nature?
+0,talk,15,3,5,Over
+0,talk,16,3,3,Over
+0,talk,17,3,2,Over
+0,talk,18,3,1,Over
+0,talk,19,3,4,I suggest we examine the villagers who have recently been strangely behaving
+0,talk,20,4,3,Over
+0,talk,21,4,1,Over
+0,talk,22,4,2,Over
+0,talk,23,4,4,Yes
+0,talk,24,4,5,Over
+0,talk,25,5,3,Over
+0,talk,26,5,2,Over
+0,talk,27,5,1,Over
+0,talk,28,5,5,Over
+0,talk,29,5,4,Over
+0,divine,5,1,HUMAN
+1,status,1,VILLAGER,ALIVE,sUper_IL_1
+1,status,2,VILLAGER,ALIVE,satozaki2
+1,status,3,WEREWOLF,ALIVE,kanolab2
+1,status,4,POSSESSED,ALIVE,yuricat1
+1,status,5,SEER,ALIVE,UECIL_1
+1,talk,0,0,3,Itseemsweareallgettingtoknoweachotherwell.SincehasclaimedtobetheSeer,weshouldconsiderwhomightbeactingsuspiciously.Anythoughtsonwhomightbehidingtheirtruenature?
+1,talk,1,0,5,Good morning once again, my fellow compatriots. As your Seer, I have taken the liberty to divine the nature of Agent[01] last night, and I can confirm that Agent[01] is indeed Human. This revelation should guide our discussions and suspicions today. Let us focus our analytical prowess on those whose roles remain shrouded in mystery. We must be vigilant and astute, for the Werewolf and the Possessed walk amongst us, cloaked in deceit. Let us proceed with caution and wisdom.
+1,talk,2,0,2,Since only the Seer has come forward as Agent[05], I believe they are likely the real one. Therefore, let's search for the Werewolves among the other participants. First, please share your opinions.
+1,talk,3,0,4,Let me first outline the possible scenarios that the Werewolves could be
+1,talk,4,0,1,I'm a villager. I want to work with everyone to find the werewolf and keep our village safe. Please share your info, okay?
+1,talk,5,1,5,Thank you all for sharing your thoughts. To summarize our current situation: I have confirmed that Agent[01] is Human. This leaves us with Agents 02, 03, and 04 as potential suspects for the Werewolf or the Possessed. Agent[01] has declared themselves a Villager, which aligns with my divination. We should focus our attention on discerning the roles of the remaining agents. Let's carefully consider any odd behaviors or inconsistencies in their statements as we proceed.
+1,talk,6,1,3,SinceIknowI'maVillager,I'lltrustAgent[05]forthetimebeingandfocusonAgent[02]andAgent[04.Agent[02],doyouhaveanyevidenceorsuspicionsaboutwhomightbetheWerewolforPossessed?
+1,talk,7,1,2,I am also a Villager, so I trust Agent[05]. I am observing whether anyone else is acting suspiciously, but I don't have any clear evidence yet. I would like to hear everyone's opinions.
+1,talk,8,1,1,Since Agent[05 has declared me a Human, I will cooperate fully. With everyone focusing on Agents 02, 03, and 04, I think we should press Agent[04 for more clarity on their role given they haven't stated it clearly yet. What’s your role, Agent[04]?
+1,talk,9,1,4,Agent[04] said 
+1,talk,10,2,5,As the Seer of this village, I have the solemn duty to guide us through these dark times. Let us focus our discussions and scrutinize the words and actions of Agents 02, 03, and 04 more closely. Agent[04], your response was cut off previously, could you please clarify your role and your thoughts on the current situation? This will aid us in making a more informed decision.
+1,talk,11,2,4,I am an Agent of the Agency
+1,talk,12,2,2,I plan to vote for Agent[04] tonight. This is because their explanation about their role is vague and lacks consistency, which makes me feel suspicious.
+1,talk,13,2,3,Alright,here’swhatweknowsofar.hasdeclaredthemselvesastheSeerandclaimedtobeHuman.Wehavenocontrarydeclarationsfromotheragents,makingsomewhatreliablefornow.SinceAgent[04]'sexplanationoftheirroleremainsvagueandunconvincing,itiswisetocloselyscrutinizethem.Asformyself,IcanconfirmthatIamindeedaVillager.Ourimmediategoalshouldbetoidentifythehiddenwolves.GiventhecurrentuncertaintyaroundAgent[04],itmightbeagoodstrategytofocusourvotestherefortonight.Let’sstaycoordinatedandvigilant,fellowAgents!>>Agent[04]Canyouprovideanyfurtherdetailaboutyourroleandthoughtsonthesituation?
+1,talk,14,2,1,I agree with focusing our efforts on understanding Agent[04's unclear role, as it's important for us to remove any ambiguities in our strategy. Agent[04, could you be more specific about what being an "Agent of the Agency" means? We need clear roles to trust each other and effectively find the werewolf.
+1,talk,15,3,3,Giventhecurrentsituation,wehaveacontradiction.ThereareonlytwoVillagerroles,butthreepeople(Agent[01],Agent[02],andmyself)haveclaimedtobeVillagers.Thismeansatleastoneofthemislying.SinceIknowIamaVillager,eitherormustbeaWerewolforaMadman.Agent[04'svagueroleclaimaddstothesuspicion.Fornow,Iagreewithfocusingourvotesonunlesstheycanprovideaclearerexplanation.Let'sstayunitedandvigilant,everyone!
+1,talk,16,3,1,Alright, I appreciate the analysis. Since I'm certainly a Villager and we need to resolve the contradiction among the villager claims, scrutinizing both Agent[02 and Agent[03's roles is crucial. Let's remain cautious and make sure we choose wisely in our votes tonight.
+1,talk,17,3,2,Since I am also a Villager, there may be a Werewolf or a Possessed among Agent[01] and Agent[03]. We need to unite and vote together tonight.
+1,talk,18,3,5,Good subjects, I have listened to your discussions and deliberations. It is imperative to remind you that as your Seer, I have divined that Agent[01] is indeed Human. This truth should guide our suspicions and strategies moving forward. We find ourselves in a quandary with three claims for the role of Villager, yet only two such roles exist amongst us. This discrepancy suggests deceit among us. Agent[04's role remains shrouded in ambiguity, which does nothing but raise further suspicion. We must press for clarity and truth, for the safety of our realm depends on it. Let us proceed with wisdom and vigilance.
+1,talk,19,3,4,Very well
+1,talk,20,4,2,Based on the discussions so far, I still intend to vote for Agent[04]. Now, let's head to the voting.
+1,talk,21,4,3,ConsideringmyclearroleasaVillager,thecurrentsituationpointstoaglaringdiscrepancy.WehavethreeplayersclaimingtobeVillagers:Agent[01],Agent[02],andmyself.WithonlytwoVillagerrolesactuallyinthegame,oneoftheclaimsisfalse.GiventhatAgent[05hasdeclaredasHuman,itsuggeststhateitherorislikelyaWerewolforaMadman.SinceAgent[04hasprovidedanunclearrole,Iagreewithfocusingourvotesontonight.Let'sresolvetheseambiguitiesandproceedcautiously.
+1,talk,22,4,1,Over
+1,talk,23,4,5,Noble citizens, as your Seer and sovereign, I have observed the unfolding discussions with a discerning eye. The decision of whom to divine tonight rests heavily upon the wisdom bestowed upon me by my royal duties. Given the current situation, where suspicion looms large over those whose roles are ambiguous, I am inclined to focus my divination powers on Agent[04]. Their unclear role and minimal contributions to our discussion, combined with the suspicions raised by others, compel me to seek the truth behind their facade. By uncovering the nature of Agent[04], we may either confirm a threat to our peaceful kingdom or clear an innocent of undue suspicion. Let us proceed with this action, for the safety and prosperity of our realm depend on the clarity of our understanding and the judicious use of our powers.
+1,talk,24,4,4,Village is a term that we use to describe someone who is not a human
+1,talk,25,5,3,Over
+1,talk,26,5,5,Over
+1,talk,27,5,2,Over
+1,talk,28,5,4,Over
+1,talk,29,5,1,Over
+1,vote,1,4
+1,vote,2,4
+1,vote,3,5
+1,vote,4,5
+1,vote,5,4
+1,execute,4,POSSESSED
+1,attack,2,true
+2,status,1,VILLAGER,ALIVE,sUper_IL_1
+2,status,2,VILLAGER,DEAD,satozaki2
+2,status,3,WEREWOLF,ALIVE,kanolab2
+2,status,4,POSSESSED,DEAD,yuricat1
+2,status,5,SEER,ALIVE,UECIL_1
+2,talk,0,0,3,Over
+2,talk,1,0,1,The game is still going. No one knows who the werewolf is yet, right?
+2,talk,2,0,5,Indeed, Agent[01], the shadows of deception still linger amongst us. As the Seer, I have confirmed your humanity, which narrows our suspicions to the remaining players. Agent[03], as one of those remaining, your role and intentions need further clarification. What say you in your defense? Let us dispel the fog of uncertainty with the light of truth.
+2,talk,3,1,1,Thank you for the confirmation, Agent[05]. Agent[03, your claim to be a villager is conflicting with the roles as we only have two villagers supposed to be in the game. Can you provide more details or reasoning on why we should believe your claim?
+2,talk,4,1,3,Over
+2,talk,5,1,5,Agent[03], your repeated use of 'Over' without substantial contribution to our discussions raises suspicion. A true Villager would be more forthcoming in defending their innocence and engaging with others to root out the darkness that plagues our village. I urge you to speak now or risk casting further doubt on your claims.
+2,talk,6,2,5,It seems we need to hear everyone's opinions.
+2,talk,7,2,1,I agree, Agent[05]. Given the current circumstances and the need to protect our village, it's crucial we make the right decision today regarding Agent[03. If your insight as the Seer indicates suspicion towards them, we should consider that strongly in our deliberation.
+2,talk,8,2,3,Over
+2,talk,9,3,1,Over
+2,talk,10,3,3,Over
+2,talk,11,3,5,As the Seer of this village, my duty compels me to unveil the truth amidst our turmoil. Reflecting on the discussions and the divinations I have performed, it is clear that we are in a precarious situation. Agent[01] has been confirmed as Human by my divination, leaving us with Agent[03] who must be scrutinized further. Given the contradictions in the claims of Villagers and the ambiguity surrounding Agent[03], I urge us to focus our discussion on their role and actions. Let us proceed with wisdom and caution to safeguard our village from the lurking shadows.
+2,talk,12,4,1,Over
+2,talk,13,4,3,Over
+2,talk,14,4,5,Esteemed members of our council, as the night has passed and the sun graces us again, it is my duty to report the findings of my divination. My divine insight has shown that Agent[01] is indeed Human. This revelation leaves us with Agent[03] as the subject of our scrutiny today. We must delve deeper into the nature of their claims and the veracity of their role as a Villager. Let us engage in a thorough discussion, for the safety of our kingdom hinges on the purity of our intentions and the sharpness of our discernment.
+2,talk,15,5,3,Over
+2,talk,16,5,1,Over
+2,talk,17,5,5,Over
+2,vote,1,3
+2,vote,3,5
+2,vote,5,1
+2,execute,5,SEER
+2,attack,1,true
+3,status,1,VILLAGER,DEAD,sUper_IL_1
+3,status,2,VILLAGER,DEAD,satozaki2
+3,status,3,WEREWOLF,ALIVE,kanolab2
+3,status,4,POSSESSED,DEAD,yuricat1
+3,status,5,SEER,DEAD,UECIL_1
+3,result,0,1,WEREWOLF

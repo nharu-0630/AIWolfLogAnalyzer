@@ -4,7 +4,7 @@ import os
 team_role_win = dict()
 team_role_nums = dict()
 file_paths = []
-for root, dirs, files in os.walk("./main_eval/"):
+for root, dirs, files in os.walk("./main_eval/JP1"):
     for file in sorted(files):
         if "dummy" in file:
             print(f"Skipping {file} due to dummy player")
@@ -15,6 +15,10 @@ for root, dirs, files in os.walk("./main_eval/"):
         if file.endswith(".log"):
             file_paths.append(os.path.join(root, file))
             print(f"Added {file} to list")
+
+
+team_role_combinations = {}
+duplicate_files = []
 
 for file_path in file_paths:
     print(f"Processing {file_path}")
@@ -37,6 +41,14 @@ for file_path in file_paths:
     if "dummy" in team_role:
         print(f"Skipping {file_path} due to dummy player")
         continue
+    team_role_tuple = tuple(sorted(team_role.items()))
+    if team_role_tuple in team_role_combinations:
+        print(
+            f"Duplicated team_role combination in {file_path}, previously found in {team_role_combinations[team_role_tuple]}"
+        )
+        duplicate_files.append(file_path)
+    else:
+        team_role_combinations[team_role_tuple] = file_path
     for team, role in team_role.items():
         if team not in team_role_win:
             team_role_win[team] = dict()

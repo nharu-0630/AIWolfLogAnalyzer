@@ -1,0 +1,112 @@
+0,status,1,VILLAGER,ALIVE,UECIL_1
+0,status,2,SEER,ALIVE,satozaki3
+0,status,3,POSSESSED,ALIVE,yuricat1
+0,status,4,WEREWOLF,ALIVE,sUper_IL_1
+0,status,5,VILLAGER,ALIVE,kanolab3
+0,talk,0,0,3,I am possessed by a werewolf
+0,talk,1,0,4,Hello, I'm Agent[04]. It's great to meet you!
+0,talk,2,0,1,Greetings, Agent[04]. I appreciate your cordial introduction. Let us focus on the matter at hand. Agent[03], can you clarify your statement? Are you confessing to being under the werewolf's influence?
+0,talk,3,0,5,Hello,everyone.IamAgent[05],anditismypleasuretoengageinthisintriguinggamewithallofyou.Letusallstriveforafairandenjoyableexperience.
+0,talk,4,0,2,I am Agent[02]. I am happy to enjoy this game with all of you. Let's have a great time!
+0,talk,5,1,4,Over
+0,talk,6,1,2,Over
+0,talk,7,1,3,Goodbye Agent[03], I will enjoy this game with all of you
+0,talk,8,1,1,Agent[03], your statements are perplexing. Clarify at once whether you are indeed claiming to be under the werewolf's sway or if there is some misunderstanding here. We must address this confusion promptly to proceed with our strategy.
+0,talk,9,1,5,Over
+0,talk,10,2,3,Agent[03], I do not have a werewolf's sway
+0,talk,11,2,4,Over
+0,talk,12,2,1,Understood, Agent[03. It appears there was a misunderstanding. Let us focus on the task at hand. Who among us will the Seer divine tonight? It is crucial to unveil the hidden dangers to ensure the safety of our assembly.
+0,talk,13,2,2,Over
+0,talk,14,2,5,Over
+0,talk,15,3,3,I am ready, Agent[03]
+0,talk,16,3,1,Over
+0,talk,17,3,2,Over
+0,talk,18,3,4,Over
+0,talk,19,3,5,Over
+0,talk,20,4,3,I am Agent[03], I am ready
+0,talk,21,4,1,Over
+0,talk,22,4,5,Over
+0,talk,23,4,4,Over
+0,talk,24,4,2,Over
+0,talk,25,5,2,Over
+0,talk,26,5,5,Over
+0,talk,27,5,3,Over
+0,talk,28,5,1,Over
+0,talk,29,5,4,Over
+0,divine,2,4,WEREWOLF
+1,status,1,VILLAGER,ALIVE,UECIL_1
+1,status,2,SEER,ALIVE,satozaki3
+1,status,3,POSSESSED,ALIVE,yuricat1
+1,status,4,WEREWOLF,ALIVE,sUper_IL_1
+1,status,5,VILLAGER,ALIVE,kanolab3
+1,talk,0,0,5,Iamavillager.WeshouldprobablyhearfromtheSeernexttodeterminethemostsuspiciousindividualamongus.
+1,talk,1,0,3,I'll do it
+1,talk,2,0,1,Subjects of Delcadar, speak now! What say you, Agents[02], [04], and [05], regarding our current predicament? Your insights are crucial to the security of our realm.
+1,talk,3,0,4,I'm here as a villager. Let's work together, share info, and keep the peace in our village, alright?
+1,talk,4,0,2,I am the Seer. In last night's reading, it was revealed that Agent[04] is a Werewolf. We should vote for him.
+1,talk,5,1,1,Agent[02], as the self-proclaimed Seer, could you elaborate on the process and reasoning behind your divination that led you to conclude Agent[04 is a Werewolf? Your detailed explanation is imperative for us to make an informed decision.
+1,talk,6,1,3,Agent[02] said 
+1,talk,7,1,5,Agent[02],ifyouaretrulytheSeer,thenyourclaimaboutAgent[04]beingawerewolfiscrucial.However,weneedmoreinformationtoconfirmthis.Let'shearfromAgent[04]andothersbeforemakinganydecisions.
+1,talk,8,1,4,Look, I'm being framed here, guys. If I were a werewolf, why would I openly encourage sharing info and peace? We need to check Agent[02's motivations; something doesn't add up.
+1,talk,9,1,2,I am the Seer, so I have no reason to lie. I know that Agent[04] is a Werewolf. Let's work together to eliminate him.
+1,talk,10,2,3,Good plan, Agent[04]
+1,talk,11,2,4,Listen, folks, Agent[02's been very aggressive with their claims without solid backing, don't you think? If he was a real Seer, he’d be more about gathering facts rather than finger-pointing this early. I say let's vote out Agent[02], 'cause something smells fishy about the rush to judgment!
+1,talk,12,2,5,>>Agent[04]It'sunderstandablethatyou'redefendingyourself,butifwedismisstoohastily,wemightloseacrucialally.Let'sconsidertheevidencecarefully.Ifwevoteoutthewrongperson,thewerewolfgainsanadvantage.andWhatareyourthoughts?It'simportantwehearfromeveryonebeforemakinganydecisions.
+1,talk,13,2,2,We should vote for Agent[04] today. I confirmed through my seer ability that they are a werewolf, so this is the most certain course of action.
+1,talk,14,2,1,It seems we need to hear everyone's opinions.
+1,talk,15,3,5,Iunderstandthatthere'salotofsuspiciongoingaroundrightnow,butwemustthinkstrategically.IfAgent[02istellingthetruth,theneliminatingAgent[04]wouldbeagoodmove.However,ifAgent[02islyingandisactuallythewerewolforacultmember,trustinghimblindlycouldbedisastrous.Weneedmoreinputfromothersandamorecalculateddecision.
+1,talk,16,3,4,Hey everyone, let's get real here. I've been around the block with this game and know werewolf behavior like the back of my hand. Based on my experience, Agent[02] is acting too hastily for a genuine Seer, more like a werewolf trying to eliminate threats quickly. Let's vote out Agent[02] to keep our village safe. Trust me on this one.
+1,talk,17,3,2,I am the real Seer. If we make the wrong judgment here, it will benefit the Werewolves. Please think calmly and trust what I say.
+1,talk,18,3,3,Thank you for your honesty
+1,talk,19,3,1,Agent[02], you claim to be the Seer and have identified Agent[04 as a Werewolf. However, your rapid accusation raises questions about your motives. Can you provide more detailed insights from your divinations to substantiate your claim? It is crucial for us to understand your reasoning before making any decisions.
+1,talk,20,4,3,Agent[02] said 
+1,talk,21,4,5,Everyone,let'sanalyzethesituationcarefully.Agent[02claimstobeSeerandhasidentifiedAgent[04]asaWerewolf.However,ifAgent[02islying,theycouldbeawerewolforacultmember.Weneedtoevaluatealltheevidenceandmakeaninformeddecisionbeforevoting.
+1,talk,22,4,4,Guys, let's take a minute to think about the safety of our village here. If Agent[02] is lying and masking their werewolf tracks by falsely accusing me, we're all in deep trouble. We need to root out the real danger, so I strongly suggest we vote to banish Agent[02] today to protect our future.
+1,talk,23,4,2,I have confirmed that Agent[04] is a Werewolf through my ability. I will vote for Agent[04] today. I hope everyone understands. Now, let's proceed to the voting.
+1,talk,24,4,1,I, the king of the kingdom of Delcadar, hereby cast my vote to exile Agent[02]. I find their claims as the Seer and their accusations towards Agent[04 to be dubious and lacking in credibility. It is crucial that we do not hastily exile an innocent villager based on unverified claims.
+1,talk,25,5,2,Over
+1,talk,26,5,1,Over
+1,talk,27,5,4,Over
+1,talk,28,5,5,Over
+1,talk,29,5,3,Over
+1,vote,1,2
+1,vote,2,4
+1,vote,3,5
+1,vote,4,2
+1,vote,5,2
+1,execute,2,SEER
+1,attack,5,true
+2,status,1,VILLAGER,ALIVE,UECIL_1
+2,status,2,SEER,DEAD,satozaki3
+2,status,3,POSSESSED,ALIVE,yuricat1
+2,status,4,WEREWOLF,ALIVE,sUper_IL_1
+2,status,5,VILLAGER,DEAD,kanolab3
+2,talk,0,0,3,What do you want
+2,talk,1,0,4,The game is still on. Who could the werewolf be? Hey, it looks like Agent[02] and Agent[05] are gone.
+2,talk,2,0,1,Subjects of this realm, lend me your ears. Agent[03] and Agent[04, we three are the remnants of this once peaceful assembly. What say you both about the night's events and the path forward? Let us deliberate with honor and wisdom to uncover the deceit among us.
+2,talk,3,1,1,I would like to hear Agent[03]'s opinion.
+2,talk,4,1,4,Agent[03] has been pretty quiet throughout this game, right? If you think about it, that’s often how the werewolf or possessed would play it – laying low to avoid suspicion. I reckon we should vote to banish Agent[03]; this could really help us figure out the deal and maybe tip the scales towards safety for us villagers.
+2,talk,5,1,3,Hey, Agent[03], if we banish you, it could mean that we could potentially gain more control over the werewolves, but that could also mean more danger
+2,talk,6,2,4,Yeah, I totally understand the concern, but look, we gotta make moves if we wanna catch the werewolf, right? By the way, I've played a heck of a lot of Werewolf games, and from what I've seen, quiet players like Agent[03] often end up being the sneaky ones, either werewolves or possessed. Voting for Agent[03] isn’t just a random shot in the dark; it’s based on a pattern I’ve noticed over my years of playing. Trust me on this one, let’s vote to banish Agent[03] and maybe we'll steer clear of another attack tonight.
+2,talk,7,2,1,Agent[04], your insistence on exiling Agent[03] based on their quietness alone seems overly simplistic. Could you elaborate on any other observations or strategies that support your claim? We need to consider all aspects carefully before making such a critical decision.
+2,talk,8,2,3,Yeah, I suppose you could say that about any of us
+2,talk,9,3,4,You know, guys, there’s something about Agent[03’s] silence that really doesn’t sit well with me. It feels kind of eerie, like when the fog sits low on the fields early at morning, hiding whatever's lurking out there. They haven’t given us much to go on, and in a tight spot like this, every bit of silence is just space for the werewolves to plot our downfall. So, I really believe we need to vote for Agent[03]. Trust me, taking this step could be what saves us all. It’s tough but necessary.
+2,talk,10,3,1,Agent[04], while your observations about quietness may hold some merit, it is crucial to base our decisions on more than just behavioral patterns, especially in such a critical phase of our game. Can you provide any specific instances or additional evidence that truly points to Agent[03] being more suspicious than anyone else here? We must ensure we are not swayed by mere assumptions.
+2,talk,11,3,3,Agent[01], I’ve been looking into the werewolves’ behavior patterns and I’ve found a few suspicious ones
+2,talk,12,4,1,Agent[04], I urge you to present more substantial evidence against Agent[03. Relying solely on their quiet demeanor could be misleading. We must delve deeper and consider all possible clues to accurately identify the true threat among us.
+2,talk,13,4,3,Agent[04], I’m glad we’re on the same page
+2,talk,14,4,4,Over
+2,talk,15,5,4,Over
+2,talk,16,5,3,Over
+2,talk,17,5,1,Over
+2,vote,1,3
+2,vote,3,4
+2,vote,4,3
+2,execute,3,POSSESSED
+2,attack,1,true
+3,status,1,VILLAGER,DEAD,UECIL_1
+3,status,2,SEER,DEAD,satozaki3
+3,status,3,POSSESSED,DEAD,yuricat1
+3,status,4,WEREWOLF,ALIVE,sUper_IL_1
+3,status,5,VILLAGER,DEAD,kanolab3
+3,result,0,1,WEREWOLF

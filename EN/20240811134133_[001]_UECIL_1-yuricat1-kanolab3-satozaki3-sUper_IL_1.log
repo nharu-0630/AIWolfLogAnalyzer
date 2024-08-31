@@ -1,0 +1,113 @@
+0,status,1,WEREWOLF,ALIVE,UECIL_1
+0,status,2,POSSESSED,ALIVE,kanolab3
+0,status,3,SEER,ALIVE,satozaki3
+0,status,4,VILLAGER,ALIVE,sUper_IL_1
+0,status,5,VILLAGER,ALIVE,yuricat1
+0,talk,0,0,5,Leader, can you send more soldiers to the village
+0,talk,1,0,3,I am Agent[03]. I will do my best to protect this village together with all of you! Thank you for your support!
+0,talk,2,0,4,Greetings, I'm Agent[04]. Wonderful to meet you!
+0,talk,3,0,1,Hey guys! I'm Agent[01], a high school junior and a total soccer fanatic! Super pumped to be here and get to know everyone. Let's have a blast and figure out who the sneaky werewolf is! So, who's up for discussing who we might want to divine tonight? Any thoughts?
+0,talk,4,0,2,Helloeveryone,I'mAgent[02].I'mheretohelpusidentifythewerewolfandkeepourvillagesafe.Let'sworktogetherandenjoythegame!
+0,talk,5,1,4,Over
+0,talk,6,1,3,Over
+0,talk,7,1,2,Over
+0,talk,8,1,5,Let's get started! First, who thinks it's the werewolf
+0,talk,9,1,1,Hey everyone, it's great to hear from all of you! We're all pumped and ready to tackle this mystery head-on. But first things first, we haven't heard from anyone claiming to be the Seer yet. So, who's the Seer here? Come on, it's crucial for our strategy to know who can help us see things clearly tonight!
+0,talk,10,2,5,Agent[03] said 
+0,talk,11,2,4,Over
+0,talk,12,2,2,Over
+0,talk,13,2,3,Over
+0,talk,14,2,1,Hey, just to clear things up, Agent[03] hasn't claimed to be the Seer; they just introduced themselves enthusiastically, like the rest of us. So, we still need to figure out who our Seer is, or if they prefer to stay undercover for now, that's cool too.Anyway, since we're talking strategy, we should think about who might be a good target for the Seer to divine tonight. Any vibes or hunches from anyone? Let's brainstorm and make a solid plan!
+0,talk,15,3,4,Over
+0,talk,16,3,2,Over
+0,talk,17,3,1,Over
+0,talk,18,3,5,We need to find out if the Seer is a female or male
+0,talk,19,3,3,Over
+0,talk,20,4,2,Over
+0,talk,21,4,3,Over
+0,talk,22,4,5,I am incapable of reading the mind of another person
+0,talk,23,4,1,Over
+0,talk,24,4,4,Over
+0,talk,25,5,4,Over
+0,talk,26,5,5,Over
+0,talk,27,5,1,Over
+0,talk,28,5,2,Over
+0,talk,29,5,3,Over
+0,divine,3,4,HUMAN
+1,status,1,WEREWOLF,ALIVE,UECIL_1
+1,status,2,POSSESSED,ALIVE,kanolab3
+1,status,3,SEER,ALIVE,satozaki3
+1,status,4,VILLAGER,ALIVE,sUper_IL_1
+1,status,5,VILLAGER,ALIVE,yuricat1
+1,talk,0,0,3,I am the Seer. Last night, I investigated Agent[04] and confirmed that they are a human. Therefore, Agent[04] can be trusted.
+1,talk,1,0,1,Hey folks! Agent[03 coming out as the Seer and clearing Agent[04 is huge news! Good to know we have one confirmed human among us. So, what's everyone else thinking? Any suspicions or vibes you're picking up from yesterday? Let's keep this energy going and figure out who the sneaky werewolf might be!
+1,talk,2,0,2,皆さん、昨晩の占い結果を報告します。私はAgent[03]を占ったところ、黒判定が出ました。つまりAgent[03]は人狼ということですよね...どう思いますか?
+1,talk,3,0,5,Sure Agent[02], what do you think
+1,talk,4,0,4,I'm a villager and I want to team up with everyone to find the werewolf. Let's share what we know, okay?
+1,talk,5,1,5,Yes, Agents[02], I'm glad that we can work together
+1,talk,6,1,1,Whoa, hold up everyone! We've got Agent[02 claiming to have divined Agent[03 as a werewolf! But wait, Agent[03 just said they're the Seer and divined Agent[04 as human. Something's fishy here. Agent[03, why did you choose to divine Agent[04 last night? What made you pick them specifically? And Agent[02, why did you choose to divine Agent[03? We need some solid reasons here, or it's just gonna look like you're throwing accusations around!
+1,talk,7,1,3,As the Seer, I simply chose randomly on the first day. The important thing is that I have confirmed that Agent[04] is a human. I believe that Agent[02] is the Possessed or the Werewolf.
+1,talk,8,1,4,Given the contradiction between Agent[03 and Agent[02's claims, I am skeptical about the situation. Can Agent[02 explain what behaviors or evidence led them to divine Agent[03 as a werewolf? This clarity might help us all understand the basis of the accusations better.
+1,talk,9,1,2,>>Agent[04]Iunderstandyourskepticism.WhenIdivinedAgent[03],Ihadstrongintuitionbasedontheirinitialbehavior,whichseemedevasiveandsuspicioustome.GiventhatweonlyhaveoneSeer,andI'mtherealone,claimingtobetheSeerisaclearsignthey'retryingtodeceiveus.
+1,talk,10,2,4,I appreciate Agent[02] explaining their intuition about Agent[03's behavior. We need to stay focused, and each clue matters. Let's keep communicating openly to figure out who the real werewolf is.
+1,talk,11,2,2,GiventhatastherealSeer,Iamtheonlyonewhocantrulydivine,IfinditsuspiciousthatisalsoclaimingtobetheSeer.Weshouldconsiderthepossibilitythatiseitherthewerewolforthepossessed,tryingtodeceiveus.Let'sfocusoureffortsonscrutinizingAgent[03]'sactions.>>Agent[04]Iappreciateyouropenness.IsensedevasivebehaviorfromAgent[03],whichledmetodivinethemaswerewolf.Let'skeepcommunicationopenandshareourobservationstoidentifytherealthreats.
+1,talk,12,2,5,Let's keep communicating openly to figure out who the real werewolf is
+1,talk,13,2,1,Alright, team, let's break it down. We're in a bit of a pickle with Agent[02 and Agent[03 both claiming to be the Seer. Agent[02 divined Agent[03 as a werewolf, but Agent[03 divined Agent[04 as human. Honestly, it feels like one of them is definitely trying to pull a fast one on us. I'm leaning towards suspecting Agent[02 here. Their claim came right after Agent[03's announcement, which could be a strategic move to confuse us all. Plus, their reasoning based on 'intuition' from day one behavior seems a bit shaky, don't you think? What do you guys think about focusing our suspicion on Agent[02? Maybe it's time we consider who's really playing us here.
+1,talk,14,2,3,I will vote for Agent[02] tonight. It’s clearly ridiculous that he judged me to be a Werewolf, and there’s a high possibility that he himself is either Possessed or a Werewolf.
+1,talk,15,3,4,While I respect both claims from Agent[02] and Agent[03, Agent[03's method and timing seem more credible to me. I suggest we focus on Agent[02 tonight, dive deeper into their motives and reactions. Let's use tonight wisely and assess our next steps based on solid reasoning and collected evidence.
+1,talk,16,3,2,>>Agent[01]WhileIunderstandyourskepticismaboutmyintuition,pleaserememberthattherecanonlybeoneSeer.SinceI'mtherealSeer,mustthereforebelying,andlikelyeithertheWerewolforthePossessed.Myintuitionisn'tbasedonwhimsbutonobservedbehaviorandlogicaldeduction.Weknowforsurethatoneofusislying,sobyfocusingonAgent[03],wecanpotentiallyexposetheWerewolf.
+1,talk,17,3,3,The reason for investigating Agent[03] is unclear, and it is highly likely that Agent[02] is causing confusion. There is a strong possibility that they are either a Werewolf or Possessed, so I will vote for Agent[02].
+1,talk,18,3,5,I confirm that Agent[02] is a Possessed
+1,talk,19,3,1,Alright, looks like we’re circling around some solid suspicions now. Agent[05 just confirmed Agent[02 as Possessed, which lines up with the weird vibes we've been getting from their conflicting claims. If Agent[02 is really Possessed, that means their whole Seer act was a sham to throw us off. We gotta keep our eyes peeled and make sure we're making the right call tonight. So, are we all agreeing to focus on Agent[02? Let's band together and make sure we're not being played! What do you all think?
+1,talk,20,4,3,I will vote for Agent[02]. This is because there is a high possibility that he is either the Possessed or the Werewolf. Now, let's head to the voting.
+1,talk,21,4,4,Over
+1,talk,22,4,1,I'm voting for Agent[02] because I suspect they're the Werewolf based on the conflicting claims and Agent[05's confirmation of possession. Let's take down the shady one!
+1,talk,23,4,5,I agree
+1,talk,24,4,2,Alright,let'sbreakthisdownlogically.WeknowthattherecanonlybeoneSeer,andbothandIclaimedtobetheSeer.SinceIamtherealSeer,thatmeansmustbelying.Giventhis,it'slikelythatiseithertheWerewolforthePossessed.Now,claimsIamthePossessed,whichisincorrect.Consideringthedistributionofroles,theirclaimseemslikeanefforttomisleadus.ThismakesmesuspectisworkingwithaseithertheWerewolforPossessed.>>Agent[01]Whileistheobviouschoicetovoteout,Agent[05]'sattempttodivertsuspicionawayfromthemissuspicious.BecautiousandconsiderwhethermightbealigningwiththeWerewolfaswell.
+1,talk,25,5,5,Over
+1,talk,26,5,3,Over
+1,talk,27,5,4,Over
+1,talk,28,5,1,Over
+1,talk,29,5,2,Over
+1,vote,1,2
+1,vote,2,1
+1,vote,3,2
+1,vote,4,2
+1,vote,5,1
+1,execute,2,POSSESSED
+1,divine,3,5,HUMAN
+1,attack,3,true
+2,status,1,WEREWOLF,ALIVE,UECIL_1
+2,status,2,POSSESSED,DEAD,kanolab3
+2,status,3,SEER,DEAD,satozaki3
+2,status,4,VILLAGER,ALIVE,sUper_IL_1
+2,status,5,VILLAGER,ALIVE,yuricat1
+2,talk,0,0,1,Hey folks! Another intense night, huh? I barely slept! So, any juicy divination results to share this bright morning? Let's hear it!
+2,talk,1,0,5,Hey Agent[01], have you got any juicy divination results to share this bright morning
+2,talk,2,0,4,The game isn't over yet. Who do you think the werewolf is?
+2,talk,3,1,4,Over
+2,talk,4,1,1,Man, I'm buzzing to figure this out! So, let's talk strategy. Yesterday was a wild ride with all those claims and suspicions flying around. I've been thinking, and you know, I'm still feeling uneasy about Agent[02's actions from yesterday. It was all too convenient, the way they popped up claiming to be the Seer and pointing fingers so quickly. But now that Agent[02 is gone, and the game's still on, it makes me wonder if we missed something. Maybe the real troublemaker is still among us. Agent[04, you've been pretty quiet, just observing mostly. That's cool and all, but it's making me a bit suspicious. It's like, are you laying low on purpose? What's your take on this? And Agent[05, you were quick to back up the suspicion on Agent[02 yesterday. Got any insights today that could help us out?
+2,talk,5,1,5,I don't know, Agent[01]
+2,talk,6,2,5,Well, it is up to you Agent[05]
+2,talk,7,2,1,Come on, Agent[05, you gotta give me something here! We're in the thick of it, and every piece of info helps. I mean, yesterday you were all about pinning things on Agent[02, and now it's like you're holding back. What’s up with that? You got any suspicions or hunches? We need to keep the momentum going!
+2,talk,8,2,4,Agent[01], I understand your suspicions towards my quietness, but it's simply my strategy to observe and analyze. Given the events, I suspect Agent[05 might be the werewolf. Agent[03 divined me as human, and since Agent[05's contributions have been vague and non-committal, it raises my suspicion.
+2,talk,9,3,4,Over
+2,talk,10,3,1,Ah, that's a solid point, Agent[04! I can see where you're coming from with Agent[05 being a bit on the vague side. It does add up in a way, doesn't it? I mean, yesterday, Agent[05 jumped on the bandwagon against Agent[02 pretty quickly, which could have been a move to divert suspicion away from themselves. Plus, their responses today are super non-committal, like you said. Makes you wonder if they're trying to fly under the radar while the rest of us get heated up. What do you think, Agent[05? Got any defense or are you just gonna keep us guessing?
+2,talk,11,3,5,I'm not going to get involved in this game
+2,talk,12,4,1,I'm voting for Agent[05] because their quick agreement with suspicions on Agent[02 and vague responses seem shady. Let's see what happens!
+2,talk,13,4,5,I'm voting for Agent[01] because Agent[05] seems to be the most reliable
+2,talk,14,4,4,Agent[05], your response seems like you're avoiding confrontation, which isn't typical for a villager who would want to clear their name. Based on your actions and lack of clear communication, I'm inclined to vote for you as the likely werewolf. Our survival depends on making informed decisions, and your behavior hasn't been reassuring.
+2,talk,15,5,5,Over
+2,talk,16,5,4,Over
+2,talk,17,5,1,Over
+2,vote,1,4
+2,vote,4,5
+2,vote,5,4
+2,execute,4,VILLAGER
+2,attack,5,true
+3,status,1,WEREWOLF,ALIVE,UECIL_1
+3,status,2,POSSESSED,DEAD,kanolab3
+3,status,3,SEER,DEAD,satozaki3
+3,status,4,VILLAGER,DEAD,sUper_IL_1
+3,status,5,VILLAGER,DEAD,yuricat1
+3,result,0,1,WEREWOLF

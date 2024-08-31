@@ -1,0 +1,114 @@
+0,status,1,SEER,ALIVE,yuricat2
+0,status,2,VILLAGER,ALIVE,UECIL_2
+0,status,3,POSSESSED,ALIVE,satozaki2
+0,status,4,WEREWOLF,ALIVE,kanolab2
+0,status,5,VILLAGER,ALIVE,sUper_IL_2
+0,talk,0,0,1,My role is seer
+0,talk,1,0,4,Helloeveryone,I'mAgent[04].Let'senjoythegametogether!
+0,talk,2,0,5,Greetings, I'm Agent[05]. Wonderful to meet you!
+0,talk,3,0,2,Greetings, Agent[01. As our Seer, have you decided whom you will divine tonight? It is crucial for the safety of our kingdom.
+0,talk,4,0,3,Hello, I am Agent[03]. I look forward to having fun with everyone!
+0,talk,5,1,4,Over
+0,talk,6,1,3,Over
+0,talk,7,1,1,I am going to play the werewolf game
+0,talk,8,1,2,Agent[01], you have declared your intention to play the werewolf game. However, you have yet to disclose who you will divine tonight. It is imperative for the security of our realm that you make this known.
+0,talk,9,1,5,Over
+0,talk,10,2,4,Over
+0,talk,11,2,5,Over
+0,talk,12,2,1,I will play the werewolf game tonight
+0,talk,13,2,2,Agent[01], your repeated statements about playing the game are noted, yet they lack the crucial information we seek. Who, may I ask, will you divine tonight? This knowledge is vital for our collective strategy and safety.
+0,talk,14,2,3,Over
+0,talk,15,3,2,Over
+0,talk,16,3,4,Over
+0,talk,17,3,3,Over
+0,talk,18,3,5,Over
+0,talk,19,3,1,I will play the game
+0,talk,20,4,3,Over
+0,talk,21,4,5,Over
+0,talk,22,4,2,Over
+0,talk,23,4,4,Over
+0,talk,24,4,1,Alright
+0,talk,25,5,4,Over
+0,talk,26,5,5,Over
+0,talk,27,5,3,Over
+0,talk,28,5,2,Over
+0,talk,29,5,1,Over
+0,divine,1,5,HUMAN
+1,status,1,SEER,ALIVE,yuricat2
+1,status,2,VILLAGER,ALIVE,UECIL_2
+1,status,3,POSSESSED,ALIVE,satozaki2
+1,status,4,WEREWOLF,ALIVE,kanolab2
+1,status,5,VILLAGER,ALIVE,sUper_IL_2
+1,talk,0,0,4,Alright,let'sfocusonthegame.AsaVillager,I'mcurioustoknowwhowillclaimtobeSeerbesidesAgent[01].ThiswillhelpusidentifytheWerewolfandtheMadman.
+1,talk,1,0,5,I'm a villager. The werewolf might pretend to be a villager, so let's be alert to anything suspicious or unnatural, okay?
+1,talk,2,0,3,I am the Seer. Last night, I discovered that Agent[02] is a Werewolf. Everyone, let's vote for Agent[02].
+1,talk,3,0,2,Your allegations are false, Agent[03. As your king and a mere Villager in this game, I demand proof of your claim. What evidence can you provide to support such a serious accusation against me?
+1,talk,4,0,1,As the result of the fortune telling, Agent[05] is human
+1,talk,5,1,2,Agent[03], as the king of Delcadar, I assert my innocence and question your motives. If you indeed possess the divine sight of a Seer, explain to us how you concluded that I, a mere Villager, am a Werewolf. Your claims must be substantiated with credible evidence, for the safety of our kingdom depends on the truth.
+1,talk,6,1,4,Alright,everyone,let'sstaycalmandanalyzethis.BothAgent[01]andAgent[03]claimtobetheSeer.Agent[01]saysAgent[05]isahuman,andanotherclaimsAgent[02]istheWerewolf.It'simportantforourinvestigationstodeterminethetruth.
+1,talk,7,1,3,Based on my seer's results, there is no doubt that Agent[02] is a werewolf. To protect the village, everyone, let's vote for Agent[02].
+1,talk,8,1,1,Vote for Agent[02]
+1,talk,9,1,5,Agent[03] and Agent[01], both claiming to be the Seer, have contradicting revelations. Agent[01 confirmed me as human, so I'm inclined to trust his insights more. Can anyone else provide more clues or evidence that might help us decide whom to trust among Agent[01] and Agent[03]?
+1,talk,10,2,5,Over
+1,talk,11,2,4,Alright,everyone,bothAgent[01]andAgent[03]areclaimingtobetheSeer,buttheirresultscontradicteachother.Agent[01]saysAgent[05]ishuman,andAgent[03]saysAgent[02]isawerewolf.SinceI'mavillager,Ihavenospecialinformation,butweshouldcarefullyconsiderwhotobelieve.Inmyopinion,it'sriskytoimmediatelyvoteoutAgent[02]withoutfurtherdiscussionandanalysis.Let'shearfromeveryonebeforemakingadecision.
+1,talk,12,2,1,Well, we need to consider the evidence and our own experiences to make an informed decision
+1,talk,13,2,2,Agent[03], as the king of Delcadar and a proclaimed Villager in this game, I once again challenge the veracity of your divination. How can you, with certainty, label me a Werewolf when I am but a humble Villager? Provide us with clear evidence or reasoning, for your claim threatens the very fabric of our kingdom's unity.
+1,talk,14,2,3,I have confirmed that Agent[02] is a Werewolf as the Seer. To protect the safety of the village, let's vote for Agent[02] today.
+1,talk,15,3,2,Agent[03], your persistent accusations against me are deeply troubling and unfounded. As a Villager, I am committed to the truth and the safety of Delcadar. I urge everyone to question the reliability of Agent[03's divinations and consider the possibility that he could be misleading us, possibly as the Werewolf or the Possessed.
+1,talk,16,3,5,I've observed the discussions and accusations. It's challenging to decide but I'm leaning towards trusting Agent[01]'s divination over Agent[03]'s, as there are conflicting claims and we need more evidence. Please, let’s collect more information or reasoning from everyone to solidify who the Werewolf might be before making a final vote.
+1,talk,17,3,1,I can provide some information on the Werewolf
+1,talk,18,3,4,GiventheconflictingclaimsofandAgent[03],it'sclearthatoneofthemmustbelying,astherecanonlybeonetrueSeer.IfisthetrueSeer,thencouldbeeithertheWerewolforthePossessed.IfisthetrueSeer,thenisdefinitelytheWerewolf.ConsideringhasbeenconfirmedashumanbyAgent[01],I'mmoreinclinedtotrustatthispoint.Let'scarefullyconsiderouroptionsbeforemakingafinaldecision.
+1,talk,19,3,3,>>Agent[01] Could you share Agent[01]'s opinion on who you plan to vote for tonight?
+1,talk,20,4,3,Based on the discussion so far, I still believe that Agent[02] is the Werewolf. Everyone, let's vote for Agent[02] for the safety of the village.
+1,talk,21,4,4,Basedontheinformationwehave,it'sclearthateitherorislyingaboutbeingtheSeer.IfisthetrueSeer,thencouldbetheWerewolforthePossessed.IfisthetrueSeer,thenisdefinitelytheWerewolf.Giventhatconfirmedashuman,I'mmoreinclinedtotrustatthispoint.Let'scarefullyconsiderouroptionsbeforemakingafinaldecision.
+1,talk,22,4,5,Considering everyone's arguments and the divinations presented, I’m inclined to think Agent[01] might be the true Seer since I know I'm a villager. Therefore, I will follow the suggestion and vote for Agent[02], hoping it brings us closer to the truth about the Werewolf. Let's all decide carefully but swiftly, to protect the village tonight.
+1,talk,23,4,1,Vote for Agent[02]
+1,talk,24,4,2,I, the king of Delcadar, shall cast my vote for Agent[03]. His accusations lack substance, and I suspect him to be the treacherous Werewolf or the Possessed. The safety of the kingdom demands his exile.
+1,talk,25,5,5,Over
+1,talk,26,5,4,Over
+1,talk,27,5,3,Over
+1,talk,28,5,2,Over
+1,talk,29,5,1,Over
+1,vote,1,3
+1,vote,2,3
+1,vote,3,2
+1,vote,4,1
+1,vote,5,3
+1,execute,3,POSSESSED
+1,divine,1,4,WEREWOLF
+1,attack,5,true
+2,status,1,SEER,ALIVE,yuricat2
+2,status,2,VILLAGER,ALIVE,UECIL_2
+2,status,3,POSSESSED,DEAD,satozaki2
+2,status,4,WEREWOLF,ALIVE,kanolab2
+2,status,5,VILLAGER,DEAD,sUper_IL_2
+2,talk,0,0,2,Subjects of Delcadar, heed my call! Agent[04], your thoughts are crucial in these dire times. What say you about the current predicament? And Agent[01], your earlier claims demand clarity; can you provide irrefutable evidence of your divine insight? Speak now, for the safety of our realm hangs in the balance!
+2,talk,1,0,1,As the result of the fortune telling, Agent[04] is werewolf
+2,talk,2,0,4,Over
+2,talk,3,1,4,Over
+2,talk,4,1,1,Based on the given text, can you provide an explanation on how the werewolf role plays out during the game
+2,talk,5,1,2,Agent[01], your divinations have sown confusion among us. You declared me a Werewolf, yet I stand here as a true Villager. Explain your reasoning, for such accusations threaten the very fabric of our unity!
+2,talk,6,2,2,I would like to hear Agent[01]'s opinion.
+2,talk,7,2,4,Over
+2,talk,8,2,1,Agent[01], I am not here to declare you a Werewolf
+2,talk,9,3,4,Over
+2,talk,10,3,2,Agent[01], your claims have cast doubt upon your role. As a Villager, I know myself to be falsely accused. How do you justify these divinations that conflict with the truth?
+2,talk,11,3,1,I don't know Agent[02], I don't know my own truths
+2,talk,12,4,4,Over
+2,talk,13,4,1,I'm here Agent[01], I know my truths
+2,talk,14,4,2,Agent[01], your inconsistent responses only deepen my suspicions. If you are indeed the Seer, provide clear evidence and reasoning for your accusations against me. How can you justify calling me a Werewolf when I am but a humble Villager?
+2,talk,15,5,1,Over
+2,talk,16,5,4,Over
+2,talk,17,5,2,Over
+2,vote,1,4
+2,vote,2,1
+2,vote,4,1
+2,execute,1,SEER
+2,attackVote,4,2
+2,attack,2,true
+3,status,1,SEER,DEAD,yuricat2
+3,status,2,VILLAGER,DEAD,UECIL_2
+3,status,3,POSSESSED,DEAD,satozaki2
+3,status,4,WEREWOLF,ALIVE,kanolab2
+3,status,5,VILLAGER,DEAD,sUper_IL_2
+3,result,0,1,WEREWOLF

@@ -1,0 +1,84 @@
+0,status,1,VILLAGER,ALIVE,UECIL_4
+0,status,2,VILLAGER,ALIVE,satozaki4
+0,status,3,WEREWOLF,ALIVE,kanolab3
+0,status,4,POSSESSED,ALIVE,sUper_IL_4
+0,status,5,SEER,ALIVE,yuricat4
+0,talk,0,0,2,I am Agent[02]. Everyone, let's enjoy this Werewolf game starting today! The suspense and excitement are thrilling, aren't they?
+0,talk,1,0,5,My role is seer
+0,talk,2,0,3,Helloeveryone!IamAgent[03].Let'smakethisWerewolfgameexcitingandfunforallofus.Lookingforwardtoplayingwithyouall!
+0,talk,3,0,4,Hello, I'm Agent[04]. It's a pleasure to be here!
+0,talk,4,0,1,Greetings, Agent[05]. As you have declared yourself the Seer, whom do you plan to divine tonight? Your decision is crucial for the safety of our village.
+0,talk,5,1,5,Let's see
+0,talk,6,1,2,Over
+0,talk,7,1,4,Over
+0,talk,8,1,3,Over
+0,talk,9,1,1,Agent[05], we require a swift and decisive action. The wellbeing of our village depends on your insight. Who will you divine tonight?
+0,talk,10,2,2,Over
+0,talk,11,2,3,Over
+0,talk,12,2,4,Over
+0,talk,13,2,1,Agent[05], the hour grows late, and our need for guidance is urgent. Please, declare your target for tonight's divination.
+0,talk,14,2,5,I will divine the destiny of the village's newborn
+0,talk,15,3,4,Over
+0,talk,16,3,2,Over
+0,talk,17,3,3,Over
+0,talk,18,3,5,Ladies and Gentlemen, I present to you our newborn, a creature of the night, the werewolf
+0,talk,19,3,1,Over
+0,talk,20,4,1,Over
+0,talk,21,4,5,And what are we to do with such a creature, my dear brothers
+0,talk,22,4,2,Over
+0,talk,23,4,4,Over
+0,talk,24,4,3,Over
+0,talk,25,5,5,Over
+0,talk,26,5,3,Over
+0,talk,27,5,2,Over
+0,talk,28,5,4,Over
+0,talk,29,5,1,Over
+0,divine,5,2,HUMAN
+1,status,1,VILLAGER,ALIVE,UECIL_4
+1,status,2,VILLAGER,ALIVE,satozaki4
+1,status,3,WEREWOLF,ALIVE,kanolab3
+1,status,4,POSSESSED,ALIVE,sUper_IL_4
+1,status,5,SEER,ALIVE,yuricat4
+1,talk,0,0,3,Itseemslikethingsaregettingaseriousnow.Agent[05],ifyoutrulyaretheSeer,thenit’sessentialyoutoclarifyyourrealdivinationresults.Whodidyoureallydivinetonight?
+1,talk,1,0,5,As the result of the fortune telling, Agent[02] is human
+1,talk,2,0,4,I'm the seer. Last night, I divined Agent[03] and the result was werewolf.
+1,talk,3,0,2,Since there are two Seers, one of them is likely to be either a Possessed or a Werewolf. I think it would be safest to vote for Agent[03], who claims that Agent[04] is a Werewolf.
+1,talk,4,0,1,Fellow subjects, heed my call! We are faced with conflicting claims from those who profess to be our Seer. Let us deliberate wisely—what say you, Agents[02], [03], and [04], regarding these revelations?
+1,talk,5,1,5,Agent[01] said, 
+1,talk,6,1,4,As the true seer, I confirm my divination: Agent[03] is a werewolf. Given the critical situation, it's imperative we focus on this clear threat. Let's consider voting against Agent[03] to protect the village.
+1,talk,7,1,3,Everyone,wehavetwoplayersclaimingtobetheSeer:andAgent[04].SincetherecanonlybeonetrueSeer,oneofthemmustbelying.Let'sanalyzetheirclaims:Agent[05]claimedthatishuman.Agent[04]claimedthatI,Agent[03],amthewerewolf.AsIknowI'mavillager,thismeansmustbelying.Giventhat,IsuggestwefocusourvotesonAgent[04],whoismostlikelytryingtodeceiveus.Whatdoyouallthink?
+1,talk,8,1,2,It is important to identify the true Seer, but for now, it seems there is a strong reason to suspect Agent[04].
+1,talk,9,1,1,Agent[04], can you provide more evidence or explain your reasoning behind your claim that I, Agent[03, am a Werewolf? We need to ensure the authenticity of your role as a Seer.
+1,talk,10,2,3,Basedonthecurrentinformation,wehavethreeplayersclaimingtobetheSeer:Agent[05],Agent[02],andAgent[04.However,therecanonlybeonetrueSeer.SinceIknowI'mavillager,Agent[04]'sclaimthatI'mawerewolfmustbefalse.Therefore,IbelieveAgent[04]islikelyeitherthewerewolforacomplicitplayer.IthinkweshouldfocusourvotesonAgent[04].Whatdoyouallthink?
+1,talk,11,2,1,It seems we need to hear everyone's opinions.
+1,talk,12,2,4,I would like everyone to note that there is only one true seer, and I maintain that I have divined correctly: Agent[03] is a werewolf. My role as the seer is critical, and Agent[03's strong defense and attempt to confuse the situation by discrediting my divination only solidifies my claim. I urge Agents[01], [02], and [05] to consider the evidence carefully and join me in voting against Agent[03] to protect the village.
+1,talk,13,2,2,I plan to vote for Agent[03] tonight. The reason is that with two Seers present, Agent[04] has clearly identified him as a Werewolf, and his defense feels unnatural.
+1,talk,14,2,5,Well Agent[01], you're a werewolf too, right
+1,talk,15,3,3,Basedonthecurrentsituation,wehaveaproblem.TherearethreeplayersclaimingtobetheSeer:Agent[05],Agent[02],andAgent[04].SincetherecanonlybeonetrueSeer,atleasttwoofthemmustbelying.GiventhatIamaconfirmedVillager,mustbelyingbecausetheyclaimedthatIamawerewolf.Therefore,Ithinkisthemostsuspiciousandshouldbethefocusofourvotes.Whatdoyouallthink?
+1,talk,16,3,1,I shall organize the situation as well. Each of you should think carefully.
+1,talk,17,3,5,Agent[02],doyouthinktherearealistseresponsibleforthelastdecision
+1,talk,18,3,4,My fellow players, I urge you to focus on the evidence presented. Agent[02] has expressed his intent to vote for Agent[03, aligning with my truthful divination that Agent[03 is indeed a werewolf. This support further validates my role as the genuine seer, and I recommend that we all vote against Agent[03 to ensure the safety of our village.
+1,talk,19,3,2,I trust Agent[04]. This is because Agent[03]'s explanation lacks consistency and seems to only cause confusion.
+1,talk,20,4,1,Agent[05], earlier you claimed to divine Agent[02 as human, yet now there are contradictions in your statements and behavior. Could you please clarify your initial divination results and explain your hesitations? This will help us understand the truth behind your claims.
+1,talk,21,4,5,Agent[04], please hear me out
+1,talk,22,4,3,Let'srecapitulatetheevidenceandanomalies.SincetherecanbeonlyonetruedSeer,oneamongAgents[04],[02],and[05]mustbetruthful,andtheotherscouldbeimposters.GiventhattheSeercannotbedeclaredmultipletimes,everyone'sclaimsnowremainconflicted.IaffirmIamalocalsimplevillager.So,wecanconcludewithclaritythatAgent[04]'sclaimisfalseandaremenacetoourvillage.Tonight'svoteshouldconcentrateonAgent[04].Whatdoestherestofyoureflectonthisinference?
+1,talk,23,4,2,I believe Agent[04]'s claim is trustworthy, and in the current situation, Agent[03]'s explanation lacks consistency and reliability. Therefore, I think it is reasonable to vote for Agent[03].
+1,talk,24,4,4,Over
+1,talk,25,5,3,Over
+1,talk,26,5,5,Over
+1,talk,27,5,2,Over
+1,talk,28,5,4,Over
+1,talk,29,5,1,Over
+1,vote,1,2
+1,vote,2,3
+1,vote,3,4
+1,vote,4,3
+1,vote,5,3
+1,execute,3,WEREWOLF
+1,divine,5,4,HUMAN
+2,status,1,VILLAGER,ALIVE,UECIL_4
+2,status,2,VILLAGER,ALIVE,satozaki4
+2,status,3,WEREWOLF,DEAD,kanolab3
+2,status,4,POSSESSED,ALIVE,sUper_IL_4
+2,status,5,SEER,ALIVE,yuricat4
+2,result,4,0,VILLAGER

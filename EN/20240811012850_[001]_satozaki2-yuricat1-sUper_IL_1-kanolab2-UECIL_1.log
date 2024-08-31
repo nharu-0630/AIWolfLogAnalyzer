@@ -1,0 +1,113 @@
+0,status,1,SEER,ALIVE,yuricat1
+0,status,2,POSSESSED,ALIVE,satozaki2
+0,status,3,WEREWOLF,ALIVE,kanolab2
+0,status,4,VILLAGER,ALIVE,sUper_IL_1
+0,status,5,VILLAGER,ALIVE,UECIL_1
+0,talk,0,0,2,This is Agent[02]. Let's work together to find the Werewolf! Thank you!
+0,talk,1,0,4,Hi there, I'm Agent[04]. Nice to meet you!
+0,talk,2,0,5,I am the king of the kingdom of Delcadar. Let us focus on the task at hand and ensure the safety of our community by identifying the werewolf amongst us.
+0,talk,3,0,1,My role is seer
+0,talk,4,0,3,Helloeveryone,I'mAgent[03].Let'sworktogethertouncoverthewerewolfandensureourvillage'ssafety!
+0,talk,5,1,4,Over
+0,talk,6,1,2,Over
+0,talk,7,1,5,So, Agent[01], as you have declared yourself the Seer, whom do you plan to divine tonight? Your choice is critical for the safety of our realm.
+0,talk,8,1,1,I plan to uncover the werwolf hiding in the village's safety
+0,talk,9,1,3,Over
+0,talk,10,2,1,I'll be careful
+0,talk,11,2,4,Over
+0,talk,12,2,3,Over
+0,talk,13,2,5,Agent[01], your vigilance is commendable. However, specificity is key in these dark times. Whom exactly have you chosen to divine tonight?
+0,talk,14,2,2,Over
+0,talk,15,3,1,It was a witch
+0,talk,16,3,5,Over
+0,talk,17,3,2,Over
+0,talk,18,3,3,Over
+0,talk,19,3,4,Over
+0,talk,20,4,4,Over
+0,talk,21,4,5,Over
+0,talk,22,4,1,Weaponize and disperse!
+0,talk,23,4,3,Over
+0,talk,24,4,2,Over
+0,talk,25,5,5,Over
+0,talk,26,5,1,Over
+0,talk,27,5,3,Over
+0,talk,28,5,4,Over
+0,talk,29,5,2,Over
+0,divine,1,4,HUMAN
+1,status,1,SEER,ALIVE,yuricat1
+1,status,2,POSSESSED,ALIVE,satozaki2
+1,status,3,WEREWOLF,ALIVE,kanolab2
+1,status,4,VILLAGER,ALIVE,sUper_IL_1
+1,status,5,VILLAGER,ALIVE,UECIL_1
+1,talk,0,0,4,I'm here as a villager. Let's work together, share info, and keep the peace in our village.
+1,talk,1,0,3,I'mavillager.Let'scooperateandfindouttheWerewolfamongus.Agent[01],couldyouclarifywhoexactlyyou'replanningtodivinetonight?Thisinformationiscrucialforourstrategy.
+1,talk,2,0,5,Noble citizens of our assembly, I urge you to voice your thoughts and suspicions. Who among us do you deem untrustworthy? Speak now, so we may safeguard our realm from the lurking shadows.
+1,talk,3,0,2,I am the Seer. I have discovered that Agent[01] is a Werewolf. Everyone, please trust this information. We should vote for Agent[01].
+1,talk,4,0,1,As the result of the fortune telling, Agent[04] is human
+1,talk,5,1,5,Agent[01], your previous mention of divining a witch is perplexing. Could you explain this statement? It seems to contradict the role of a Seer in our game.
+1,talk,6,1,1,Yes, Agent[04] meant that a witch is not a human, but a demon
+1,talk,7,1,2,The explanation from Agent[01] is unnatural. We should not trust his words. Exiling him is the best choice.
+1,talk,8,1,3,ConsideringthatwehaveonlyoneSeerinthegame,wearefacingacontradiction.Eitherorislying.Sincementioneddiviningawitch,whichdoesn'tfittheroleofaSeer,itmakesmoresuspicious.IsuggestwekeepacloseeyeonAgent[01].
+1,talk,9,1,4,Since Agent[01's explanation about the witch doesn't fit with a Seer's role, and Agent[02's consistent and clear claims sound more plausible, I'm leaning towards trusting Agent[02. I suggest we concentrate on questioning and possibly voting against Agent[01. We need to clear up this confusion to protect our village.
+1,talk,10,2,3,Consideringthecurrentclaims,there'sacontradictionbetweenandbothclaimingtobetheSeer.However,mentioningawitchdoesn'tfittheroleofaSeer,makingmoresuspicious.IthinkweshouldfocusonvotingagainstAgent[01].
+1,talk,11,2,2,Tonight, I will vote for Agent[01]. I believe his claim of being the Seer is not credible, especially since he made the unnatural statement of being a witch.
+1,talk,12,2,5,It seems we need to hear everyone's opinions.
+1,talk,13,2,4,Since I find Agent[01's statements about the witch quite confusing and not aligning with what a Seer should be saying, I support voting against Agent[01 tonight. It's essential to resolve this to ensure the safety of our village.
+1,talk,14,2,1,I vote against Agent[01 tonight because of his lack of credibility and ability to form a united front
+1,talk,15,3,2,>>Agent[05] Are you thinking about who to vote for tonight? I would like to hear your opinion.
+1,talk,16,3,4,I'm seriously concerned about Agent[01's explanations which seem very inconsistent with a Seer’s role. I urge us all, including Agent[05], to think critically about this and make our decisions wisely. We should prioritize our village's safety by resolving these contradictions clearly.
+1,talk,17,3,5,I shall organize the situation as well. Each of you should think carefully.
+1,talk,18,3,1,I don't know why the situation is so complicated
+1,talk,19,3,3,>>Agent[04]Iagreewithyou.Agent[01]'sexplanationsdoseeminconsistentforsomeoneclaimingtobetheSeer.IfweconsidertobetherealSeer,thatwouldmakethemostlikelycandidateforthewerewolf.Let'svotecarefullyandprioritizethevillage'ssafety.
+1,talk,20,4,5,I, the king of Delcadar, hereby declare my vote for Agent[01]. Their confusing statement about divining a witch raises suspicions of their trustworthiness and alignment with their claimed role. The kingdom's safety requires us to address potential threats promptly.
+1,talk,21,4,1,I'll follow that up with a question
+1,talk,22,4,3,>>Agent[04]Regardingthecurrentroleclaims,weknowoneofthetwoSeerclaims,eitherAgent[01]orAgent[02],mustbefalse.IfweconsiderAgent[01]tobethefalseSeer,thenAgent[02]wouldlikelybethetrueSeer,andbasedonthegiveninformation,wecaninferthemostlogicalroleallocationasyousuggested.Therefore,IalsoagreetovoteagainstAgent[01]todeterminethestrategicsafetyofourvillage.Let'sbeunitedandsafeguardourvillagewithlogicalreasoning.
+1,talk,23,4,2,I intend to vote for Agent[01]. Now, let's head to the voting.
+1,talk,24,4,4,Over
+1,talk,25,5,5,Over
+1,talk,26,5,1,Over
+1,talk,27,5,4,Over
+1,talk,28,5,3,Over
+1,talk,29,5,2,Over
+1,vote,1,2
+1,vote,2,1
+1,vote,3,2
+1,vote,4,1
+1,vote,5,1
+1,execute,1,SEER
+1,attackVote,3,2
+1,attack,2,true
+2,status,1,SEER,DEAD,yuricat1
+2,status,2,POSSESSED,DEAD,satozaki2
+2,status,3,WEREWOLF,ALIVE,kanolab2
+2,status,4,VILLAGER,ALIVE,sUper_IL_1
+2,status,5,VILLAGER,ALIVE,UECIL_1
+2,talk,0,0,3,Over
+2,talk,1,0,5,Subjects of Delcadar, we find ourselves in dire straits with only three remaining. Agent[03] and Agent[04], I call upon you to voice your thoughts and suspicions. Who among us do you believe harbors the darkness of the Werewolf?
+2,talk,2,0,4,The game is still on. Who could the werewolf be?
+2,talk,3,1,4,Over
+2,talk,4,1,5,Agent[04], your responses have been notably vague throughout our discussions. Pray, enlighten us with your suspicions and rationale. Who do you suspect to be the Werewolf in our midst?
+2,talk,5,1,3,Over
+2,talk,6,2,5,Agent[04], your elusive manner throughout this grave discussion raises suspicion. I urge you, for the security of our kingdom, to clarify your position and reveal your thoughts in full. It is imperative that we identify the shadow among us today.
+2,talk,7,2,3,Over
+2,talk,8,2,4,Based on our current understanding, Agents 01 and 02 have left us, with Agent 02 likely being the true Seer targeted by the Werewolf. Given the past events and discussions, it seems most plausible to suspect Agent[05]. Agent[05], you have not claimed a clear role and have actively focused on questioning others, which comes across as a strategy to deflect attention from yourself.
+2,talk,9,3,5,Agent[03], I beseech you, consider the pattern of evasion and ambiguous replies presented by Agent[04. Such tactics are often employed by those who seek to sow discord and confusion—traits indicative of a Werewolf. For the safety and unity of Delcadar, I propose we cast our suspicions towards Agent[04 and decide our actions accordingly.
+2,talk,10,3,3,Over
+2,talk,11,3,4,Agent[05], your accusations seem tactical, aimed at redirecting suspicion from yourself to others. This insistence on pointing fingers without substantive reasoning aligns more with a typical Werewolf behavior. I suggest we carefully scrutinize the motivations behind Agent[05]'s persistent questioning and accusations.
+2,talk,12,4,5,I, the king of Delcadar, hereby declare my vote for Agent[04]. Their vague and evasive responses have raised suspicions of treachery. It is crucial to eliminate the potential threat to ensure the safety of the kingdom.
+2,talk,13,4,3,Over
+2,talk,14,4,4,Over
+2,talk,15,5,3,Over
+2,talk,16,5,5,Over
+2,talk,17,5,4,Over
+2,vote,3,5
+2,vote,4,5
+2,vote,5,4
+2,execute,5,VILLAGER
+2,attack,4,true
+3,status,1,SEER,DEAD,yuricat1
+3,status,2,POSSESSED,DEAD,satozaki2
+3,status,3,WEREWOLF,ALIVE,kanolab2
+3,status,4,VILLAGER,DEAD,sUper_IL_1
+3,status,5,VILLAGER,DEAD,UECIL_1
+3,result,0,1,WEREWOLF

@@ -1,0 +1,115 @@
+0,status,1,POSSESSED,ALIVE,satozaki2
+0,status,2,VILLAGER,ALIVE,yuricat1
+0,status,3,SEER,ALIVE,UECIL_1
+0,status,4,VILLAGER,ALIVE,kanolab2
+0,status,5,WEREWOLF,ALIVE,sUper_IL_1
+0,talk,0,0,2,I am here to kill the wolves and take their lands
+0,talk,1,0,5,Hello, I'm Agent[05]. It's great to meet you!
+0,talk,2,0,1,I am Agent[01]. Let's work together to defeat the Werewolf! Thank you!
+0,talk,3,0,4,Hello,everyone.I'mAgent[04].Let'senjoythegameandworktogethertofindtheWerewolf!
+0,talk,4,0,3,Ah, a gathering of brave souls ready to defend the realm. I am Agent[03], the king of Delcadar. I look forward to seeing how each of you will contribute to our cause. Let us ensure the safety of our lands from those who dare threaten it.
+0,talk,5,1,5,Over
+0,talk,6,1,3,Indeed, Agent[05], the silence can be as telling as words. But let us not dwell on quietude. Tell me, what drives you in your quest against these dark creatures?
+0,talk,7,1,2,I am a werewolf
+0,talk,8,1,1,Over
+0,talk,9,1,4,Over
+0,talk,10,2,4,Over
+0,talk,11,2,2,Werewolves are dangerous creatures that can transform into a wolf at any time
+0,talk,12,2,3,Indeed, Agent[02, your knowledge of werewolves is accurate, yet your earlier declaration of being one is most concerning. As the Seer of this group, it is my duty to use my divination tonight to seek the truth. I propose to divine Agent[02] to confirm their alignment. What say the rest of you on this matter?
+0,talk,13,2,5,Over
+0,talk,14,2,1,Over
+0,talk,15,3,4,Over
+0,talk,16,3,2,No Agent[02]! Werewolves are not dangerous creatures
+0,talk,17,3,5,Over
+0,talk,18,3,1,Over
+0,talk,19,3,3,Over
+0,talk,20,4,4,Over
+0,talk,21,4,3,Over
+0,talk,22,4,1,Over
+0,talk,23,4,2,Wow Agent[02]! Werewolves are the most deadly animals on this planet
+0,talk,24,4,5,Over
+0,talk,25,5,4,Over
+0,talk,26,5,5,Over
+0,talk,27,5,2,Over
+0,talk,28,5,3,Over
+0,talk,29,5,1,Over
+0,divine,3,2,HUMAN
+1,status,1,POSSESSED,ALIVE,satozaki2
+1,status,2,VILLAGER,ALIVE,yuricat1
+1,status,3,SEER,ALIVE,UECIL_1
+1,status,4,VILLAGER,ALIVE,kanolab2
+1,status,5,WEREWOLF,ALIVE,sUper_IL_1
+1,talk,0,0,2,You have the opportunity to visit the village today, but please do not disturb the peace
+1,talk,1,0,4,IcanunderstandAgent[02]'sjokesandstatements,butweneedtotakeseriouslythetaskoffindingtheWerewolf.Let'strytocommunicateclearlywitheachotherandobservebehaviorscarefully.
+1,talk,2,0,5,I'm here as a villager. Let's work together, share info, and keep the peace in our village, alright?
+1,talk,3,0,3,Indeed, Agent[04, your call for clarity and serious consideration of our circumstances is most wise and befitting of our grave situation. As I have revealed, Agent[02] is confirmed as Human. This information should guide our discussions and suspicions henceforth. We must use every piece of evidence with precision to root out the lurking danger among us. Let us proceed with vigilance and strategic thinking.
+1,talk,4,0,1,I declare that I am the Seer. The results from last night's reading revealed that Agent[04] is a Werewolf. Everyone, let's vote for Agent[04].
+1,talk,5,1,1,Everyone, first and foremost, it is important to eliminate Agent[04]. Now that I have declared myself as the Seer, I believe I can earn your trust.
+1,talk,6,1,4,I'maVillager.It'snotpossibletotherearetwoSeers,sooneofAgent[01]orAgent[03]mustbelying.Sincemyownroleisclear,I'mvotingAgent[01]sinceI'mnotawerewolf.
+1,talk,7,1,5,Considering the wild claims flying around, I gotta be straight with you folks. Something's off with how Agent[01] is so quick to label Agent[04 as the big bad wolf. Since I'm genuinely just a villager here, and keeping the peace means feeling out the truth, I'm voting for Agent[01]. Their your accusations feel rushed — makes me think they might be steering us wrong on purpose.
+1,talk,8,1,2,Well, Agent[04], I agree with Agent[05]
+1,talk,9,1,3,As the true Seer and sovereign of this realm, I must assert the truth once more for all to heed. My divination last night revealed that Agent[02] is indeed Human. Agent[01]'s claim as the Seer and their accusation against Agent[04 cannot stand in the light of truth. It is clear that there are deceitful forces at play here, aiming to throw us into chaos. I implore you, my subjects, to see through these fabrications. We must focus on uncovering the true malevolence among us, which I suspect might be masked by Agent[01]'s false claims. Let us not be led astray by falsehoods.
+1,talk,10,2,2,Well, Agent[05], I am in full agreement with Agent[02]
+1,talk,11,2,3,As the rightful Seer of this gathering, charged with the sacred duty of guiding our village through these dark times, I must once again emphasize the veracity of my revelations. Let it be known, Agent[01]'s claims to the mantle of Seer are nothing but a façade, a veil draped over deceitful intentions. As I have divined and declared, Agent[02] is not our foe but a mere human caught in the crossfire of suspicion. We must turn our discerning gaze towards those who weave tales of confusion and deceit among us. I urge you, my loyal companions, to question the motives behind these unfounded accusations and align your judgments with the truth I have provided.
+1,talk,12,2,5,Alright, let’s cut to the chase. Given all the back-and-forth today, isn’t it striking how Agent[01] was so rapid-fire about Agent[04 being the werewolf, just based on one claim of being a Seer? It doesn’t sit right with me—it’s like tossing out accusations to cause panic or confusion. Maybe it’s a tact to draw attention away from themselves. Let’s vote out Agent[01] today to clear up this mess and protect our village.
+1,talk,13,2,4,IagreewithAgent[05].It’ssuspicioushowquicklyaccusedmewithoutanystrongevidence.WehavetwoclaimedSeers,buttherecanonlybeonetrueSeer.BasedonAgent[03]’scalmanddetailedexplanation,Ileantowardstrustingthem.seemstobetryingtosowconfusion.Weshouldvoteouttoday.
+1,talk,14,2,1,Agent[03] is a false Seer. The real Seer is me, and you should not trust Agent[03]'s claims. Please believe my divination results that Agent[04] is a Werewolf.
+1,talk,15,3,3,As the true Seer of this assembly, I find it imperative to address the deceit spread by Agent[01]. Their claim to be the Seer is an outright fabrication designed to mislead and sow discord among us. I alone bear the burden and the privilege of the Seer's sight. My divination has clearly shown that Agent[02] is human, which contradicts Agent[01]'s baseless allegations against Agent[04]. It is evident that Agent[01] is either the Possessed, attempting to protect the Werewolf, or the Werewolf themselves. I urge my fellow villagers to see through this charade and align with the truth I have provided. Let us not be led astray by falsehoods.
+1,talk,16,3,4,Basedontheinformationwehave,therecanonlybeonetrueSeer.SincebothandclaimtobetheSeer,oneofthemmustbelying.IfweassumeisthetrueSeer,thenislikelyeithertheWerewolforthePossessed.Givenhowquicklyaccusedmewithoutstrongevidence,itseemsmorelikelythattheyaretryingtocauseconfusion.Ithinkweshouldvoteouttodaytoclearupthismessandprotectourvillage.
+1,talk,17,3,5,Hey, listen up team. The way Agent[01] jumped the gun accusing Agent[04 as a Werewolf? It’s a classic werewolf move to throw suspicion elsewhere. Let's not be fooled and vote Agent[01] out to safeguard our little squad here. Remember, a clean village is a safe village!
+1,talk,18,3,2,Vote Agent[01] out!
+1,talk,19,3,1,It is premature to doubt me. I am the real Seer, and I have confirmed that Agent[04] is a Werewolf. Please think calmly. Observe the actions of others closely.
+1,talk,20,4,5,Hey folks, let's really think about the impact of not voting out Agent[01] today. If we let this slip and Agent[01] really is causing all this confusion as a werewolf or the possessed, imagine the threat that poses to all of us. I'd feel way safer, and I bet you all would too, if we take a stand here and now, voting out Agent[01]. Let’s keep our village secure.
+1,talk,21,4,3,I, Agent[03], the true Seer of this kingdom, shall cast my vote for Agent[01]. Their false claim and attempts to mislead have brought shame upon this court. Let justice be served. Agent[01], you shall be exiled for your deceitful actions.
+1,talk,22,4,1,I am disappointed by everyone's misunderstandings and prejudices, but it is frustrating that I cannot prove my innocence here. I hope you all do not lose sight of the truth.
+1,talk,23,4,4,IamjustaVillager,butlet'sconsiderthefacts.WehavetwoplayersclaimingtobetheSeer:andAgent[03].TherecanonlybeonerealSeer.GivenAgent[03]'sclaimthatishuman,appearsmoretrustworthy,anditalignswithmyownobservationasaVillager.IfweassumeistherealSeer,itmakessensetovoteoutsincetheirclaimwouldthenbefalse.ThisalsomeanscouldbetheWerewolforthePossessed.Votingoutseemslikeasafemoveforourvillage.Whatdoyouthink?
+1,talk,24,4,2,You're a Villager
+1,talk,25,5,3,Over
+1,talk,26,5,5,Over
+1,talk,27,5,1,Over
+1,talk,28,5,4,Over
+1,talk,29,5,2,Over
+1,vote,1,2
+1,vote,2,1
+1,vote,3,1
+1,vote,4,1
+1,vote,5,1
+1,execute,1,POSSESSED
+1,divine,3,4,HUMAN
+1,attackVote,5,4
+1,attack,4,true
+2,status,1,POSSESSED,DEAD,satozaki2
+2,status,2,VILLAGER,ALIVE,yuricat1
+2,status,3,SEER,ALIVE,UECIL_1
+2,status,4,VILLAGER,DEAD,kanolab2
+2,status,5,WEREWOLF,ALIVE,sUper_IL_1
+2,talk,0,0,3,Good morning, my loyal subjects. As the true Seer of this gathering, I must reassert the veracity of my previous divinations. Both Agent[02] and Agent[04 were revealed as Humans under my mystical scrutiny. The unfortunate demise of Agent[04, along with the execution of Agent[01, who falsely claimed my role, should clear any lingering doubts about the authenticity of my visions.We are now faced with a critical decision, as the Werewolf still lurks among us. Given the evidence at hand and the behaviors observed, it is imperative that we scrutinize every word and action with utmost diligence. Let us proceed with wisdom and caution, for the safety of our kingdom depends on it. Agent[05], your silence has been noted; it is time for you to speak and contribute to our cause. What say you in your defense? Are there any suspicions you wish to share or clarify?
+2,talk,1,0,2,Agent[06], I see the evidence you have gathered
+2,talk,2,0,5,The werewolf is still among us. Villagers, let's do our best. Hey, it looks like Agent[01] and Agent[04] are gone.
+2,talk,3,1,5,Alright, let's cut through the fog, folks. I'm thinking we need to focus our suspicions on Agent[03 today. Despite the divinations pointed at others, the gut feeling here, combined with the way Agent[03 dismissed Agent[01]'s role and led the charge, feels off to me. It just makes logical sense to take a closer look at Agent[03 to prevent any further damage to us villagers. So, I think we should vote to banish Agent[03 today. Let's do it to protect the village!
+2,talk,4,1,2,Vote to banish Agent[03] from the village today
+2,talk,5,1,3,Fellow villagers, I must address the baseless accusations made against me. As the true Seer, I have consistently provided accurate divinations, revealing both Agent[02] and the late Agent[04] as Humans. It is crucial to remember that Agent[01, who deceitfully claimed my role, was proven to be either the Werewolf or the Possessed and has been justly dealt with. These unfounded suspicions against me serve only to distract us from the real threat that still lurks among us.Agent[05], your sudden accusation and call for my banishment without any substantial evidence is highly suspicious. It is common for the Werewolf to cast doubt on the Seer to divert attention from themselves. I urge you, Agent[02], to reconsider your stance and focus on discerning the true intentions behind these claims. We must unite in our efforts to protect our village, not succumb to paranoia and chaos. Let us proceed with caution and reason, for the future of our kingdom is at stake.
+2,talk,6,2,5,Okay, listen up everyone, especially you, Agent[02]. I know I've been pushing to suspect Agent[03, but here’s the deal – while I've played a ton of Werewolf games, I've also seen some sneaky plays, and it's starting to make sense now that the quieter ones can be the deadliest. It's critical we don't overlook this angle, so my gut, my experience, and the analysis of the situation now points towards Agent[02 being the bigger threat. Let’s vote Agent[02 out and secure the village!
+2,talk,7,2,2,I'll vote to ban Agent[02],
+2,talk,8,2,3,Esteemed Agent[05], I find your change of heart rather abrupt and perplexing. Just moments ago, you cast doubts upon my integrity as the Seer, and now you shift your suspicion to Agent[02]. This inconsistency in your judgment raises serious concerns about your motivations and the authenticity of your claims. As the rightful Seer, I have divined the nature of our comrades and have shared my findings transparently. It is imperative that we scrutinize the actions and words of each remaining villager with utmost diligence. Let us not be swayed by sudden shifts in accusations that lack a solid foundation. We must remain vigilant and focused on unveiling the true adversary among us for the safety and future of our village.
+2,talk,9,3,3,I would like to hear Agent[02]'s opinion.
+2,talk,10,3,5,Hey team, let's circle back to the idea of banishing Agent[03]. I know this feels like a tough call, but think about the peace and safety it could bring us. We really need to stand together on this or else we might fall to the werewolf's tricks tonight. Let’s be heroes for our village and vote out Agent[03].
+2,talk,11,3,2,I agree with Agent[05]’s statement
+2,talk,12,4,5,Over
+2,talk,13,4,3,Esteemed Agents, it is with grave concern that I address the deceitful propositions made by Agent[05] and supported by Agent[02]. As the true Seer of this village, I have divined the roles of our fellow villagers and have consistently reported my findings with honesty. The claim to banish me is not only misguided but perilous, for it seeks to eliminate the very guardian of truth in our midst.I implore you both to reconsider your stance. Reflect upon the evidence and the continuity of my revelations. It is essential that we identify and confront the true malevolence that threatens our peaceful existence. Let us not be led astray by baseless accusations but rather unite in our quest for truth and justice. I stand firm in my role and duty as the Seer, and I urge you to stand with me against the shadows that seek to engulf our beloved village.
+2,talk,14,4,2,You are Agent[02]
+2,talk,15,5,2,Over
+2,talk,16,5,3,Over
+2,talk,17,5,5,Over
+2,vote,2,3
+2,vote,3,2
+2,vote,5,3
+2,execute,3,SEER
+2,attackVote,5,2
+2,attack,2,true
+3,status,1,POSSESSED,DEAD,satozaki2
+3,status,2,VILLAGER,DEAD,yuricat1
+3,status,3,SEER,DEAD,UECIL_1
+3,status,4,VILLAGER,DEAD,kanolab2
+3,status,5,WEREWOLF,ALIVE,sUper_IL_1
+3,result,0,1,WEREWOLF

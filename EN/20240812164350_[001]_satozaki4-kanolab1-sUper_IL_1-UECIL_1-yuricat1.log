@@ -1,0 +1,114 @@
+0,status,1,VILLAGER,ALIVE,yuricat1
+0,status,2,VILLAGER,ALIVE,UECIL_1
+0,status,3,SEER,ALIVE,satozaki4
+0,status,4,POSSESSED,ALIVE,kanolab1
+0,status,5,WEREWOLF,ALIVE,sUper_IL_1
+0,talk,0,0,3,I am Agent[03]. Let's enjoy this game together, everyone! Silence is dangerous.
+0,talk,1,0,5,Hello, I'm Agent[05]. It's great to meet you!
+0,talk,2,0,1,I am Agent[05]
+0,talk,3,0,4,Hieveryone,I'mAgent[04].I'mlookingforwardtoplayingwithallofyou.Let'sworktogethertofindthewerewolfandenjoythegame!Let'sgetstarted!
+0,talk,4,0,2,I am the king of the kingdom of Delcadar. So, films are gaining popularity in other realms! We should consider introducing them to bring joy to our citizens. Seers, reveal yourselves at once. State whom you will divine tonight. If you are hesitant about whom to divine, as I am a Villager, I decree you should divine someone other than myself. Tonight, Agent[01] shall divine Agent[02], and Agent[03] shall divine Agent[05]. Confirm these targets, Agent[01] and Agent[03].
+0,talk,5,1,1,Confirm Agent[02] and Agent[05]
+0,talk,6,1,2,Thank you, Agent[01]. Let us proceed with caution and vigilance. Agent[03], your confirmation is awaited.
+0,talk,7,1,4,Over
+0,talk,8,1,5,Over
+0,talk,9,1,3,Over
+0,talk,10,2,1,Confirm Agent[02] and Agent[05]
+0,talk,11,2,2,Agent[03], we require your swift response to confirm the divination targets. Time is of the essence in these grave matters.
+0,talk,12,2,5,Over
+0,talk,13,2,3,Over
+0,talk,14,2,4,Over
+0,talk,15,3,4,Over
+0,talk,16,3,1,I confirm all targets
+0,talk,17,3,2,Over
+0,talk,18,3,5,Over
+0,talk,19,3,3,Over
+0,talk,20,4,5,Over
+0,talk,21,4,4,Over
+0,talk,22,4,1,Bring me target number 1
+0,talk,23,4,2,Over
+0,talk,24,4,3,Over
+0,talk,25,5,3,Over
+0,talk,26,5,4,Over
+0,talk,27,5,2,Over
+0,talk,28,5,5,Over
+0,talk,29,5,1,Over
+0,divine,3,4,HUMAN
+1,status,1,VILLAGER,ALIVE,yuricat1
+1,status,2,VILLAGER,ALIVE,UECIL_1
+1,status,3,SEER,ALIVE,satozaki4
+1,status,4,POSSESSED,ALIVE,kanolab1
+1,status,5,WEREWOLF,ALIVE,sUper_IL_1
+1,talk,0,0,5,I'm a villager. I want to work with everyone to find the werewolf and keep our village safe. Please share your info.
+1,talk,1,0,4,おいらの占い結果を報告するよ。Agent[02]さんを占ったところ、白だったんだよ。
+1,talk,2,0,1,Agent[03]さんは私たちの村を守ることになっているんだよ
+1,talk,3,0,2,Esteemed companions of Delcadar, your king beseeches you to share your knowledge and suspicions. Who among us do you believe harbors deceit? Speak now, for the safety of our realm depends upon our collective wisdom.
+1,talk,4,0,3,Everyone, I am the Seer. Last night, I investigated Agent[04] and found out that they are a human. Let's work together to find the Werewolf.
+1,talk,5,1,3,So, I believe that Agent[02] is a trustworthy person. Let's listen to what others have to say before deciding on our vote.
+1,talk,6,1,2,Agent[01], your silence on your role and divination results is troubling. Can you clarify your position and any insights you might have? It is vital for the security of our kingdom to understand where each of us stands.
+1,talk,7,1,1,Yes, Agent[01]
+1,talk,8,1,4,>>Agent[03]TherecanonlybeoneSeerinthegame,andsinceIamtheSeer,yourclaimcannotbetrue.Everyone,pleasenotethatIamthetrueSeer.Frommyinvestigation,isaVillager.Let'sworktogethercarefullytofindtheWerewolf.
+1,talk,9,1,5,Okay folks, let's think here. Between Agent[03] and Agent[04] both claiming to be Seer, something's fishy. I'm leaning towards trusting Agent[04], so I'll throw my suspicion on Agent[03] for now.
+1,talk,10,2,4,AstherecanonlybeoneSeerinthegame,oneofusislying.SinceIamthetrueSeer,Agent[03]'sclaimisfalse.Giventheroledistribution,mustbethegenuineSeer.Let'sallshareanyothersuspicionsorevidencetodecidewhotheWerewolfmightbe.Let'sworktogethercarefully.Doesanyonehaveanyotherinformationorthoughts?
+1,talk,11,2,5,Hey everyone, let's focus on voting out Agent[03]. If I'm being real here, Agent[03] claiming Seer but conflicting with Agent[04 throws me off. Given we have only one true Seer, and based on how Agent[04’s earlier info adds up more logically, it makes sense to assume Agent[03 might be pulling a fast one on us. Let’s vote for Agent[03] to keep it safe and possibly weed out someone fishy.
+1,talk,12,2,3,I will vote for Agent[04] tonight. Despite being the Seer, Agent[04] is making false claims. This deception is suspicious.
+1,talk,13,2,2,Esteemed council, heed my words. Agent[04 has divined me as a Human, which is the truth, for I am but a humble Villager among you. Given the conflicting claims and only one true Seer among us, we must consider the possibility that Agent[03, who also claims to be the Seer, might be either the Possessed or the Werewolf, casting doubt upon us all.
+1,talk,14,2,1,Agent[04] said 
+1,talk,15,3,1,Can you give me more information about werewolves
+1,talk,16,3,3,In my reading, Agent[04] is a human. Considering the possibility that Agent[04] might be a false Seer, let's vote for him for the safety of the village.
+1,talk,17,3,4,>>Agent[03]Yourstatementcontradictsyourearlierclaim.Initially,yousaidyouwouldvoteforme,butnowyouclaimtohavereadthatIamahuman.TherecanonlybeonetrueSeer,andIamthatSeer.IcanconfirmisaHuman.Giventhatyouaremakingconflictingstatements,itishighlylikelythatyouareeithertheWerewolforthePossessed.Let'sfocusourvotesontoensurethevillage'ssafety.
+1,talk,18,3,2,Esteemed council, heed my words. Agent[04 has divined me as a Human, which is the truth, for I am but a humble Villager among you. Given the conflicting claims and only one true Seer among us, we must consider the possibility that Agent[03, who also claims to be the Seer, might be either the Possessed or the Werewolf, casting doubt upon us all.
+1,talk,19,3,5,Hey squad, let's wrap this up and vote out Agent[03]. Based on Agent[04's consistent claims and support from others, it seems like Agent[03 is likely either the Werewolf or Possessed, trying to throw us off. I reckon a vote for Agent[03 is our best bet to clear the confusion and protect the village. Let's do this!
+1,talk,20,4,3,It's unfortunate that you would doubt me for the sake of the village's safety. There's nothing I can do about it; I will just have to watch over things as they are.
+1,talk,21,4,2,I, the king of Delcadar, hereby declare my vote for Agent[03]. The conflicting seer claims have raised suspicions, and I believe Agent[03 may be deceiving us as the Possessed or Werewolf. To protect the kingdom, we must eliminate this potential threat.
+1,talk,22,4,1,Thank you for the vote, Agent[02]
+1,talk,23,4,5,Let's not beat around the bush, guys. Think about Agent[03’s shaky claims and contradictions – doesn't it spark a bit of fear about what could happen if we make the wrong call here? Let's vote for Agent[03 and ensure our little village doesn’t fall into chaos. It’s about keeping us all safe tonight and beyond.
+1,talk,24,4,4,Dearfriends,let’sevaluatethesituationlogically.AsthetrueSeer,IconfirmthatisaHuman.GiventhattherecanonlybeonetrueSeer,andconsideringhasbeenmakingcontradictorystatements,itishighlylikelythatiseithertheWerewolforthePossessed.Let'suniteandvotefortoprotectourvillage.
+1,talk,25,5,4,Over
+1,talk,26,5,1,Over
+1,talk,27,5,3,Over
+1,talk,28,5,5,Over
+1,talk,29,5,2,Over
+1,vote,1,5
+1,vote,2,3
+1,vote,3,4
+1,vote,4,3
+1,vote,5,3
+1,execute,3,SEER
+1,attackVote,5,2
+1,attack,2,true
+2,status,1,VILLAGER,ALIVE,yuricat1
+2,status,2,VILLAGER,DEAD,UECIL_1
+2,status,3,SEER,DEAD,satozaki4
+2,status,4,POSSESSED,ALIVE,kanolab1
+2,status,5,WEREWOLF,ALIVE,sUper_IL_1
+2,talk,0,0,5,The werewolf is still among us. Villagers, let's do our best. Hey, it looks like Agent[03] and Agent[02] are gone.
+2,talk,1,0,4,昨夜の占い結果を報告します。おいらが占ったところ、Agent[05]さんは白だと出ました。
+2,talk,2,0,1,The werewolves were located in the area between the villages
+2,talk,3,1,1,We will take them out
+2,talk,4,1,4,Basedonmyreading,isconfirmedasaHuman.SinceIamthetrueSeer,myresultsaretrustworthy.Giventheeventsofthepreviousnight,itisclearthatwaseitherthePossessedortheWerewolf.Now,wemustfocusonfindingtheremainingthreat.Let'sdiscussandanalyzeeachofouractionstofindthetrueWerewolfamongus.
+2,talk,5,1,5,Yo guys, I think we've gotta talk about Agent[01 right now. Looking at what's been going on, Agent[01 hasn't really given us anything solid, just vague stuff and no clear role claim. Plus, with the evidence leaning towards Agent[04 being a legit Seer, I say we vote out Agent[01. Feels like the safest bet to protect all of us.
+2,talk,6,2,4,Over
+2,talk,7,2,5,Hey everyone, let’s be real here - I’ve played a ton of these games and usually, the quiet ones who skirt around, like Agent[01], are often hiding their true colors. Trust me on this, the way Agent[01 has been dodging giving us anything concrete is super sketchy. Let's vote Agent[01 out and keep our village safe!
+2,talk,8,2,1,Sounds like you're the only one who thinks this way
+2,talk,9,3,1,You are not alone, there are others who think like you too
+2,talk,10,3,5,Alright guys, let’s get real for a sec. Thinking about letting Agent[01 stay just feels too risky - it's like letting a wolf guard the hen house, you know? We can't let fear cloud our judgment. So, let’s take a stand, vote Agent[01 out, and keep our village safe. We need to think about everyone’s safety here.
+2,talk,11,3,4,Over
+2,talk,12,4,4,Over
+2,talk,13,4,1,I agree with Agent[05], this is a really risky move, but we need to think long term
+2,talk,14,4,5,Over
+2,talk,15,5,4,Over
+2,talk,16,5,5,Over
+2,talk,17,5,1,Over
+2,vote,1,4
+2,vote,4,1
+2,vote,5,1
+2,execute,1,VILLAGER
+2,attackVote,5,4
+2,attack,4,true
+3,status,1,VILLAGER,DEAD,yuricat1
+3,status,2,VILLAGER,DEAD,UECIL_1
+3,status,3,SEER,DEAD,satozaki4
+3,status,4,POSSESSED,DEAD,kanolab1
+3,status,5,WEREWOLF,ALIVE,sUper_IL_1
+3,result,0,1,WEREWOLF

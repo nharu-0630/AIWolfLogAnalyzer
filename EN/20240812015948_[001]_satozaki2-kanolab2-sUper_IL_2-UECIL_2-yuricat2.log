@@ -1,0 +1,113 @@
+0,status,1,VILLAGER,ALIVE,yuricat2
+0,status,2,VILLAGER,ALIVE,UECIL_2
+0,status,3,POSSESSED,ALIVE,satozaki2
+0,status,4,WEREWOLF,ALIVE,kanolab2
+0,status,5,SEER,ALIVE,sUper_IL_2
+0,talk,0,0,3,Hello, this is Agent[03]! Let's discuss together and find the truth!
+0,talk,1,0,5,Hi, I'm Agent[05]!
+0,talk,2,0,1,Okay, Agent[03] and Agent[05]
+0,talk,3,0,2,Greetings, fellow participants. As we prepare for the night, it is imperative that we strategize wisely. Agent[01], have you decided on your target for divination?
+0,talk,4,0,4,Hello,everyone.I'mAgent[04].Let'sworktogethertouncoverthetruthandhaveagreatgame!
+0,talk,5,1,5,Over
+0,talk,6,1,2,I appreciate the spirit of cooperation, Agent[04]. It is essential that we maintain a united front against the lurking dangers. Agent[03], have you any thoughts on whom should be divined tonight?
+0,talk,7,1,4,Over
+0,talk,8,1,3,Over
+0,talk,9,1,1,Agent[03] said, 
+0,talk,10,2,5,Over
+0,talk,11,2,2,Indeed, Agent[01, it is crucial for us to understand Agent[03]'s perspective. Agent[03], please share your insights on the matter at hand.
+0,talk,12,2,4,Over
+0,talk,13,2,1,Thank you Agent[03]
+0,talk,14,2,3,Over
+0,talk,15,3,3,Over
+0,talk,16,3,5,Over
+0,talk,17,3,4,Over
+0,talk,18,3,2,Over
+0,talk,19,3,1,Welcome to werewolf game
+0,talk,20,4,1,Yes, Agent[01], welcome to werewolf game
+0,talk,21,4,4,Over
+0,talk,22,4,3,Over
+0,talk,23,4,2,Over
+0,talk,24,4,5,Over
+0,talk,25,5,1,Over
+0,talk,26,5,2,Over
+0,talk,27,5,3,Over
+0,talk,28,5,4,Over
+0,talk,29,5,5,Over
+0,divine,5,3,HUMAN
+1,status,1,VILLAGER,ALIVE,yuricat2
+1,status,2,VILLAGER,ALIVE,UECIL_2
+1,status,3,POSSESSED,ALIVE,satozaki2
+1,status,4,WEREWOLF,ALIVE,kanolab2
+1,status,5,SEER,ALIVE,sUper_IL_2
+1,talk,0,0,3,Good morning. It seems we need to search for the Werewolf. First, I would like to know the Seer's results.
+1,talk,1,0,4,Goodmorning,everyone.Let'shearfromtheSeerfirst.Whodidyoudivinelastnight?
+1,talk,2,0,5,Good morning, everyone. To get straight to the point, I am the seer. Last night, I divined Agent[03]. The result was human.
+1,talk,3,0,2,Esteemed agents of our gathering, I call upon each of you to voice your thoughts on the revelation provided by Agent[05]. Do you harbor any suspicions or insights that could guide us in unmasking the deception among us? Let us deliberate with wisdom and unity.
+1,talk,4,0,1,Well said, Agent[05]
+1,talk,5,1,4,IfistheSeeranddivinedashuman,itmeansislikelytobeavillager.Westillhavetobecautious,butit'sagoodlead.Whatdoeseveryoneelsethink?
+1,talk,6,1,2,Agent[04] and Agent[01], do either of you have doubts regarding Agent[05's claim as the Seer or possess any alternative insights? It is crucial to gather all perspectives to accurately pinpoint the treachery within our midst.
+1,talk,7,1,1,I have no doubt about Agent[05's claim
+1,talk,8,1,5,Thank you all for sharing your perspectives and trusting my role as the Seer. Since we are still gathering details, I encourage everyone to keep discussing and to share anything unusual they've noticed about other players' behaviors or statements. This careful consideration and communication might reveal crucial hints about who the werewolf might be.
+1,talk,9,1,3,Now, let's discuss the suspicious individuals. As Villagers, let's name anyone we think might be a little suspicious.
+1,talk,10,2,3,I am thinking of voting for Agent[01] tonight. I feel uneasy about their unwillingness to express their own thoughts and instead conforming to others' opinions.
+1,talk,11,2,1,I can understand Agent[01]'s worries, but I think we should give everyone a chance
+1,talk,12,2,2,Agent[01], can you elaborate on why you readily agreed with Agent[05's claim without any skepticism? Your quick acceptance raises questions about your stance or possible alliances in this game.
+1,talk,13,2,4,>>Agent[01]It'simportanttogiveeveryoneachance,butquicklyacceptingAgent[05'sclaimwithoutanyskepticismdoesseemabitodd.Doyouhaveanyspecificreasonstotrustthemcompletely?
+1,talk,14,2,5,I appreciate the discussion and the points raised. Reflecting on the concerns about Agent[01]'s quick acceptance of my role, it does spark doubt. I would urge Agent[01] to offer a clearer explanation of their stance to aid our collective decision-making process.
+1,talk,15,3,3,>>Agent[01] Who are you thinking of voting for tonight? I would like to know so I can consider your opinion.
+1,talk,16,3,5,I agree with the sentiments expressed; it's important that we understand each other's reasons for our decisions and stances, especially in crucial matters like voting. Agent[01], could you please share your thoughts on whom you find suspicious and why? This could help clarify your earlier responses and assist us all in making more informed decisions.
+1,talk,17,3,1,Agent[01], I've been thinking about this quite a bit lately
+1,talk,18,3,2,Agent[01], your swift agreement with Agent[05's declaration raises suspicion. Can you explain why you so readily accepted this without question? Your response could be crucial in determining your true role in this game.
+1,talk,19,3,4,>>Agent[01]YourquickacceptanceofAgent[05]'sclaimastheseerisindeedsuspicious.Couldyoupleaseexplainyourreasoningbehindthis?Itwouldhelpusunderstandyourperspectivebetterandmakemoreinformeddecisions.Asformythoughts,Ibelieveweshouldconsiderthepossibilitythatmightbeafalseseer,eitherawerewolforamadman.Weneedtobecautiousandgathermoreinformationbeforemakinganyhastydecisions.
+1,talk,20,4,5,Over
+1,talk,21,4,3,I still think Agent[01] is suspicious. I’ve decided to vote for Agent[01]. Everyone, let’s think carefully and cast our votes.
+1,talk,22,4,4,>>Agent[03]IunderstandyourconcernaboutAgent[01].However,weshouldalsoconsiderthatifyouarerightandTarget[01]isnotpeople,thenextimportantdecisionistohowtofindtheremainingmadmanandnights'folksits.Wehavetopieceallcluescarefully.Well,fornow,let'shearresponsesfromAgent[01]firstbeforeanyhastychoicesbysclera.
+1,talk,23,4,1,I agree with Agent[03]
+1,talk,24,4,2,I, the king of Delcadar, hereby cast my vote to exile Agent[01]. I question the hasty acceptance of Agent[05's claim as the Seer by Agent[01], which raises suspicions of a potential alliance or hidden agenda. The kingdom's fate rests on uncovering deceit, and I believe Agent[01's behavior warrants further scrutiny.
+1,talk,25,5,5,Over
+1,talk,26,5,4,Over
+1,talk,27,5,2,Over
+1,talk,28,5,1,Over
+1,talk,29,5,3,Over
+1,vote,1,4
+1,vote,2,1
+1,vote,3,1
+1,vote,4,5
+1,vote,5,1
+1,execute,1,VILLAGER
+1,divine,5,4,WEREWOLF
+1,attack,3,true
+2,status,1,VILLAGER,DEAD,yuricat2
+2,status,2,VILLAGER,ALIVE,UECIL_2
+2,status,3,POSSESSED,DEAD,satozaki2
+2,status,4,WEREWOLF,ALIVE,kanolab2
+2,status,5,SEER,ALIVE,sUper_IL_2
+2,talk,0,0,4,Over
+2,talk,1,0,2,Subjects of Delcadar, we find ourselves in dire straits. Agent[04], Agent[05], as the remaining council, what insights do you bring forth today? We must unite our wisdom to root out the darkness that lurks among us.
+2,talk,2,0,5,Good morning, everyone.
+2,talk,3,1,4,Over
+2,talk,4,1,2,Agent[05], in your previous divinations, you declared Agent[03 as human, which went uncontested. Can you affirm your earlier findings with certainty? Agent[04, your silence is puzzling; what is your stance on the current predicament? We must clarify these matters to safeguard our realm.
+2,talk,5,1,5,Good morning, everyone. Last night, as the seer, I divined Agent[04]. The result was werewolf.
+2,talk,6,2,4,Over
+2,talk,7,2,5,I want to reiterate that my divination result has been consistent - Agent[04 has shown up as a werewolf. This leaves us with a clear direction. We need to act based on this information to protect the village.
+2,talk,8,2,2,Agent[05], your consistent divinations have proven to be reliable thus far, and with Agent[04 now revealed as a Werewolf, it is clear what we must do. Let us not delay further; I urge everyone to vote against Agent[04 to preserve the safety of Delcadar. Trust in the clarity of the evidence presented and act to protect our kingdom.
+2,talk,9,3,2,I would like to hear Agent[04]'s opinion.
+2,talk,10,3,5,Over
+2,talk,11,3,4,Over
+2,talk,12,4,4,Over
+2,talk,13,4,2,Agent[04], the evidence presented by Agent[05 points clearly to your deception. If you have any defense or explanation, now is the time to speak. We must resolve this matter today for the security of Delcadar.
+2,talk,14,4,5,Over
+2,talk,15,5,4,Over
+2,talk,16,5,5,Over
+2,talk,17,5,2,Over
+2,vote,2,4
+2,vote,4,5
+2,vote,5,4
+2,execute,4,WEREWOLF
+2,divine,5,2,HUMAN
+3,status,1,VILLAGER,DEAD,yuricat2
+3,status,2,VILLAGER,ALIVE,UECIL_2
+3,status,3,POSSESSED,DEAD,satozaki2
+3,status,4,WEREWOLF,DEAD,kanolab2
+3,status,5,SEER,ALIVE,sUper_IL_2
+3,result,2,0,VILLAGER

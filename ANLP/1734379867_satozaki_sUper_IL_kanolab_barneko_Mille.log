@@ -1,0 +1,58 @@
+0,status,1,POSSESSED,ALIVE,Mille1
+0,status,2,SEER,ALIVE,satozaki1
+0,status,3,VILLAGER,ALIVE,sUper_IL1
+0,status,4,VILLAGER,ALIVE,kanolab1
+0,status,5,WEREWOLF,ALIVE,barneko1
+0,talk,0,0,1,ぼくはAgent[01]、占い師ですよぅ！よろしくですよぅ！
+0,talk,1,0,4,じゃあ僕の番ですね！僕はkanolab1、音楽が好きな村人です。みんなで楽しいゲームにしたいです。よろしくお願いします！
+0,talk,2,0,5,Over
+0,talk,3,0,3,初めまして、Agent[03]です。どうぞよろしくお願いします。
+0,talk,4,0,2,皆さん初めまして、Agent[02]やで。人狼ゲームを一緒に楽しみましょ。よろしく頼むで！
+0,talk,5,1,1,Over
+0,talk,6,1,4,Over
+0,talk,7,1,3,Over
+0,talk,8,1,2,Over
+0,divine,2,3,HUMAN
+1,status,1,POSSESSED,ALIVE,Mille1
+1,status,2,SEER,ALIVE,satozaki1
+1,status,3,VILLAGER,ALIVE,sUper_IL1
+1,status,4,VILLAGER,ALIVE,kanolab1
+1,status,5,WEREWOLF,ALIVE,barneko1
+1,talk,0,0,5,>>Agent[01] 占い師さん、占い結果楽しみにしてます！頑張ってください！
+1,talk,1,0,2,オレは占い師やで。占いの結果、Agent[03]は人間やった。
+1,talk,2,0,1,ぼくは占い師ですよぅ！ぼくが占った結果、Agent[02]は人間でしたよぅ！
+1,talk,3,0,4,占い師は1人しかいないはずだから、Agent[01]かAgent[02]が嘘をついている可能性が高いです。今後の行動を注意深く観察していきましょう。
+1,talk,4,0,3,村人として参加しています。情報の共有と集約に努め、村の平和を守るために協力していきましょう。
+1,talk,5,1,5,>>Agent[01] 占い結果、気になるね。どちらが真か見極めたいな！
+1,talk,6,1,2,占い師は1人しかおらん以上、Agent[01]と俺のどちらかが嘘をついてるということになるんや。俺が人間と占ったAgent[03]を信じて、次の手を考えましょう。
+1,talk,7,1,1,>>Agent[05] 任せて！ぼくが占うのは、Agent[05]さんですよぅ！
+1,talk,8,1,4,占い師は1人しかいないはずだから、Agent[01]とAgent[02]のどちらかが嘘をついていますね。どちらが本物か、もう少し様子を見て考えたいです。
+1,talk,9,1,3,Agent[02]が真の占い師であれば、私は村人ですが、Agent[01]も占い師を名乗っていますね。どちらが真実を言っているのか、様子を見て分析していきましょう。
+1,talk,10,2,5,>>Agent[04] どちらかが偽の占い師なら、見極めが大事だね！
+1,talk,11,2,2,俺はAgent[01]に投票したいと思ってるんや。状況から見て、どちらかが偽の占い師やけど、Agent[01]が真実を話してない可能性が高いからや。
+1,talk,12,2,1,>>Agent[05] ええ、占い結果は公平に提示していますよぅ！
+1,talk,13,2,4,Agent[01]とAgent[02]、どちらかが偽の占い師ですね。僕は村人なので、みんなで協力して偽物を見つけたいです。Agent[02]がAgent[03]を白と占ったので、少なくともAgent[03]は村人かもしれません。Agent[01]とAgent[02]の発言を注意深く見ていきましょう。
+1,talk,14,2,3,どちらが本物の占い師か、しっかり見極める必要がありますね。情報の共有をしましょう！
+1,talk,15,3,5,>>Agent[04] 確かに、どちらかが偽だね。みんなで情報を集めよう！
+1,talk,16,3,2,>>Agent[05] まだ投票先を宣言してへんようやけど、誰に投票しようと考えてるんかいな？
+1,talk,17,3,1,Over
+1,talk,18,3,4,>>Agent[02]僕はまだ決めてないけど、Agent[01]かAgent[02]のどちらかが偽物だから、慎重に考えないとね。情報が増えてから決めたいと思ってるよ。
+1,talk,19,3,3,私もAgent[02]を信じています。次の行動についてみんなで話し合いましょう。このまま占い師の正体を見極めたいです。
+1,talk,20,4,5,>>Agent[02] どちらかが偽なら、その真相を知りたいですね。みんなで情報収集しよう！
+1,talk,21,4,2,みんなで情報を集めて、一緒に真実を見つけよう。状況を考慮して投票先を決めるのが重要やと思うで。それでは、また明日話し合おう！
+1,talk,22,4,4,僕も情報を集めたいです。Agent[01]とAgent[02]が両方占い師を名乗っているから、どちらかが偽物です。Agent[02]が本物だとすると、Agent[01]は村人、狂人、人狼の可能性があります。逆にAgent[01]が本物なら、Agent[03]が村人または狂人、Agent[05]が村人、狂人、人狼の可能性がありますね。情報を整理して慎重に考えましょう。
+1,talk,23,4,3,Over
+1,vote,1,5
+1,vote,2,1
+1,vote,3,2
+1,vote,4,1
+1,vote,5,1
+1,execute,1,POSSESSED
+1,divine,2,4,HUMAN
+1,attack,-1,true
+2,status,1,POSSESSED,DEAD,Mille1
+2,status,2,SEER,ALIVE,satozaki1
+2,status,3,VILLAGER,ALIVE,sUper_IL1
+2,status,4,VILLAGER,ALIVE,kanolab1
+2,status,5,WEREWOLF,,barneko1
+2,result,3,1,NONE

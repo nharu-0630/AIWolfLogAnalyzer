@@ -4,7 +4,7 @@ import os
 team_role_win = dict()
 team_role_nums = dict()
 file_paths = []
-for root, dirs, files in os.walk("./main_eval/JP1"):
+for root, dirs, files in os.walk("./ANLP"):
     for file in sorted(files):
         if "dummy" in file:
             print(f"Skipping {file} due to dummy player")
@@ -35,7 +35,7 @@ for file_path in file_paths:
             if values[1] == "result":
                 win_side = values[4].strip()
                 break
-    if win_side is None:
+    if win_side is None or win_side == "NONE":
         print(f"Skipping {file_path} due to missing win side")
         continue
     if "dummy" in team_role:
@@ -68,14 +68,13 @@ roles = sorted(set(role for role_win in team_role_win.values() for role in role_
 
 header = (
     ["Team"]
-    + [f"{role} Total Games" for role in roles]
-    + [f"{role} Win Rate (%)" for role in roles]
+    + [f"{role}" for role in roles]
+    + [f"{role} (%)" for role in roles]
     + [
-        "Total Wins",
-        "Total Games",
-        "Win Rate (%)",
-        "Average Win Rate (%)",
-        "Average Win Rate (%) (Villager Win Rate Doubled)",
+        "TOTAL",
+        "Macro (%)",
+        "Micro (%)",
+        "Villager Doubled Micro (%)",
     ]
 )
 
@@ -103,10 +102,10 @@ with open("team_role_stats.csv", "w", newline="", encoding="utf-8") as csvfile:
             row.append(f"{win_rate:04.2f}")
 
         # Calculate total wins, total games, and overall win rate
-        total_wins = sum(team_role_win[team].values())
         total_games = sum(team_role_nums[team].values())
+        total_wins = sum(team_role_win[team].values())
         overall_win_rate = (total_wins / total_games) * 100 if total_games > 0 else 0
-        row.extend([total_wins, total_games, f"{overall_win_rate:04.2f}"])
+        row.extend([total_games, f"{overall_win_rate:04.2f}"])
 
         # Calculate average win rate
         total_win_rate = 0
